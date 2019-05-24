@@ -1,0 +1,34 @@
+﻿<Window x:Class="StacjaBenzynowa.Customers_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StacjaBenzynowa"
+        mc:Ignorable="d"
+        Title="Customers" Height="611" Width="363" ResizeMode="CanMinimize">
+    <Grid Background="Black" Loaded="displayCustomers" Margin="0,0,-6,-5" >
+
+        <ListView Visibility="Visible" x:Name="customerListView" 
+                  Margin="10,10,10,51"  Background="{x:Null}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" SelectionChanged="CustomerListView_SelectionChanged" Foreground="White" BorderBrush="White">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                        <TextBlock Text="{Binding Email}" FontSize="20" Foreground="Red" TextWrapping="WrapWithOverflow" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Pesel}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Regon}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+        <Button x:Name="ANC_button" Content="Dodaj" HorizontalAlignment="Left" Margin="249,541,0,0" VerticalAlignment="Top" Width="104" 
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
+                Click="ANC_button_Click"/>
+        <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,541,0,0" VerticalAlignment="Top" Width="60" 
+            Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
+            RenderTransformOrigin="-0.231,0.346" Click="Back_button_Click"/>
+
+    </Grid>
+</Window>

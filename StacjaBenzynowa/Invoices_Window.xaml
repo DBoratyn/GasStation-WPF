@@ -1,0 +1,33 @@
+﻿<Window x:Class="StacjaBenzynowa.Invoices_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StacjaBenzynowa"
+        mc:Ignorable="d"
+        Title="Invoices" Height="450" Width="800" ResizeMode="CanMinimize">
+    <Grid Background="Black">
+
+        <ListView Visibility="Visible" x:Name="invoiceListView" 
+                  Margin="10,10,10,51"  Background="{x:Null}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                        <TextBlock Text="{Binding email}" FontSize="20" Foreground="Red" TextWrapping="WrapWithOverflow" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding BenzynaE95}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding BenzynaE98}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding OlejNapowy}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding LPG}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding TotalPrice}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
+            Margin="10,389,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
+
+    </Grid>
+</Window>

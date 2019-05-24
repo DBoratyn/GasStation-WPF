@@ -1,0 +1,154 @@
+﻿<Window x:Class="StacjaBenzynowa.Add_New_Employee_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StacjaBenzynowa"
+        mc:Ignorable="d"
+        Title="Add new employee" Height="472" Width="650">
+    <Grid Background="Black">
+        <!-- przycisk dodawania -->
+        <Button x:Name="A2_button" PreviewMouseDown="A2_button_Click"  Content="Dodaj" 
+                HorizontalAlignment="Left" Margin="555,405,0,0" VerticalAlignment="Top" Width="75" 
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" 
+                FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.21"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <!--labele opisujące-->
+        <Label x:Name="Nazwa_firmy" Content="Firma:" HorizontalAlignment="Left" Margin="20,8,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="106"/>
+        <Label x:Name="Imię" Content="Imię:" HorizontalAlignment="Left" Margin="79,39,0,0" 
+               VerticalAlignment="Top" FontWeight="Bold" FontSize="14"
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right" Width="47"/>
+        <Label x:Name="Nazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Margin="26,70,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="100"/>
+        <Label x:Name="Pesel" Content="PESEL:" HorizontalAlignment="Left" Margin="58,101,0,0" VerticalAlignment="Top" 
+               RenderTransformOrigin="-0.368,-0.192" Foreground="White" FontFamily="Copperplate Gothic Bold" 
+               HorizontalContentAlignment="Right" FontWeight="Bold" FontSize="14" Width="68"/>
+        <Label x:Name="Regon" Content="REGON:" HorizontalAlignment="Left" Margin="49,132,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="77"/>
+        <Label x:Name="Adres" Content="Adres:" HorizontalAlignment="Left" Margin="49,163,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="Ulica" Content="Ulica:" HorizontalAlignment="Left" Margin="105,194,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="61"/>
+        <Label x:Name="Kod_pocztowy" Content="Kod pocztowy:" HorizontalAlignment="Left" Margin="416,225,0,0" 
+               VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" 
+               HorizontalContentAlignment="Right" FontWeight="Bold" FontSize="14" Width="116"/>
+        <Label x:Name="Numer" Content="Numer:" HorizontalAlignment="Left" Margin="467,194,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="65"/>
+        <Label x:Name="Miasto" Content="Miasto:" HorizontalAlignment="Left" Margin="94,225,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="72"/>
+        <Label x:Name="Nip" Content="NIP:" HorizontalAlignment="Left" Margin="467,140,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="43"/>
+        <Label x:Name="Email" Content="E-mail:" HorizontalAlignment="Left" Margin="66,256,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="60"/>
+        <Label x:Name="label12" Content="Login:" HorizontalAlignment="Left" Margin="66,287,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="60"/>
+        <Label x:Name="label13" Content="Haslo:" HorizontalAlignment="Left" Margin="60,318,0,0" VerticalAlignment="Top" 
+               Foreground="White" FontFamily="Copperplate Gothic Bold" HorizontalContentAlignment="Right"
+               FontWeight="Bold" FontSize="14" Width="65" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.509"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="Rodzaj_pracowanika" Content="Rodzaj pracownika:" HorizontalAlignment="Left" Margin="10,349,0,0" 
+               VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold"
+               HorizontalContentAlignment="Right" FontWeight="Bold" FontSize="14" Width="199"/>
+        <!-- text boxy -->
+        <TextBox x:Name="Company_name" HorizontalAlignment="Left" Height="26" Margin="126,8,0,0" VerticalAlignment="Top" 
+                 Width="494" BorderBrush="White" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="26" Margin="126,39,0,0"  VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="26" Margin="126,70,0,0" VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="PESEL" HorizontalAlignment="Left" Height="26" Margin="126,101,0,0" VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="REGON" HorizontalAlignment="Left" Height="26" Margin="126,132,0,0" VerticalAlignment="Top" 
+                 Width="209" Background="{x:Null}" Foreground="White" BorderBrush="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Street" HorizontalAlignment="Left" Height="26" Margin="166,194,0,0" VerticalAlignment="Top" 
+                 Width="230" Background="{x:Null}" Foreground="White" BorderBrush="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="NIP" HorizontalAlignment="Left" Height="26" Margin="510,140,0,0" VerticalAlignment="Top" 
+                 Width="110" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="ZIP_code" HorizontalAlignment="Left" Height="26" Margin="532,225,0,0" VerticalAlignment="Top" 
+                 Width="88" Background="{x:Null}" Foreground="White" BorderBrush="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="City" HorizontalAlignment="Left" Height="26" Margin="166,225,0,0" VerticalAlignment="Top" 
+                 Width="230" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Number" HorizontalAlignment="Left" Height="26" Margin="532,194,0,0" VerticalAlignment="Top" 
+                 Width="88" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="E_mail" HorizontalAlignment="Left" Height="26" Margin="126,256,0,0" VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Left" Height="26" Margin="126,318,0,0" VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Haslo" HorizontalAlignment="Left" Height="26" Margin="126,287,0,0" VerticalAlignment="Top" 
+                 Width="494" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Role" HorizontalAlignment="Left" Height="26" Margin="209,349,0,0" VerticalAlignment="Top" 
+                 Width="411" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <!-- gwiazki -->
+        <Label x:Name="star_label" Content="*" HorizontalAlignment="Left" Margin="58,39,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <Label x:Name="star_label_Copy" Content="*" HorizontalAlignment="Left" Margin="26,70,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothicy"/>
+        <Label x:Name="star_label_Copy1" Content="*" HorizontalAlignment="Left" Margin="89,194,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic" Width="16"/>
+        <Label x:Name="star_label_Copy2" Content="*" HorizontalAlignment="Left" Margin="401,225,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic" RenderTransformOrigin="-0.125,0.462"/>
+        <Label x:Name="star_label_Copy3" Content="*" HorizontalAlignment="Left" Margin="446,194,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <Label x:Name="star_label_Copy4" Content="*" HorizontalAlignment="Left" Margin="79,225,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <Label x:Name="star_label_Copy5" Content="*" HorizontalAlignment="Left" Margin="45,318,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <Label x:Name="star_label_Copy6" Content="*" HorizontalAlignment="Left" Margin="45,287,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <Label x:Name="star_label_Copy7" Content="*" HorizontalAlignment="Left" Margin="45,256,0,0" VerticalAlignment="Top" 
+               Background="{x:Null}" Foreground="Red" FontWeight="Bold" FontFamily="Century Gothic"/>
+        <!-- komunikaty -->
+        <Label x:Name="star_label_Copy8" Content="Istnieje już użytkownik o tej nazwie" HorizontalAlignment="Left" 
+               Margin="126,357,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red" FontWeight="Bold" 
+               FontFamily="Century Gothic" Visibility="Hidden"/>
+        <Label x:Name="star_label_Copy9" Content="Istnieje użytkownik o tym numerze PESEL lub REGON" HorizontalAlignment="Left" 
+               Margin="126,357,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red" FontWeight="Bold" 
+               FontFamily="Century Gothic" Visibility="Hidden"/>
+        <Label x:Name="star_label_Copy10" Content="Uzupełnij wymagane pola" HorizontalAlignment="Left" 
+               Margin="126,380,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red" FontWeight="Bold" 
+               FontFamily="Century Gothic" Visibility="Hidden"/>
+        <Label x:Name="star_label_Copy11" Content="Istnieje już użytkownik o tym adresie Email" HorizontalAlignment="Left" 
+               Margin="126,357,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red" FontWeight="Bold" 
+               FontFamily="Century Gothic" Visibility="Hidden"/>
+        <!-- przycisk powrotu do poprzedniej strony -->
+        <Button x:Name="back_button"  Content="Wróć" Margin="10,405,557,0" VerticalAlignment="Top" 
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Back_button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.21"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>
