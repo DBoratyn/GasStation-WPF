@@ -132,10 +132,12 @@ namespace StacjaBenzynowa
 
             if (100 > int.Parse(e95_temp.Text))
             {
+                MessageBox.Show($"BE95 is too cold");
                 e95_temp.Foreground = new SolidColorBrush(Colors.Blue);
             }
             else if ( 200 < int.Parse(e95_temp.Text))
             {
+                MessageBox.Show($"BE95 is too hot");
                 e95_temp.Foreground = new SolidColorBrush(Colors.Red);
             }
             else

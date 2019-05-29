@@ -27,5 +27,6 @@ namespace StacjaBenzynowa.Models
         public string Login { get; set; }
         public string Haslo { get; set; }
         public string Role { get; set; }
+        public int Points { get; set; }
     }
 }

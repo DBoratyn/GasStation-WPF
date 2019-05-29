@@ -43,14 +43,15 @@ namespace StacjaBenzynowa
                 Nazwisko = Surname.Text,
                 Pesel = PESEL.Text,
                 Regon = REGON.Text,
-                Nip = NIP.Text,                
+                Nip = NIP.Text,
                 Ulica = Street.Text,
                 Numer = Number.Text,
                 Kod_pocztowy = ZIP_code.Text,
                 Miasto = City.Text,
                 Email = E_mail.Text,
                 Login = Login.Text,
-                Haslo = Haslo.Text
+                Haslo = Haslo.Text,
+                Points = 0
             };
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
             {

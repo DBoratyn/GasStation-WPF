@@ -24,15 +24,21 @@ namespace StacjaBenzynowa
         private Konto _loggedInAccount = new Konto();
         Cennik prices;
 
+        Coupon SelectedCoupon = new Coupon();
+
         double totalPrice = 0;
 
         private double be95, be98, on, lpg, mycie_stand, mycie_wosk;
+
+
+        string couponOwner;
 
         public List<Konto> customerList { get; set; }
         private string selectedEmail;
 
         private void SaveInvoice(object sender, RoutedEventArgs e)
-        {
+        {                      
+            
             Invoices newInvoice = new Invoices()
             {
                 email = selectedEmail,
@@ -44,11 +50,131 @@ namespace StacjaBenzynowa
                 Miasto = this.MiastoTxtBox.Text,
                 Kod_pocztowy = this.KodTxtBox.Text,
                 BenzynaE95 = double.Parse(this.Be95txtBox.Text),
-                BenzynaE98 = double.Parse(this.Be95txtBox.Text),
+                BenzynaE98 = double.Parse(this.Be98txtBox.Text),
                 OlejNapowy = double.Parse(this.OlejtxtBox.Text),
                 LPG = double.Parse(this.LPGTxtBox.Text),
                 TotalPrice = totalPrice,
             };
+
+            if (SelectedCoupon != null)
+            {
+                if (SelectedCoupon.Name == "BE/ON")
+                {
+                    double e95, e98, on;
+                    List<double> numbers = new List<double>();
+                    Dictionary<string, double> values = new Dictionary<string, double>();
+
+                    using (SQLiteConnection conn2 = new SQLiteConnection(App.databasePath))
+                    {
+                        conn2.CreateTable<Cennik>();
+                        prices = (conn2.Table<Cennik>().FirstOrDefault());
+
+                        e95 = prices.Benzyna_E95;
+                        e98 = prices.Benzyna_E98;
+                        on = prices.Olej_napedowy_ON;
+                    }
+
+                    if (int.Parse(Be95txtBox.Text) < 1)
+                    {
+                        e95 = 0;
+                    }
+
+                    if (int.Parse(Be98txtBox.Text) < 1)
+                    {
+                        e98 = 0;
+                    }
+
+                    if (int.Parse(OlejtxtBox.Text) < 1)
+                    {
+                        on = 0;
+                    }
+
+                    values.Add("e95", e95);
+                    values.Add("e98", e98);
+                    values.Add("on", on);
+
+                    values.OrderBy(key => key.Value);
+                    var meh = values.ToList();
+                    if (meh[0].Key == "e95")
+                    {
+                        newInvoice.TotalPrice -= be95;
+                        if ( newInvoice.TotalPrice < 0)
+                        {
+                            newInvoice.TotalPrice = 0;
+                        }
+
+
+                        string command = $"delete from Coupon where id in ( select id FROM Coupon where name='BE/ON' AND Owner='{couponOwner}' Limit 1 )";
+                        using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                        {
+                            SQLiteCommand cm = new SQLiteCommand(connection);
+                            cm.CommandText = command;
+                            cm.ExecuteNonQuery();
+                        }
+
+                    }
+                    else if (meh[0].Key == "e98")
+                    {
+                        if (newInvoice.TotalPrice < 0)
+                        {
+                            newInvoice.TotalPrice = 0;
+                        }
+
+
+                        string command = $"delete from Coupon where id in ( select id FROM Coupon where name='BE/ON' AND  Owner='{couponOwner}'  Limit 1 )";
+                        using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                        {
+                            SQLiteCommand cm = new SQLiteCommand(connection);
+                            cm.CommandText = command;
+                            cm.ExecuteNonQuery();
+                        }
+
+                    }
+                    else if (meh[0].Key == "on")
+                    {
+                        newInvoice.TotalPrice -= on;
+                        if (newInvoice.TotalPrice < 0)
+                        {
+                            newInvoice.TotalPrice = 0;
+                        }
+
+                        string command = $"delete from Coupon where id in ( select id FROM Coupon where name='BE/ON' AND  Owner='{couponOwner}'  Limit 1 )";
+                        using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                        {
+                            SQLiteCommand cm = new SQLiteCommand(connection);
+                            cm.CommandText = command;
+                            cm.ExecuteNonQuery();
+                        }
+
+                    }
+
+                }
+                else if (SelectedCoupon.Name == "LPG")
+                {
+                    if (int.Parse(LPGTxtBox.Text) > 0)
+                    {
+                        newInvoice.TotalPrice -= lpg;
+                        if (newInvoice.TotalPrice < 0)
+                        {
+                            newInvoice.TotalPrice = 0;
+                        }
+
+                        string command = $"delete from Coupon where id in ( select id FROM Coupon where name='LPG' AND  Owner='{couponOwner}'  Limit 1 )";
+                        using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                            {
+                                SQLiteCommand cm = new SQLiteCommand(connection);
+                                cm.CommandText = command;
+                                cm.ExecuteNonQuery();
+                            }
+
+                    }
+                }
+            }
+
+            if(newInvoice.TotalPrice != 0)
+            {
+                newInvoice.TotalPrice = Math.Truncate(newInvoice.TotalPrice * 100) / 100;
+            }
 
             using (SQLiteConnection conn = new SQLiteConnection(App.databasePath))
             {
@@ -68,15 +194,48 @@ namespace StacjaBenzynowa
             this.OlejtxtBox.Text = "";
             this.LPGTxtBox.Text = "";
             CustomersComboBox.SelectedItem = customerList[0];
-            MessageBox.Show("Invoice added.");
+            // calculate points
+            double be95_point, be98_point, on_point, lpg_point;
 
-            /*
+            using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                be95_point = connection.Table<ProgramLojalnościowy>().Select( s => s.benzyna_E95).FirstOrDefault();
+                be98_point = connection.Table<ProgramLojalnościowy>().Select( s => s.benzyna_E98).FirstOrDefault();
+                on_point = connection.Table<ProgramLojalnościowy>().Select( s => s.olej_nepedowy).FirstOrDefault();
+                lpg_point = connection.Table<ProgramLojalnościowy>().Select( s => s.lpg).FirstOrDefault();
+            }
+
+
+            // update points
+            Konto AccountToUpdate = new Konto();
+
+            using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == selectedEmail);
+            }
+
+            AccountToUpdate.Points += ((int)be95_point) * (int)newInvoice.BenzynaE95 + (((int)be98_point) * (int)newInvoice.BenzynaE98)
+                + (((int)on_point) * (int)newInvoice.OlejNapowy) + (((int)lpg_point) * (int)newInvoice.LPG);
+
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                conn.CreateTable<Konto>();
+                conn.InsertOrReplace(AccountToUpdate);
+            }
+
+
+            MessageBox.Show("Invoice added.");
             MainWindow mainwindow = new MainWindow(_loggedInAccount);
             mainwindow.Show();
             this.Close();
-            */
+            
 
         }
+
+        private void Coupons_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SelectedCoupon = (Coupon)CouponList.SelectedItem;        }
 
         // public Konto SelectedCustomer { get; set; }
 
@@ -91,6 +250,21 @@ namespace StacjaBenzynowa
             this.MiastoTxtBox.Text = SelectedCustomer.Miasto;
             this.KodTxtBox.Text = SelectedCustomer.Kod_pocztowy;
             selectedEmail = SelectedCustomer.Email;
+
+            couponOwner = SelectedCustomer.Email;
+
+
+
+            List<Coupon> coupons = new List<Coupon>();
+            using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                coupons = connection.Table<Coupon>().Where(n => n.Owner == SelectedCustomer.Email && (n.Name == "BE/ON" || n.Name == "LPG")).ToList();
+            }
+
+            if (coupons != null)
+            {
+                this.CouponList.ItemsSource = coupons;
+            }
         }
 
         public Tankowanie_Window()
@@ -123,6 +297,11 @@ namespace StacjaBenzynowa
             {
                 this.CustomersComboBox.ItemsSource = customerList;
             }
+
+            Be95txtBox.Text = "0";
+            Be98txtBox.Text = "0";
+            LPGTxtBox.Text = "0";
+            OlejtxtBox.Text = "0";
 
 
         }

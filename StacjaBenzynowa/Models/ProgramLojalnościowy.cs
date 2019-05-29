@@ -14,9 +14,9 @@ namespace StacjaBenzynowa.Models
         public double benzyna_E95 { get; set; }
         public double benzyna_E98 { get; set; }
         public double benzyna_on_nagrody { get; set; }
-        public double olej_napedowy { get; set; }
+        public double olej_nepedowy { get; set; }
         public double lpg { get; set; }
-        public double lpg_nagrody { get; set; }
+        public double lpg_ngrody { get; set; }
         public double mycie_standardowe { get; set; }
         public double mycie_standardowe_nagrody { get; set; }
         public double mycie_z_woskiem { get; set; }

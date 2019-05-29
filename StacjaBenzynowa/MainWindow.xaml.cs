@@ -98,6 +98,17 @@ namespace StacjaBenzynowa
 
                 this.tankuj_button.Visibility = Visibility.Visible;
                 this.myj_button.Visibility = Visibility.Visible;
+
+
+                this.TwojeSaldoLbl.Visibility = Visibility.Hidden;
+                this.saldo.Visibility = Visibility.Hidden;
+                this.PunktowLbl.Visibility = Visibility.Hidden;
+                this.AktualnieLbl.Visibility = Visibility.Hidden;
+
+                this.TwojeAktualneNagrodyLbl.Visibility = Visibility.Hidden;
+                this.CouponList.Visibility = Visibility.Hidden;
+
+
             }
             void EnableCustomer()
             {
@@ -134,6 +145,16 @@ namespace StacjaBenzynowa
 
                 this.tankuj_button.Visibility = Visibility.Visible;
                 this.myj_button.Visibility = Visibility.Visible;
+
+
+                this.TwojeSaldoLbl.Visibility = Visibility.Hidden;
+                this.saldo.Visibility = Visibility.Hidden;
+                this.PunktowLbl.Visibility = Visibility.Hidden;
+                this.AktualnieLbl.Visibility = Visibility.Hidden;
+
+                this.TwojeAktualneNagrodyLbl.Visibility = Visibility.Hidden;
+                this.CouponList.Visibility = Visibility.Hidden;
+
             }
             void EnableSecurity()
             {
@@ -150,6 +171,16 @@ namespace StacjaBenzynowa
 
                 this.tankuj_button.Visibility = Visibility.Visible;
                 this.myj_button.Visibility = Visibility.Visible;
+
+
+                this.TwojeSaldoLbl.Visibility = Visibility.Hidden;
+                this.saldo.Visibility = Visibility.Hidden;
+                this.PunktowLbl.Visibility = Visibility.Hidden;
+                this.AktualnieLbl.Visibility = Visibility.Hidden;
+
+                this.TwojeAktualneNagrodyLbl.Visibility = Visibility.Hidden;
+                this.CouponList.Visibility = Visibility.Hidden;
+
             }
         }
       
@@ -426,14 +457,302 @@ namespace StacjaBenzynowa
 
                 benzyna_e95label.Content = prog_prices.benzyna_E95;
                 benzyna_e98label.Content = prog_prices.benzyna_E98;
-                olej_napedowylabel.Content = prog_prices.olej_napedowy;
+                olej_napedowylabel.Content = prog_prices.olej_nepedowy;
                 lpglabel.Content = prog_prices.lpg;
                 benzyna_on_nagrody_label.Content = prog_prices.benzyna_on_nagrody;
-                lpg_nagrody_label.Content = prog_prices.lpg_nagrody;
+                lpg_nagrody_label.Content = prog_prices.lpg_ngrody;
                 mycie_z_woskiemlabel.Content = prog_prices.mycie_z_woskiem;
                 mycie_standardowelabel.Content = prog_prices.mycie_standardowe;
                 mycie_standardowe_nagrody_label.Content = prog_prices.mycie_standardowe_nagrody;
                 mycie_z_woskiem_nagrody_label.Content = prog_prices.mycie_z_woskiem_nagrody;
+            }
+
+            if (_loggedInAccount.Email != null)
+            {
+
+                Konto AccountToUpdate = new Konto();
+
+                using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == _loggedInAccount.Email);
+                }
+                saldo.Content = AccountToUpdate.Points;
+
+                List<Coupon> coupons = new List<Coupon>();
+                using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    coupons = connection.Table<Coupon>().Where( n => n.Owner == _loggedInAccount.Email).ToList();
+                }
+
+                if (coupons != null && _loggedInAccount.Role == "CUSTOMER")
+                {
+                    this.CouponList.ItemsSource = coupons;
+                    CouponList.SelectedItem = coupons[0];
+                }
+            }
+        }
+
+        private void Redeem1_Click(object sender, RoutedEventArgs e)
+        {
+            if (_loggedInAccount.Points > int.Parse(benzyna_on_nagrody_label.Content.ToString()))
+            {
+                Coupon newCoupon = new Coupon()
+                {
+                    Name = "BE/ON",
+                    Owner = _loggedInAccount.Email
+                };
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Coupon>();
+                    conn.Insert(newCoupon);
+                }
+
+                _loggedInAccount.Points = _loggedInAccount.Points - int.Parse(benzyna_on_nagrody_label.Content.ToString());
+
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Konto>();
+                    conn.InsertOrReplace(_loggedInAccount);
+                }
+                
+                using (SQLiteConnection conn3 = new SQLiteConnection(App.databasePath))
+                {
+                    conn3.CreateTable<ProgramLojalnościowy>();
+                    prog_prices = (conn3.Table<ProgramLojalnościowy>().FirstOrDefault());
+
+                    benzyna_e95label.Content = prog_prices.benzyna_E95;
+                    benzyna_e98label.Content = prog_prices.benzyna_E98;
+                    olej_napedowylabel.Content = prog_prices.olej_nepedowy;
+                    lpglabel.Content = prog_prices.lpg;
+                    benzyna_on_nagrody_label.Content = prog_prices.benzyna_on_nagrody;
+                    lpg_nagrody_label.Content = prog_prices.lpg_ngrody;
+                    mycie_z_woskiemlabel.Content = prog_prices.mycie_z_woskiem;
+                    mycie_standardowelabel.Content = prog_prices.mycie_standardowe;
+                    mycie_standardowe_nagrody_label.Content = prog_prices.mycie_standardowe_nagrody;
+                    mycie_z_woskiem_nagrody_label.Content = prog_prices.mycie_z_woskiem_nagrody;
+                }
+
+                if (_loggedInAccount.Email != null)
+                {
+
+                    Konto AccountToUpdate = new Konto();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == _loggedInAccount.Email);
+                    }
+                    saldo.Content = AccountToUpdate.Points;
+
+                    List<Coupon> coupons = new List<Coupon>();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        coupons = connection.Table<Coupon>().Where(n => n.Owner == _loggedInAccount.Email).ToList();
+                    }
+                    if (coupons != null)
+                    {
+                        this.CouponList.ItemsSource = coupons;
+                        CouponList.SelectedItem = coupons[0];
+                    }
+                }
+            }            
+        }
+
+        private void Redeem2_Click(object sender, RoutedEventArgs e)
+        {
+            if (_loggedInAccount.Points > int.Parse(lpg_nagrody_label.Content.ToString()))
+            {
+                Coupon newCoupon = new Coupon()
+                {
+                    Name = "LPG",
+                    Owner = _loggedInAccount.Email
+                };
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Coupon>();
+                    conn.Insert(newCoupon);
+                }
+
+                _loggedInAccount.Points = _loggedInAccount.Points - int.Parse(lpg_nagrody_label.Content.ToString());
+
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Konto>();
+                    conn.InsertOrReplace(_loggedInAccount);
+                }
+
+                using (SQLiteConnection conn3 = new SQLiteConnection(App.databasePath))
+                {
+                    conn3.CreateTable<ProgramLojalnościowy>();
+                    prog_prices = (conn3.Table<ProgramLojalnościowy>().FirstOrDefault());
+
+                    benzyna_e95label.Content = prog_prices.benzyna_E95;
+                    benzyna_e98label.Content = prog_prices.benzyna_E98;
+                    olej_napedowylabel.Content = prog_prices.olej_nepedowy;
+                    lpglabel.Content = prog_prices.lpg;
+                    benzyna_on_nagrody_label.Content = prog_prices.benzyna_on_nagrody;
+                    lpg_nagrody_label.Content = prog_prices.lpg_ngrody;
+                    mycie_z_woskiemlabel.Content = prog_prices.mycie_z_woskiem;
+                    mycie_standardowelabel.Content = prog_prices.mycie_standardowe;
+                    mycie_standardowe_nagrody_label.Content = prog_prices.mycie_standardowe_nagrody;
+                    mycie_z_woskiem_nagrody_label.Content = prog_prices.mycie_z_woskiem_nagrody;
+                }
+
+                if (_loggedInAccount.Email != null)
+                {
+
+                    Konto AccountToUpdate = new Konto();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == _loggedInAccount.Email);
+                    }
+                    saldo.Content = AccountToUpdate.Points;
+
+                    List<Coupon> coupons = new List<Coupon>();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        coupons = connection.Table<Coupon>().Where(n => n.Owner == _loggedInAccount.Email).ToList();
+                    }
+                    if (coupons != null)
+                    {
+                        this.CouponList.ItemsSource = coupons;
+                        CouponList.SelectedItem = coupons[0];
+                    }
+                }
+            }
+        }
+
+        private void Redeem3_Click(object sender, RoutedEventArgs e)
+        {
+            if (_loggedInAccount.Points > int.Parse(mycie_standardowe_nagrody_label.Content.ToString()))
+            {
+                Coupon newCoupon = new Coupon()
+                {
+                    Name = "Mycie Standardowe",
+                    Owner = _loggedInAccount.Email
+                };
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Coupon>();
+                    conn.Insert(newCoupon);
+                }
+
+                _loggedInAccount.Points = _loggedInAccount.Points - int.Parse(mycie_standardowe_nagrody_label.Content.ToString());
+
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Konto>();
+                    conn.InsertOrReplace(_loggedInAccount);
+                }
+
+                using (SQLiteConnection conn3 = new SQLiteConnection(App.databasePath))
+                {
+                    conn3.CreateTable<ProgramLojalnościowy>();
+                    prog_prices = (conn3.Table<ProgramLojalnościowy>().FirstOrDefault());
+
+                    benzyna_e95label.Content = prog_prices.benzyna_E95;
+                    benzyna_e98label.Content = prog_prices.benzyna_E98;
+                    olej_napedowylabel.Content = prog_prices.olej_nepedowy;
+                    lpglabel.Content = prog_prices.lpg;
+                    benzyna_on_nagrody_label.Content = prog_prices.benzyna_on_nagrody;
+                    lpg_nagrody_label.Content = prog_prices.lpg_ngrody;
+                    mycie_z_woskiemlabel.Content = prog_prices.mycie_z_woskiem;
+                    mycie_standardowelabel.Content = prog_prices.mycie_standardowe;
+                    mycie_standardowe_nagrody_label.Content = prog_prices.mycie_standardowe_nagrody;
+                    mycie_z_woskiem_nagrody_label.Content = prog_prices.mycie_z_woskiem_nagrody;
+                }
+
+                if (_loggedInAccount.Email != null)
+                {
+
+                    Konto AccountToUpdate = new Konto();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == _loggedInAccount.Email);
+                    }
+                    saldo.Content = AccountToUpdate.Points;
+
+                    List<Coupon> coupons = new List<Coupon>();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        coupons = connection.Table<Coupon>().Where(n => n.Owner == _loggedInAccount.Email).ToList();
+                    }
+                    if (coupons != null)
+                    {
+                        this.CouponList.ItemsSource = coupons;
+                        CouponList.SelectedItem = coupons[0];
+                    }
+                }
+            }
+        }
+
+        private void Redeem4_Click(object sender, RoutedEventArgs e)
+        {
+            if (_loggedInAccount.Points > int.Parse(mycie_z_woskiem_nagrody_label.Content.ToString()))
+            {
+                Coupon newCoupon = new Coupon()
+                {
+                    Name = "Mycie Woskiem",
+                    Owner = _loggedInAccount.Email
+                };
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Coupon>();
+                    conn.Insert(newCoupon);
+                }
+
+                _loggedInAccount.Points = _loggedInAccount.Points - int.Parse(mycie_z_woskiem_nagrody_label.Content.ToString());
+
+                using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+                {
+                    conn.CreateTable<Konto>();
+                    conn.InsertOrReplace(_loggedInAccount);
+                }
+
+                using (SQLiteConnection conn3 = new SQLiteConnection(App.databasePath))
+                {
+                    conn3.CreateTable<ProgramLojalnościowy>();
+                    prog_prices = (conn3.Table<ProgramLojalnościowy>().FirstOrDefault());
+
+                    benzyna_e95label.Content = prog_prices.benzyna_E95;
+                    benzyna_e98label.Content = prog_prices.benzyna_E98;
+                    olej_napedowylabel.Content = prog_prices.olej_nepedowy;
+                    lpglabel.Content = prog_prices.lpg;
+                    benzyna_on_nagrody_label.Content = prog_prices.benzyna_on_nagrody;
+                    lpg_nagrody_label.Content = prog_prices.lpg_ngrody;
+                    mycie_z_woskiemlabel.Content = prog_prices.mycie_z_woskiem;
+                    mycie_standardowelabel.Content = prog_prices.mycie_standardowe;
+                    mycie_standardowe_nagrody_label.Content = prog_prices.mycie_standardowe_nagrody;
+                    mycie_z_woskiem_nagrody_label.Content = prog_prices.mycie_z_woskiem_nagrody;
+                }
+
+                if (_loggedInAccount.Email != null)
+                {
+
+                    Konto AccountToUpdate = new Konto();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        AccountToUpdate = connection.Table<Konto>().FirstOrDefault(a => a.Email == _loggedInAccount.Email);
+                    }
+                    saldo.Content = AccountToUpdate.Points;
+
+                    List<Coupon> coupons = new List<Coupon>();
+
+                    using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))
+                    {
+                        coupons = connection.Table<Coupon>().Where(n => n.Owner == _loggedInAccount.Email).ToList();
+                    }
+                    if (coupons != null)
+                    {
+                        this.CouponList.ItemsSource = coupons;
+                        CouponList.SelectedItem = coupons[0];
+                    }
+                }
             }
         }
     }

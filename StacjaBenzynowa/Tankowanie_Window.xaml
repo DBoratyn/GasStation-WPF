@@ -42,8 +42,8 @@
         <Button x:Name="katura_button"  Content="Drukuj fakture" HorizontalAlignment="Left" 
             Margin="180,205,0,0" VerticalAlignment="Top" Width="180" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
-        <Button x:Name="accpet_button"  Content="Save" HorizontalAlignment="Left" 
-            Margin="712,205,0,0" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="{x:Null}" 
+        <Button x:Name="accpet_button"  Content="Purchase" HorizontalAlignment="Left" 
+            Margin="685,205,0,0" VerticalAlignment="Top" Width="97" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="SaveInvoice"/>
         <Label x:Name="Wlasciciel_Copy8" Content="Do zaplaty:" HorizontalAlignment="Left" 
             Margin="10,148,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
@@ -55,28 +55,32 @@
         <Label x:Name="Wlasciciel_Copy10" Content="Klinet:" HorizontalAlignment="Left" 
             Margin="300,10,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="60" Background="{x:Null}" FontStyle="Italic"/>
-        <Label x:Name="Imie" Content="Imie:" HorizontalAlignment="Left" Margin="321,79,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Imie" Content="Imie:" HorizontalAlignment="Left" Margin="321,102,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
-        <Label x:Name="Nazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Margin="499,76,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Nazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Margin="499,99,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="96" RenderTransformOrigin="0.479,1.08"/>
-        <Label x:Name="Nazwa_firmy" Content="Firma:" HorizontalAlignment="Left" Margin="295,51,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Nazwa_firmy" Content="Firma:" HorizontalAlignment="Left" Margin="295,74,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="65"/>
-        <Label x:Name="Ulica" Content="Ulica:" HorizontalAlignment="Left" Margin="305,107,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Ulica" Content="Ulica:" HorizontalAlignment="Left" Margin="305,130,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
-        <Label x:Name="Miasto" Content="Miasto:" HorizontalAlignment="Left" Margin="295,134,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Miasto" Content="Miasto:" HorizontalAlignment="Left" Margin="295,157,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
-        <Label x:Name="Kod_pocztowy" Content="Kod pocztowy:" HorizontalAlignment="Left" Margin="530,134,0,0" 
+        <Label x:Name="Kod_pocztowy" Content="Kod pocztowy:" HorizontalAlignment="Left" Margin="530,157,0,0" 
             VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
-        <Label x:Name="Numer" Content="Numer:" HorizontalAlignment="Left" Margin="590,106,0,0" VerticalAlignment="Top" 
+        <Label x:Name="Numer" Content="Numer:" HorizontalAlignment="Left" Margin="590,129,0,0" VerticalAlignment="Top" 
             Foreground="White" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="62"/>
-        <TextBox x:Name="FirmaTxtBox" HorizontalAlignment="Left" Height="23" Margin="365,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="ImieTxtBox" HorizontalAlignment="Left" Height="23" Margin="365,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="NazwiskoTxtBox" HorizontalAlignment="Left" Height="23" Margin="600,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="UlicaTxtBox" HorizontalAlignment="Left" Height="23" Margin="366,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="NumberTxtBox" HorizontalAlignment="Left" Height="23" Margin="657,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="KodTxtBox" HorizontalAlignment="Left" Height="23" Margin="657,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="FirmaTxtBox" HorizontalAlignment="Left" Height="23" Margin="365,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="ImieTxtBox" HorizontalAlignment="Left" Height="23" Margin="365,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="NazwiskoTxtBox" HorizontalAlignment="Left" Height="23" Margin="600,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="UlicaTxtBox" HorizontalAlignment="Left" Height="23" Margin="366,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="NumberTxtBox" HorizontalAlignment="Left" Height="23" Margin="657,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="KodTxtBox" HorizontalAlignment="Left" Height="23" Margin="657,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
         <ComboBox x:Name="CustomersComboBox" SelectionChanged="UpdateInfo_SelectionChanged" ItemsSource="{Binding customerList}" DisplayMemberPath="Email" HorizontalAlignment="Left" Margin="366,10,0,0" VerticalAlignment="Top" Width="264"/>
-        <TextBox x:Name="MiastoTxtBox" HorizontalAlignment="Left" Height="23" Margin="366,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="MiastoTxtBox" HorizontalAlignment="Left" Height="23" Margin="366,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <ComboBox x:Name="CouponList" SelectionChanged="Coupons_SelectionChanged" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="366,43,0,0" VerticalAlignment="Top" Width="264"/>
+        <Label x:Name="Wlasciciel_Copy11" Content="Coupon:" HorizontalAlignment="Left" 
+            Margin="284,44,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Foreground="White" Width="76" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.423,2.388"/>
 
     </Grid>
 </Window>

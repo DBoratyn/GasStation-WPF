@@ -101,6 +101,7 @@
       <DependentUpon>Employess_Window.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Cennik.cs" />
+    <Compile Include="Models\Coupon.cs" />
     <Compile Include="Models\Data.cs" />
     <Compile Include="Models\Informacje.cs" />
     <Compile Include="Invoices_Window.xaml.cs">
