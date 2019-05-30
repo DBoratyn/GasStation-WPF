@@ -183,7 +183,7 @@
                     FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility="Hidden"/>
         </Grid>
         <Grid x:Name="Program_lojalnosciowy_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
-              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Visible" Loaded="showprog_Prices">
+              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden" Loaded="showprog_Prices">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30*"/>
                 <RowDefinition Height="13*"/>

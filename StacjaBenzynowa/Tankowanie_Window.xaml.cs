@@ -235,7 +235,9 @@ namespace StacjaBenzynowa
 
         private void Coupons_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            SelectedCoupon = (Coupon)CouponList.SelectedItem;        }
+            SelectedCoupon = (Coupon)CouponList.SelectedItem;
+        }
+
 
         // public Konto SelectedCustomer { get; set; }
 
@@ -252,8 +254,6 @@ namespace StacjaBenzynowa
             selectedEmail = SelectedCustomer.Email;
 
             couponOwner = SelectedCustomer.Email;
-
-
 
             List<Coupon> coupons = new List<Coupon>();
             using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.databasePath))

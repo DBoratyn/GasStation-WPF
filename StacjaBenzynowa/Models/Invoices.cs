@@ -23,6 +23,8 @@ namespace StacjaBenzynowa.Models
         public double BenzynaE98 { get; set; }
         public double OlejNapowy { get; set; }
         public double LPG { get; set; }
+        public double Standardowe { get; set; }
+        public double Zwoskiem { get; set; }
         public double TotalPrice { get; set; }
     }
 }
