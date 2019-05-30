@@ -1,0 +1,17 @@
+Klinet: dagmaraboratyn@gmail.com
+Kupon: LPG
+_______________________________
+Firma: 232
+Imie: Dagmara
+Nazwisko: Boratyn
+Ulica: Kazimierza Wielkiego
+Numer: 25
+Miasto: Kraków
+Kod Pocztowy:  30-074
+_______________________________
+Benzyna E95: 0
+Benzyna E98: 0
+Olej Napedowy: 02
+LPG: 0
+
+Kwota calkowita: 9.9

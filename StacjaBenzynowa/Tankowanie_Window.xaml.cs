@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -236,6 +237,44 @@ namespace StacjaBenzynowa
         private void Coupons_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             SelectedCoupon = (Coupon)CouponList.SelectedItem;
+        }
+
+        private void CreateTextFile(object sender, RoutedEventArgs e)
+        {
+            if ( string.IsNullOrEmpty(selectedEmail))
+            {
+                selectedEmail = ("No Email Selected");
+            }
+
+            string dt = DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss") + ".txt";
+
+            StreamWriter File = new StreamWriter(@"..\..\Invoices\Faktura " + selectedEmail.ToString() + " " + dt, true);
+
+            File.WriteLine("Klinet: " + selectedEmail);
+            if (SelectedCoupon != null)
+            {
+                File.WriteLine("Kupon: " + SelectedCoupon.Name);
+            }
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Firma: " + FirmaTxtBox.Text);
+            File.WriteLine("Imie: " + ImieTxtBox.Text);
+            File.WriteLine("Nazwisko: " + NazwiskoTxtBox.Text);
+            File.WriteLine("Ulica: " + UlicaTxtBox.Text);
+            File.WriteLine("Numer: " + NumberTxtBox.Text);
+            File.WriteLine("Miasto: " + MiastoTxtBox.Text);
+            File.WriteLine("Kod Pocztowy: " + KodTxtBox.Text);
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Benzyna E95: " + this.Be95txtBox.Text);
+            File.WriteLine("Benzyna E98: " + this.Be98txtBox.Text);
+            File.WriteLine("Olej Napedowy: " + this.OlejtxtBox.Text);
+            File.WriteLine("LPG: " + this.LPGTxtBox.Text);
+            File.WriteLine("");
+            File.WriteLine("Kwota calkowita: " + this.TotalPriceLbl.Content);
+
+            File.Close();
+            MessageBox.Show("Invoice file created.");
         }
 
 
