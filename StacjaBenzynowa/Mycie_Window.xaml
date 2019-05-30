@@ -30,7 +30,7 @@
             Foreground="White" Width="20" Background="{x:Null}" FontStyle="Italic"/>
         <Button x:Name="katura_button"  Content="Drukuj fakturę" HorizontalAlignment="Left" 
             Margin="282,60.976,0,0" VerticalAlignment="Top" Width="180" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click" Grid.Row="1"/>
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"  Click="CreateTextFile" Grid.Row="1"/>
         <Button x:Name="accpet_button" Content="Purchase" HorizontalAlignment="Left" 
             Margin="686,60.976,0,0" VerticalAlignment="Top" Width="96" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="SaveInvoice" Grid.Row="1"/>
