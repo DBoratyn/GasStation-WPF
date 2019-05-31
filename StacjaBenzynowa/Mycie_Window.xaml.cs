@@ -106,6 +106,7 @@ namespace StacjaBenzynowa
             Invoices newInvoice = new Invoices()
             {
                 email = selectedEmail,
+                CouponUsed = SelectedCoupon.Name,
                 Nazwa_firmy = this.FirmaTxtBox.Text,
                 Imie = this.ImieTxtBox.Text,
                 Nazwisko = this.NazwiskoTxtBox.Text,

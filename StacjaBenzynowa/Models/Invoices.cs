@@ -12,6 +12,7 @@ namespace StacjaBenzynowa.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string email { get; set; }
+        public string CouponUsed { get; set; }
         public string Nazwa_firmy { get; set; }
         public string Imie { get; set; }
         public string Nazwisko { get; set; }

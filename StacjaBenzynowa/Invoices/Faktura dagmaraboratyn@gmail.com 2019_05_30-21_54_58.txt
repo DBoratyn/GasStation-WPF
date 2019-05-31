@@ -1,7 +1,7 @@
 Klinet: dagmaraboratyn@gmail.com
-Kupon: LPG
+Kupon: Mycie Woskiem
 _______________________________
-Firma: 232
+Firma: 
 Imie: Dagmara
 Nazwisko: Boratyn
 Ulica: Kazimierza Wielkiego
@@ -9,9 +9,7 @@ Numer: 25
 Miasto: Kraków
 Kod Pocztowy:  30-074
 _______________________________
-Benzyna E95: 0
-Benzyna E98: 0
-Olej Napedowy: 02
-LPG: 0
+Standardowe: 01
+Z Woskiem: 01
 
-Kwota calkowita: 9.9
+Kwota calkowita: 54.98
