@@ -235,8 +235,33 @@
             <ComboBox x:Name="CouponList" Visibility="Hidden" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="266"  ItemsSource="{Binding coupons}" DisplayMemberPath="Name" Grid.Row="1"/>
         </Grid>
         <Grid x:Name="Historia_transakcji_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
-              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden"/>
+              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden">
+
+            <ListView Visibility="Visible" x:Name="invoiceListView" 
+                  Margin="10"  Background="{x:Null}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White" MouseLeftButtonUp="InvoiceListView_MouseLeftButtonUp">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <TextBlock Text="{Binding email}" FontSize="20" Foreground="Red" TextWrapping="WrapWithOverflow" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=CouponUsed, StringFormat='Coupon: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="" />
+                            <TextBlock Text="{Binding Path=BenzynaE95, StringFormat='Benzyna E95: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=BenzynaE98, StringFormat='Benzyna E98: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=OlejNapowy, StringFormat='OlejNapowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=LPG, StringFormat='LPG: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+
+                            <TextBlock Text="{Binding Path=Standardowe, StringFormat='Standardowe: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=Zwoskiem, StringFormat='Z woskiem: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="" />
+                            <TextBlock Text="{Binding Path=TotalPrice, StringFormat='Total Price: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
         <Button x:Name="tankuj_button" Visibility="Hidden" Click="tankuj_button_click" Content="Tankowanie" Grid.Column="1" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="myj_button" Visibility="Hidden" Click="myj_button_click" Content="Mycie" Grid.Column="3" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="MontorLogBtn" Visibility="Hidden"  Content="Monitor Log" Grid.Column="2" HorizontalAlignment="Left" Margin="37,36,0,0" VerticalAlignment="Top" Width="75" Grid.RowSpan="2" Click="OpenMonitorLog"/>
     </Grid>
 </Window>

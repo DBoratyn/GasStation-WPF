@@ -103,6 +103,7 @@
     <Compile Include="Models\Cennik.cs" />
     <Compile Include="Models\Coupon.cs" />
     <Compile Include="Models\Data.cs" />
+    <Compile Include="Models\Deliveries.cs" />
     <Compile Include="Models\Informacje.cs" />
     <Compile Include="Invoices_Window.xaml.cs">
       <DependentUpon>Invoices_Window.xaml</DependentUpon>
@@ -112,6 +113,7 @@
     </Compile>
     <Compile Include="Models\Invoices.cs" />
     <Compile Include="Models\Konto.cs" />
+    <Compile Include="Models\MonitorLog.cs" />
     <Compile Include="Models\ProgramLojalnościowy.cs" />
     <Compile Include="Modify_loyalty_window.xaml.cs">
       <DependentUpon>Modify_loyalty_window.xaml</DependentUpon>
@@ -136,6 +138,9 @@
     </Compile>
     <Compile Include="Monitoring_Window.xaml.cs">
       <DependentUpon>Monitoring_Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorLog_Window.xaml.cs">
+      <DependentUpon>MonitorLog_Window.xaml</DependentUpon>
     </Compile>
     <Compile Include="Mycie_Window.xaml.cs">
       <DependentUpon>Mycie_Window.xaml</DependentUpon>
@@ -226,6 +231,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MonitorLog_Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Mycie_Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -265,6 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MonitorLog\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" />

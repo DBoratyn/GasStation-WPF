@@ -1,0 +1,6246 @@
+Id: 347
+Date: 2019/05/31
+Time: 11:37:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 165
+Benzyna E98: 101
+Olej Napedowy: 104
+LPG: 175
+_______________________________
+PRESSURE
+Benzyna E95: 129
+Benzyna E98: 155
+Olej Napedowy: 150
+LPG: 173
+
+
+
+Id: 346
+Date: 2019/05/31
+Time: 11:37:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 345
+Date: 2019/05/31
+Time: 11:37:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 344
+Date: 2019/05/31
+Time: 11:37:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 343
+Date: 2019/05/31
+Time: 11:37:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 342
+Date: 2019/05/31
+Time: 11:35:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 113
+Benzyna E98: 165
+Olej Napedowy: 200
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 198
+Benzyna E98: 93
+Olej Napedowy: 157
+LPG: 155
+
+
+
+Id: 341
+Date: 2019/05/31
+Time: 11:35:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 340
+Date: 2019/05/31
+Time: 11:35:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 339
+Date: 2019/05/31
+Time: 11:35:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 338
+Date: 2019/05/31
+Time: 11:34:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 337
+Date: 2019/05/31
+Time: 11:34:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 336
+Date: 2019/05/31
+Time: 11:34:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 335
+Date: 2019/05/31
+Time: 11:33:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 196
+Olej Napedowy: 174
+LPG: 188
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 190
+Olej Napedowy: 180
+LPG: 117
+
+
+
+Id: 334
+Date: 2019/05/31
+Time: 11:33:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 196
+Olej Napedowy: 174
+LPG: 188
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 190
+Olej Napedowy: 180
+LPG: 117
+
+
+
+Id: 333
+Date: 2019/05/31
+Time: 11:33:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 332
+Date: 2019/05/31
+Time: 11:33:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 331
+Date: 2019/05/31
+Time: 11:33:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 330
+Date: 2019/05/31
+Time: 11:32:38
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 329
+Date: 2019/05/31
+Time: 11:31:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 132
+Benzyna E98: 131
+Olej Napedowy: 100
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 200
+Benzyna E98: 133
+Olej Napedowy: 111
+LPG: 108
+
+
+
+Id: 328
+Date: 2019/05/31
+Time: 11:31:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 209
+Benzyna E98: 177
+Olej Napedowy: 126
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 204
+Olej Napedowy: 99
+LPG: 190
+
+
+
+Id: 327
+Date: 2019/05/31
+Time: 11:31:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 209
+Benzyna E98: 177
+Olej Napedowy: 126
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 204
+Olej Napedowy: 99
+LPG: 190
+
+
+
+Id: 326
+Date: 2019/05/31
+Time: 11:31:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 209
+Benzyna E98: 177
+Olej Napedowy: 126
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 204
+Olej Napedowy: 99
+LPG: 190
+
+
+
+Id: 325
+Date: 2019/05/31
+Time: 11:31:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 209
+Benzyna E98: 177
+Olej Napedowy: 126
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 204
+Olej Napedowy: 99
+LPG: 190
+
+
+
+Id: 324
+Date: 2019/05/31
+Time: 11:31:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 209
+Benzyna E98: 177
+Olej Napedowy: 126
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 204
+Olej Napedowy: 99
+LPG: 190
+
+
+
+Id: 323
+Date: 2019/05/31
+Time: 11:31:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 322
+Date: 2019/05/31
+Time: 11:31:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 321
+Date: 2019/05/31
+Time: 11:31:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 320
+Date: 2019/05/31
+Time: 11:12:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 171
+Olej Napedowy: 167
+LPG: 179
+_______________________________
+PRESSURE
+Benzyna E95: 155
+Benzyna E98: 95
+Olej Napedowy: 102
+LPG: 189
+
+
+
+Id: 319
+Date: 2019/05/31
+Time: 11:12:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 171
+Olej Napedowy: 167
+LPG: 179
+_______________________________
+PRESSURE
+Benzyna E95: 155
+Benzyna E98: 95
+Olej Napedowy: 102
+LPG: 189
+
+
+
+Id: 318
+Date: 2019/05/31
+Time: 11:12:39
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 171
+Olej Napedowy: 167
+LPG: 179
+_______________________________
+PRESSURE
+Benzyna E95: 155
+Benzyna E98: 95
+Olej Napedowy: 102
+LPG: 189
+
+
+
+Id: 317
+Date: 2019/05/31
+Time: 11:12:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 171
+Olej Napedowy: 167
+LPG: 179
+_______________________________
+PRESSURE
+Benzyna E95: 155
+Benzyna E98: 95
+Olej Napedowy: 102
+LPG: 189
+
+
+
+Id: 316
+Date: 2019/05/31
+Time: 11:12:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 315
+Date: 2019/05/31
+Time: 11:12:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 314
+Date: 2019/05/31
+Time: 11:12:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 313
+Date: 2019/05/31
+Time: 11:12:00
+_______________________________
+TEMPERATURE
+Benzyna E95: 91
+Benzyna E98: 184
+Olej Napedowy: 167
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 126
+Benzyna E98: 124
+Olej Napedowy: 183
+LPG: 120
+
+
+
+Id: 312
+Date: 2019/05/31
+Time: 11:11:59
+_______________________________
+TEMPERATURE
+Benzyna E95: 91
+Benzyna E98: 184
+Olej Napedowy: 167
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 126
+Benzyna E98: 124
+Olej Napedowy: 183
+LPG: 120
+
+
+
+Id: 311
+Date: 2019/05/31
+Time: 11:11:58
+_______________________________
+TEMPERATURE
+Benzyna E95: 91
+Benzyna E98: 184
+Olej Napedowy: 167
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 126
+Benzyna E98: 124
+Olej Napedowy: 183
+LPG: 120
+
+
+
+Id: 310
+Date: 2019/05/31
+Time: 11:11:57
+_______________________________
+TEMPERATURE
+Benzyna E95: 142
+Benzyna E98: 94
+Olej Napedowy: 169
+LPG: 136
+_______________________________
+PRESSURE
+Benzyna E95: 173
+Benzyna E98: 119
+Olej Napedowy: 134
+LPG: 186
+
+
+
+Id: 309
+Date: 2019/05/31
+Time: 11:11:56
+_______________________________
+TEMPERATURE
+Benzyna E95: 142
+Benzyna E98: 94
+Olej Napedowy: 169
+LPG: 136
+_______________________________
+PRESSURE
+Benzyna E95: 173
+Benzyna E98: 119
+Olej Napedowy: 134
+LPG: 186
+
+
+
+Id: 308
+Date: 2019/05/31
+Time: 11:11:55
+_______________________________
+TEMPERATURE
+Benzyna E95: 142
+Benzyna E98: 94
+Olej Napedowy: 169
+LPG: 136
+_______________________________
+PRESSURE
+Benzyna E95: 173
+Benzyna E98: 119
+Olej Napedowy: 134
+LPG: 186
+
+
+
+Id: 307
+Date: 2019/05/31
+Time: 11:11:54
+_______________________________
+TEMPERATURE
+Benzyna E95: 142
+Benzyna E98: 94
+Olej Napedowy: 169
+LPG: 136
+_______________________________
+PRESSURE
+Benzyna E95: 173
+Benzyna E98: 119
+Olej Napedowy: 134
+LPG: 186
+
+
+
+Id: 306
+Date: 2019/05/31
+Time: 11:11:53
+_______________________________
+TEMPERATURE
+Benzyna E95: 142
+Benzyna E98: 94
+Olej Napedowy: 169
+LPG: 136
+_______________________________
+PRESSURE
+Benzyna E95: 173
+Benzyna E98: 119
+Olej Napedowy: 134
+LPG: 186
+
+
+
+Id: 305
+Date: 2019/05/31
+Time: 11:11:52
+_______________________________
+TEMPERATURE
+Benzyna E95: 145
+Benzyna E98: 105
+Olej Napedowy: 164
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 167
+Olej Napedowy: 205
+LPG: 158
+
+
+
+Id: 304
+Date: 2019/05/31
+Time: 11:11:51
+_______________________________
+TEMPERATURE
+Benzyna E95: 145
+Benzyna E98: 105
+Olej Napedowy: 164
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 167
+Olej Napedowy: 205
+LPG: 158
+
+
+
+Id: 303
+Date: 2019/05/31
+Time: 11:11:50
+_______________________________
+TEMPERATURE
+Benzyna E95: 145
+Benzyna E98: 105
+Olej Napedowy: 164
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 167
+Olej Napedowy: 205
+LPG: 158
+
+
+
+Id: 302
+Date: 2019/05/31
+Time: 11:11:49
+_______________________________
+TEMPERATURE
+Benzyna E95: 145
+Benzyna E98: 105
+Olej Napedowy: 164
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 167
+Olej Napedowy: 205
+LPG: 158
+
+
+
+Id: 301
+Date: 2019/05/31
+Time: 11:11:48
+_______________________________
+TEMPERATURE
+Benzyna E95: 145
+Benzyna E98: 105
+Olej Napedowy: 164
+LPG: 93
+_______________________________
+PRESSURE
+Benzyna E95: 111
+Benzyna E98: 167
+Olej Napedowy: 205
+LPG: 158
+
+
+
+Id: 300
+Date: 2019/05/31
+Time: 11:11:47
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 185
+Olej Napedowy: 97
+LPG: 121
+_______________________________
+PRESSURE
+Benzyna E95: 119
+Benzyna E98: 209
+Olej Napedowy: 120
+LPG: 190
+
+
+
+Id: 299
+Date: 2019/05/31
+Time: 11:11:46
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 185
+Olej Napedowy: 97
+LPG: 121
+_______________________________
+PRESSURE
+Benzyna E95: 119
+Benzyna E98: 209
+Olej Napedowy: 120
+LPG: 190
+
+
+
+Id: 298
+Date: 2019/05/31
+Time: 11:11:45
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 185
+Olej Napedowy: 97
+LPG: 121
+_______________________________
+PRESSURE
+Benzyna E95: 119
+Benzyna E98: 209
+Olej Napedowy: 120
+LPG: 190
+
+
+
+Id: 297
+Date: 2019/05/31
+Time: 11:11:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 185
+Olej Napedowy: 97
+LPG: 121
+_______________________________
+PRESSURE
+Benzyna E95: 119
+Benzyna E98: 209
+Olej Napedowy: 120
+LPG: 190
+
+
+
+Id: 296
+Date: 2019/05/31
+Time: 11:11:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 185
+Olej Napedowy: 97
+LPG: 121
+_______________________________
+PRESSURE
+Benzyna E95: 119
+Benzyna E98: 209
+Olej Napedowy: 120
+LPG: 190
+
+
+
+Id: 295
+Date: 2019/05/31
+Time: 11:11:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 141
+Benzyna E98: 189
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 93
+Benzyna E98: 129
+Olej Napedowy: 143
+LPG: 141
+
+
+
+Id: 294
+Date: 2019/05/31
+Time: 11:11:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 141
+Benzyna E98: 189
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 93
+Benzyna E98: 129
+Olej Napedowy: 143
+LPG: 141
+
+
+
+Id: 293
+Date: 2019/05/31
+Time: 11:11:39
+_______________________________
+TEMPERATURE
+Benzyna E95: 141
+Benzyna E98: 189
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 93
+Benzyna E98: 129
+Olej Napedowy: 143
+LPG: 141
+
+
+
+Id: 292
+Date: 2019/05/31
+Time: 11:11:38
+_______________________________
+TEMPERATURE
+Benzyna E95: 141
+Benzyna E98: 189
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 93
+Benzyna E98: 129
+Olej Napedowy: 143
+LPG: 141
+
+
+
+Id: 291
+Date: 2019/05/31
+Time: 11:11:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 141
+Benzyna E98: 189
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 93
+Benzyna E98: 129
+Olej Napedowy: 143
+LPG: 141
+
+
+
+Id: 290
+Date: 2019/05/31
+Time: 11:11:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 117
+Olej Napedowy: 109
+LPG: 203
+_______________________________
+PRESSURE
+Benzyna E95: 195
+Benzyna E98: 96
+Olej Napedowy: 144
+LPG: 184
+
+
+
+Id: 289
+Date: 2019/05/31
+Time: 11:11:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 117
+Olej Napedowy: 109
+LPG: 203
+_______________________________
+PRESSURE
+Benzyna E95: 195
+Benzyna E98: 96
+Olej Napedowy: 144
+LPG: 184
+
+
+
+Id: 288
+Date: 2019/05/31
+Time: 11:11:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 117
+Olej Napedowy: 109
+LPG: 203
+_______________________________
+PRESSURE
+Benzyna E95: 195
+Benzyna E98: 96
+Olej Napedowy: 144
+LPG: 184
+
+
+
+Id: 287
+Date: 2019/05/31
+Time: 11:11:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 117
+Olej Napedowy: 109
+LPG: 203
+_______________________________
+PRESSURE
+Benzyna E95: 195
+Benzyna E98: 96
+Olej Napedowy: 144
+LPG: 184
+
+
+
+Id: 286
+Date: 2019/05/31
+Time: 11:11:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 117
+Olej Napedowy: 109
+LPG: 203
+_______________________________
+PRESSURE
+Benzyna E95: 195
+Benzyna E98: 96
+Olej Napedowy: 144
+LPG: 184
+
+
+
+Id: 285
+Date: 2019/05/31
+Time: 11:11:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 284
+Date: 2019/05/31
+Time: 11:11:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 283
+Date: 2019/05/31
+Time: 11:11:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 282
+Date: 2019/05/31
+Time: 11:09:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 164
+Benzyna E98: 209
+Olej Napedowy: 125
+LPG: 126
+_______________________________
+PRESSURE
+Benzyna E95: 152
+Benzyna E98: 133
+Olej Napedowy: 188
+LPG: 150
+
+
+
+Id: 281
+Date: 2019/05/31
+Time: 11:09:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 164
+Benzyna E98: 209
+Olej Napedowy: 125
+LPG: 126
+_______________________________
+PRESSURE
+Benzyna E95: 152
+Benzyna E98: 133
+Olej Napedowy: 188
+LPG: 150
+
+
+
+Id: 280
+Date: 2019/05/31
+Time: 11:09:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 164
+Benzyna E98: 209
+Olej Napedowy: 125
+LPG: 126
+_______________________________
+PRESSURE
+Benzyna E95: 152
+Benzyna E98: 133
+Olej Napedowy: 188
+LPG: 150
+
+
+
+Id: 279
+Date: 2019/05/31
+Time: 11:09:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 164
+Benzyna E98: 209
+Olej Napedowy: 125
+LPG: 126
+_______________________________
+PRESSURE
+Benzyna E95: 152
+Benzyna E98: 133
+Olej Napedowy: 188
+LPG: 150
+
+
+
+Id: 278
+Date: 2019/05/31
+Time: 11:09:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 164
+Benzyna E98: 209
+Olej Napedowy: 125
+LPG: 126
+_______________________________
+PRESSURE
+Benzyna E95: 152
+Benzyna E98: 133
+Olej Napedowy: 188
+LPG: 150
+
+
+
+Id: 277
+Date: 2019/05/31
+Time: 11:09:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 276
+Date: 2019/05/31
+Time: 11:09:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 275
+Date: 2019/05/31
+Time: 11:09:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 274
+Date: 2019/05/31
+Time: 11:06:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 127
+Benzyna E98: 168
+Olej Napedowy: 120
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 200
+LPG: 104
+
+
+
+Id: 273
+Date: 2019/05/31
+Time: 11:06:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 127
+Benzyna E98: 168
+Olej Napedowy: 120
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 200
+LPG: 104
+
+
+
+Id: 272
+Date: 2019/05/31
+Time: 11:06:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 159
+Olej Napedowy: 207
+LPG: 117
+_______________________________
+PRESSURE
+Benzyna E95: 123
+Benzyna E98: 166
+Olej Napedowy: 104
+LPG: 99
+
+
+
+Id: 271
+Date: 2019/05/31
+Time: 11:06:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 159
+Olej Napedowy: 207
+LPG: 117
+_______________________________
+PRESSURE
+Benzyna E95: 123
+Benzyna E98: 166
+Olej Napedowy: 104
+LPG: 99
+
+
+
+Id: 270
+Date: 2019/05/31
+Time: 11:06:10
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 159
+Olej Napedowy: 207
+LPG: 117
+_______________________________
+PRESSURE
+Benzyna E95: 123
+Benzyna E98: 166
+Olej Napedowy: 104
+LPG: 99
+
+
+
+Id: 269
+Date: 2019/05/31
+Time: 11:06:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 159
+Olej Napedowy: 207
+LPG: 117
+_______________________________
+PRESSURE
+Benzyna E95: 123
+Benzyna E98: 166
+Olej Napedowy: 104
+LPG: 99
+
+
+
+Id: 268
+Date: 2019/05/31
+Time: 11:06:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 159
+Olej Napedowy: 207
+LPG: 117
+_______________________________
+PRESSURE
+Benzyna E95: 123
+Benzyna E98: 166
+Olej Napedowy: 104
+LPG: 99
+
+
+
+Id: 267
+Date: 2019/05/31
+Time: 11:06:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 199
+Olej Napedowy: 101
+LPG: 192
+_______________________________
+PRESSURE
+Benzyna E95: 103
+Benzyna E98: 157
+Olej Napedowy: 188
+LPG: 167
+
+
+
+Id: 266
+Date: 2019/05/31
+Time: 11:06:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 199
+Olej Napedowy: 101
+LPG: 192
+_______________________________
+PRESSURE
+Benzyna E95: 103
+Benzyna E98: 157
+Olej Napedowy: 188
+LPG: 167
+
+
+
+Id: 265
+Date: 2019/05/31
+Time: 11:06:05
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 199
+Olej Napedowy: 101
+LPG: 192
+_______________________________
+PRESSURE
+Benzyna E95: 103
+Benzyna E98: 157
+Olej Napedowy: 188
+LPG: 167
+
+
+
+Id: 264
+Date: 2019/05/31
+Time: 11:06:04
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 199
+Olej Napedowy: 101
+LPG: 192
+_______________________________
+PRESSURE
+Benzyna E95: 103
+Benzyna E98: 157
+Olej Napedowy: 188
+LPG: 167
+
+
+
+Id: 263
+Date: 2019/05/31
+Time: 11:06:03
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 199
+Olej Napedowy: 101
+LPG: 192
+_______________________________
+PRESSURE
+Benzyna E95: 103
+Benzyna E98: 157
+Olej Napedowy: 188
+LPG: 167
+
+
+
+Id: 262
+Date: 2019/05/31
+Time: 11:06:02
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 261
+Date: 2019/05/31
+Time: 11:06:01
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 260
+Date: 2019/05/31
+Time: 11:05:59
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 259
+Date: 2019/05/31
+Time: 11:05:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 192
+Benzyna E98: 199
+Olej Napedowy: 155
+LPG: 206
+_______________________________
+PRESSURE
+Benzyna E95: 192
+Benzyna E98: 125
+Olej Napedowy: 203
+LPG: 126
+
+
+
+Id: 258
+Date: 2019/05/31
+Time: 11:05:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 192
+Benzyna E98: 199
+Olej Napedowy: 155
+LPG: 206
+_______________________________
+PRESSURE
+Benzyna E95: 192
+Benzyna E98: 125
+Olej Napedowy: 203
+LPG: 126
+
+
+
+Id: 257
+Date: 2019/05/31
+Time: 11:05:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 192
+Benzyna E98: 199
+Olej Napedowy: 155
+LPG: 206
+_______________________________
+PRESSURE
+Benzyna E95: 192
+Benzyna E98: 125
+Olej Napedowy: 203
+LPG: 126
+
+
+
+Id: 256
+Date: 2019/05/31
+Time: 11:05:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 255
+Date: 2019/05/31
+Time: 11:05:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 254
+Date: 2019/05/31
+Time: 11:05:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 253
+Date: 2019/05/31
+Time: 11:05:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 156
+Benzyna E98: 119
+Olej Napedowy: 149
+LPG: 204
+_______________________________
+PRESSURE
+Benzyna E95: 189
+Benzyna E98: 151
+Olej Napedowy: 103
+LPG: 151
+
+
+
+Id: 252
+Date: 2019/05/31
+Time: 11:05:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 156
+Benzyna E98: 119
+Olej Napedowy: 149
+LPG: 204
+_______________________________
+PRESSURE
+Benzyna E95: 189
+Benzyna E98: 151
+Olej Napedowy: 103
+LPG: 151
+
+
+
+Id: 251
+Date: 2019/05/31
+Time: 11:05:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 194
+Olej Napedowy: 204
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 188
+Benzyna E98: 147
+Olej Napedowy: 111
+LPG: 178
+
+
+
+Id: 250
+Date: 2019/05/31
+Time: 11:05:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 194
+Olej Napedowy: 204
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 188
+Benzyna E98: 147
+Olej Napedowy: 111
+LPG: 178
+
+
+
+Id: 249
+Date: 2019/05/31
+Time: 11:05:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 194
+Olej Napedowy: 204
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 188
+Benzyna E98: 147
+Olej Napedowy: 111
+LPG: 178
+
+
+
+Id: 248
+Date: 2019/05/31
+Time: 11:05:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 194
+Olej Napedowy: 204
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 188
+Benzyna E98: 147
+Olej Napedowy: 111
+LPG: 178
+
+
+
+Id: 247
+Date: 2019/05/31
+Time: 11:05:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 194
+Olej Napedowy: 204
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 188
+Benzyna E98: 147
+Olej Napedowy: 111
+LPG: 178
+
+
+
+Id: 246
+Date: 2019/05/31
+Time: 11:05:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 207
+Benzyna E98: 130
+Olej Napedowy: 183
+LPG: 141
+_______________________________
+PRESSURE
+Benzyna E95: 96
+Benzyna E98: 192
+Olej Napedowy: 113
+LPG: 192
+
+
+
+Id: 245
+Date: 2019/05/31
+Time: 11:05:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 207
+Benzyna E98: 130
+Olej Napedowy: 183
+LPG: 141
+_______________________________
+PRESSURE
+Benzyna E95: 96
+Benzyna E98: 192
+Olej Napedowy: 113
+LPG: 192
+
+
+
+Id: 244
+Date: 2019/05/31
+Time: 11:05:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 207
+Benzyna E98: 130
+Olej Napedowy: 183
+LPG: 141
+_______________________________
+PRESSURE
+Benzyna E95: 96
+Benzyna E98: 192
+Olej Napedowy: 113
+LPG: 192
+
+
+
+Id: 243
+Date: 2019/05/31
+Time: 11:05:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 207
+Benzyna E98: 130
+Olej Napedowy: 183
+LPG: 141
+_______________________________
+PRESSURE
+Benzyna E95: 96
+Benzyna E98: 192
+Olej Napedowy: 113
+LPG: 192
+
+
+
+Id: 242
+Date: 2019/05/31
+Time: 11:05:16
+_______________________________
+TEMPERATURE
+Benzyna E95: 207
+Benzyna E98: 130
+Olej Napedowy: 183
+LPG: 141
+_______________________________
+PRESSURE
+Benzyna E95: 96
+Benzyna E98: 192
+Olej Napedowy: 113
+LPG: 192
+
+
+
+Id: 241
+Date: 2019/05/31
+Time: 11:05:15
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 114
+Olej Napedowy: 159
+LPG: 160
+_______________________________
+PRESSURE
+Benzyna E95: 185
+Benzyna E98: 190
+Olej Napedowy: 162
+LPG: 153
+
+
+
+Id: 240
+Date: 2019/05/31
+Time: 11:05:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 114
+Olej Napedowy: 159
+LPG: 160
+_______________________________
+PRESSURE
+Benzyna E95: 185
+Benzyna E98: 190
+Olej Napedowy: 162
+LPG: 153
+
+
+
+Id: 239
+Date: 2019/05/31
+Time: 11:05:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 114
+Olej Napedowy: 159
+LPG: 160
+_______________________________
+PRESSURE
+Benzyna E95: 185
+Benzyna E98: 190
+Olej Napedowy: 162
+LPG: 153
+
+
+
+Id: 238
+Date: 2019/05/31
+Time: 11:05:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 114
+Olej Napedowy: 159
+LPG: 160
+_______________________________
+PRESSURE
+Benzyna E95: 185
+Benzyna E98: 190
+Olej Napedowy: 162
+LPG: 153
+
+
+
+Id: 237
+Date: 2019/05/31
+Time: 11:05:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 114
+Olej Napedowy: 159
+LPG: 160
+_______________________________
+PRESSURE
+Benzyna E95: 185
+Benzyna E98: 190
+Olej Napedowy: 162
+LPG: 153
+
+
+
+Id: 236
+Date: 2019/05/31
+Time: 11:05:10
+_______________________________
+TEMPERATURE
+Benzyna E95: 108
+Benzyna E98: 157
+Olej Napedowy: 197
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 118
+Benzyna E98: 203
+Olej Napedowy: 111
+LPG: 96
+
+
+
+Id: 235
+Date: 2019/05/31
+Time: 11:05:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 108
+Benzyna E98: 157
+Olej Napedowy: 197
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 118
+Benzyna E98: 203
+Olej Napedowy: 111
+LPG: 96
+
+
+
+Id: 234
+Date: 2019/05/31
+Time: 11:05:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 108
+Benzyna E98: 157
+Olej Napedowy: 197
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 118
+Benzyna E98: 203
+Olej Napedowy: 111
+LPG: 96
+
+
+
+Id: 233
+Date: 2019/05/31
+Time: 11:05:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 108
+Benzyna E98: 157
+Olej Napedowy: 197
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 118
+Benzyna E98: 203
+Olej Napedowy: 111
+LPG: 96
+
+
+
+Id: 232
+Date: 2019/05/31
+Time: 11:05:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 108
+Benzyna E98: 157
+Olej Napedowy: 197
+LPG: 100
+_______________________________
+PRESSURE
+Benzyna E95: 118
+Benzyna E98: 203
+Olej Napedowy: 111
+LPG: 96
+
+
+
+Id: 231
+Date: 2019/05/31
+Time: 11:05:05
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 153
+Olej Napedowy: 158
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 135
+Benzyna E98: 150
+Olej Napedowy: 135
+LPG: 123
+
+
+
+Id: 230
+Date: 2019/05/31
+Time: 11:05:04
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 153
+Olej Napedowy: 158
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 135
+Benzyna E98: 150
+Olej Napedowy: 135
+LPG: 123
+
+
+
+Id: 229
+Date: 2019/05/31
+Time: 11:05:03
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 153
+Olej Napedowy: 158
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 135
+Benzyna E98: 150
+Olej Napedowy: 135
+LPG: 123
+
+
+
+Id: 228
+Date: 2019/05/31
+Time: 11:05:02
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 153
+Olej Napedowy: 158
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 135
+Benzyna E98: 150
+Olej Napedowy: 135
+LPG: 123
+
+
+
+Id: 227
+Date: 2019/05/31
+Time: 11:05:01
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 153
+Olej Napedowy: 158
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 135
+Benzyna E98: 150
+Olej Napedowy: 135
+LPG: 123
+
+
+
+Id: 226
+Date: 2019/05/31
+Time: 11:05:00
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 148
+Olej Napedowy: 145
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 144
+Benzyna E98: 116
+Olej Napedowy: 185
+LPG: 208
+
+
+
+Id: 225
+Date: 2019/05/31
+Time: 11:04:59
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 148
+Olej Napedowy: 145
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 144
+Benzyna E98: 116
+Olej Napedowy: 185
+LPG: 208
+
+
+
+Id: 224
+Date: 2019/05/31
+Time: 11:04:58
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 148
+Olej Napedowy: 145
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 144
+Benzyna E98: 116
+Olej Napedowy: 185
+LPG: 208
+
+
+
+Id: 223
+Date: 2019/05/31
+Time: 11:04:57
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 148
+Olej Napedowy: 145
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 144
+Benzyna E98: 116
+Olej Napedowy: 185
+LPG: 208
+
+
+
+Id: 222
+Date: 2019/05/31
+Time: 11:04:56
+_______________________________
+TEMPERATURE
+Benzyna E95: 144
+Benzyna E98: 148
+Olej Napedowy: 145
+LPG: 170
+_______________________________
+PRESSURE
+Benzyna E95: 144
+Benzyna E98: 116
+Olej Napedowy: 185
+LPG: 208
+
+
+
+Id: 221
+Date: 2019/05/31
+Time: 11:04:55
+_______________________________
+TEMPERATURE
+Benzyna E95: 119
+Benzyna E98: 202
+Olej Napedowy: 152
+LPG: 168
+_______________________________
+PRESSURE
+Benzyna E95: 151
+Benzyna E98: 177
+Olej Napedowy: 162
+LPG: 132
+
+
+
+Id: 220
+Date: 2019/05/31
+Time: 11:04:54
+_______________________________
+TEMPERATURE
+Benzyna E95: 119
+Benzyna E98: 202
+Olej Napedowy: 152
+LPG: 168
+_______________________________
+PRESSURE
+Benzyna E95: 151
+Benzyna E98: 177
+Olej Napedowy: 162
+LPG: 132
+
+
+
+Id: 219
+Date: 2019/05/31
+Time: 11:04:53
+_______________________________
+TEMPERATURE
+Benzyna E95: 119
+Benzyna E98: 202
+Olej Napedowy: 152
+LPG: 168
+_______________________________
+PRESSURE
+Benzyna E95: 151
+Benzyna E98: 177
+Olej Napedowy: 162
+LPG: 132
+
+
+
+Id: 218
+Date: 2019/05/31
+Time: 11:04:51
+_______________________________
+TEMPERATURE
+Benzyna E95: 119
+Benzyna E98: 202
+Olej Napedowy: 152
+LPG: 168
+_______________________________
+PRESSURE
+Benzyna E95: 151
+Benzyna E98: 177
+Olej Napedowy: 162
+LPG: 132
+
+
+
+Id: 217
+Date: 2019/05/31
+Time: 11:04:50
+_______________________________
+TEMPERATURE
+Benzyna E95: 119
+Benzyna E98: 202
+Olej Napedowy: 152
+LPG: 168
+_______________________________
+PRESSURE
+Benzyna E95: 151
+Benzyna E98: 177
+Olej Napedowy: 162
+LPG: 132
+
+
+
+Id: 216
+Date: 2019/05/31
+Time: 11:04:49
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 194
+Olej Napedowy: 193
+LPG: 139
+_______________________________
+PRESSURE
+Benzyna E95: 206
+Benzyna E98: 136
+Olej Napedowy: 154
+LPG: 156
+
+
+
+Id: 215
+Date: 2019/05/31
+Time: 11:04:48
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 194
+Olej Napedowy: 193
+LPG: 139
+_______________________________
+PRESSURE
+Benzyna E95: 206
+Benzyna E98: 136
+Olej Napedowy: 154
+LPG: 156
+
+
+
+Id: 214
+Date: 2019/05/31
+Time: 11:04:47
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 194
+Olej Napedowy: 193
+LPG: 139
+_______________________________
+PRESSURE
+Benzyna E95: 206
+Benzyna E98: 136
+Olej Napedowy: 154
+LPG: 156
+
+
+
+Id: 213
+Date: 2019/05/31
+Time: 11:04:46
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 194
+Olej Napedowy: 193
+LPG: 139
+_______________________________
+PRESSURE
+Benzyna E95: 206
+Benzyna E98: 136
+Olej Napedowy: 154
+LPG: 156
+
+
+
+Id: 212
+Date: 2019/05/31
+Time: 11:04:45
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 194
+Olej Napedowy: 193
+LPG: 139
+_______________________________
+PRESSURE
+Benzyna E95: 206
+Benzyna E98: 136
+Olej Napedowy: 154
+LPG: 156
+
+
+
+Id: 211
+Date: 2019/05/31
+Time: 11:04:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 210
+Date: 2019/05/31
+Time: 11:04:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 209
+Date: 2019/05/31
+Time: 11:04:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 208
+Date: 2019/05/31
+Time: 11:04:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 125
+Benzyna E98: 161
+Olej Napedowy: 186
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 197
+Benzyna E98: 100
+Olej Napedowy: 177
+LPG: 174
+
+
+
+Id: 207
+Date: 2019/05/31
+Time: 11:04:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 125
+Benzyna E98: 161
+Olej Napedowy: 186
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 197
+Benzyna E98: 100
+Olej Napedowy: 177
+LPG: 174
+
+
+
+Id: 206
+Date: 2019/05/31
+Time: 11:04:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 205
+Date: 2019/05/31
+Time: 11:04:17
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 204
+Date: 2019/05/31
+Time: 11:04:16
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 203
+Date: 2019/05/31
+Time: 11:03:52
+_______________________________
+TEMPERATURE
+Benzyna E95: 157
+Benzyna E98: 124
+Olej Napedowy: 118
+LPG: 174
+_______________________________
+PRESSURE
+Benzyna E95: 180
+Benzyna E98: 152
+Olej Napedowy: 103
+LPG: 136
+
+
+
+Id: 202
+Date: 2019/05/31
+Time: 11:03:51
+_______________________________
+TEMPERATURE
+Benzyna E95: 157
+Benzyna E98: 124
+Olej Napedowy: 118
+LPG: 174
+_______________________________
+PRESSURE
+Benzyna E95: 180
+Benzyna E98: 152
+Olej Napedowy: 103
+LPG: 136
+
+
+
+Id: 201
+Date: 2019/05/31
+Time: 11:03:50
+_______________________________
+TEMPERATURE
+Benzyna E95: 157
+Benzyna E98: 124
+Olej Napedowy: 118
+LPG: 174
+_______________________________
+PRESSURE
+Benzyna E95: 180
+Benzyna E98: 152
+Olej Napedowy: 103
+LPG: 136
+
+
+
+Id: 200
+Date: 2019/05/31
+Time: 11:03:49
+_______________________________
+TEMPERATURE
+Benzyna E95: 157
+Benzyna E98: 124
+Olej Napedowy: 118
+LPG: 174
+_______________________________
+PRESSURE
+Benzyna E95: 180
+Benzyna E98: 152
+Olej Napedowy: 103
+LPG: 136
+
+
+
+Id: 199
+Date: 2019/05/31
+Time: 11:03:48
+_______________________________
+TEMPERATURE
+Benzyna E95: 157
+Benzyna E98: 124
+Olej Napedowy: 118
+LPG: 174
+_______________________________
+PRESSURE
+Benzyna E95: 180
+Benzyna E98: 152
+Olej Napedowy: 103
+LPG: 136
+
+
+
+Id: 198
+Date: 2019/05/31
+Time: 11:03:47
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 197
+Date: 2019/05/31
+Time: 11:03:46
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 196
+Date: 2019/05/31
+Time: 11:03:45
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 195
+Date: 2019/05/31
+Time: 11:02:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 110
+Benzyna E98: 143
+Olej Napedowy: 160
+LPG: 158
+_______________________________
+PRESSURE
+Benzyna E95: 124
+Benzyna E98: 194
+Olej Napedowy: 165
+LPG: 141
+
+
+
+Id: 194
+Date: 2019/05/31
+Time: 11:02:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 110
+Benzyna E98: 143
+Olej Napedowy: 160
+LPG: 158
+_______________________________
+PRESSURE
+Benzyna E95: 124
+Benzyna E98: 194
+Olej Napedowy: 165
+LPG: 141
+
+
+
+Id: 193
+Date: 2019/05/31
+Time: 11:02:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 188
+Olej Napedowy: 97
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 207
+Benzyna E98: 167
+Olej Napedowy: 178
+LPG: 119
+
+
+
+Id: 192
+Date: 2019/05/31
+Time: 11:02:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 188
+Olej Napedowy: 97
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 207
+Benzyna E98: 167
+Olej Napedowy: 178
+LPG: 119
+
+
+
+Id: 191
+Date: 2019/05/31
+Time: 11:02:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 188
+Olej Napedowy: 97
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 207
+Benzyna E98: 167
+Olej Napedowy: 178
+LPG: 119
+
+
+
+Id: 190
+Date: 2019/05/31
+Time: 11:02:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 188
+Olej Napedowy: 97
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 207
+Benzyna E98: 167
+Olej Napedowy: 178
+LPG: 119
+
+
+
+Id: 189
+Date: 2019/05/31
+Time: 11:02:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 100
+Benzyna E98: 188
+Olej Napedowy: 97
+LPG: 142
+_______________________________
+PRESSURE
+Benzyna E95: 207
+Benzyna E98: 167
+Olej Napedowy: 178
+LPG: 119
+
+
+
+Id: 188
+Date: 2019/05/31
+Time: 11:02:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 148
+Benzyna E98: 151
+Olej Napedowy: 117
+LPG: 127
+_______________________________
+PRESSURE
+Benzyna E95: 156
+Benzyna E98: 207
+Olej Napedowy: 131
+LPG: 121
+
+
+
+Id: 187
+Date: 2019/05/31
+Time: 11:02:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 148
+Benzyna E98: 151
+Olej Napedowy: 117
+LPG: 127
+_______________________________
+PRESSURE
+Benzyna E95: 156
+Benzyna E98: 207
+Olej Napedowy: 131
+LPG: 121
+
+
+
+Id: 186
+Date: 2019/05/31
+Time: 11:02:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 148
+Benzyna E98: 151
+Olej Napedowy: 117
+LPG: 127
+_______________________________
+PRESSURE
+Benzyna E95: 156
+Benzyna E98: 207
+Olej Napedowy: 131
+LPG: 121
+
+
+
+Id: 185
+Date: 2019/05/31
+Time: 11:02:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 148
+Benzyna E98: 151
+Olej Napedowy: 117
+LPG: 127
+_______________________________
+PRESSURE
+Benzyna E95: 156
+Benzyna E98: 207
+Olej Napedowy: 131
+LPG: 121
+
+
+
+Id: 184
+Date: 2019/05/31
+Time: 11:02:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 148
+Benzyna E98: 151
+Olej Napedowy: 117
+LPG: 127
+_______________________________
+PRESSURE
+Benzyna E95: 156
+Benzyna E98: 207
+Olej Napedowy: 131
+LPG: 121
+
+
+
+Id: 183
+Date: 2019/05/31
+Time: 11:02:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 182
+Date: 2019/05/31
+Time: 11:02:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 181
+Date: 2019/05/31
+Time: 11:02:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 180
+Date: 2019/05/31
+Time: 11:02:01
+_______________________________
+TEMPERATURE
+Benzyna E95: 194
+Benzyna E98: 131
+Olej Napedowy: 140
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 181
+Benzyna E98: 133
+Olej Napedowy: 195
+LPG: 193
+
+
+
+Id: 179
+Date: 2019/05/31
+Time: 11:02:00
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 136
+Olej Napedowy: 122
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 90
+Olej Napedowy: 198
+LPG: 200
+
+
+
+Id: 178
+Date: 2019/05/31
+Time: 11:01:58
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 136
+Olej Napedowy: 122
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 90
+Olej Napedowy: 198
+LPG: 200
+
+
+
+Id: 177
+Date: 2019/05/31
+Time: 11:01:57
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 136
+Olej Napedowy: 122
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 90
+Olej Napedowy: 198
+LPG: 200
+
+
+
+Id: 176
+Date: 2019/05/31
+Time: 11:01:56
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 136
+Olej Napedowy: 122
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 90
+Olej Napedowy: 198
+LPG: 200
+
+
+
+Id: 175
+Date: 2019/05/31
+Time: 11:01:55
+_______________________________
+TEMPERATURE
+Benzyna E95: 98
+Benzyna E98: 136
+Olej Napedowy: 122
+LPG: 184
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 90
+Olej Napedowy: 198
+LPG: 200
+
+
+
+Id: 174
+Date: 2019/05/31
+Time: 11:01:54
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 173
+Date: 2019/05/31
+Time: 11:01:53
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 172
+Date: 2019/05/31
+Time: 11:01:52
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 171
+Date: 2019/05/31
+Time: 11:01:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 159
+Benzyna E98: 147
+Olej Napedowy: 195
+LPG: 122
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 105
+Olej Napedowy: 106
+LPG: 91
+
+
+
+Id: 170
+Date: 2019/05/31
+Time: 11:01:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 159
+Benzyna E98: 147
+Olej Napedowy: 195
+LPG: 122
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 105
+Olej Napedowy: 106
+LPG: 91
+
+
+
+Id: 169
+Date: 2019/05/31
+Time: 11:01:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 159
+Benzyna E98: 147
+Olej Napedowy: 195
+LPG: 122
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 105
+Olej Napedowy: 106
+LPG: 91
+
+
+
+Id: 168
+Date: 2019/05/31
+Time: 11:01:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 159
+Benzyna E98: 147
+Olej Napedowy: 195
+LPG: 122
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 105
+Olej Napedowy: 106
+LPG: 91
+
+
+
+Id: 167
+Date: 2019/05/31
+Time: 11:01:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 159
+Benzyna E98: 147
+Olej Napedowy: 195
+LPG: 122
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 105
+Olej Napedowy: 106
+LPG: 91
+
+
+
+Id: 166
+Date: 2019/05/31
+Time: 11:01:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 165
+Date: 2019/05/31
+Time: 11:01:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 164
+Date: 2019/05/31
+Time: 11:01:05
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 163
+Date: 2019/05/31
+Time: 10:58:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 178
+Benzyna E98: 91
+Olej Napedowy: 198
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 208
+Benzyna E98: 174
+Olej Napedowy: 189
+LPG: 125
+
+
+
+Id: 162
+Date: 2019/05/31
+Time: 10:58:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 178
+Benzyna E98: 91
+Olej Napedowy: 198
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 208
+Benzyna E98: 174
+Olej Napedowy: 189
+LPG: 125
+
+
+
+Id: 161
+Date: 2019/05/31
+Time: 10:58:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 178
+Benzyna E98: 91
+Olej Napedowy: 198
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 208
+Benzyna E98: 174
+Olej Napedowy: 189
+LPG: 125
+
+
+
+Id: 160
+Date: 2019/05/31
+Time: 10:58:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 178
+Benzyna E98: 91
+Olej Napedowy: 198
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 208
+Benzyna E98: 174
+Olej Napedowy: 189
+LPG: 125
+
+
+
+Id: 159
+Date: 2019/05/31
+Time: 10:58:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 178
+Benzyna E98: 91
+Olej Napedowy: 198
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 208
+Benzyna E98: 174
+Olej Napedowy: 189
+LPG: 125
+
+
+
+Id: 158
+Date: 2019/05/31
+Time: 10:58:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 137
+Benzyna E98: 173
+Olej Napedowy: 206
+LPG: 164
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 132
+Olej Napedowy: 142
+LPG: 148
+
+
+
+Id: 157
+Date: 2019/05/31
+Time: 10:58:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 137
+Benzyna E98: 173
+Olej Napedowy: 206
+LPG: 164
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 132
+Olej Napedowy: 142
+LPG: 148
+
+
+
+Id: 156
+Date: 2019/05/31
+Time: 10:58:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 137
+Benzyna E98: 173
+Olej Napedowy: 206
+LPG: 164
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 132
+Olej Napedowy: 142
+LPG: 148
+
+
+
+Id: 155
+Date: 2019/05/31
+Time: 10:58:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 137
+Benzyna E98: 173
+Olej Napedowy: 206
+LPG: 164
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 132
+Olej Napedowy: 142
+LPG: 148
+
+
+
+Id: 154
+Date: 2019/05/31
+Time: 10:58:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 137
+Benzyna E98: 173
+Olej Napedowy: 206
+LPG: 164
+_______________________________
+PRESSURE
+Benzyna E95: 190
+Benzyna E98: 132
+Olej Napedowy: 142
+LPG: 148
+
+
+
+Id: 153
+Date: 2019/05/31
+Time: 10:58:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 138
+Benzyna E98: 160
+Olej Napedowy: 194
+LPG: 173
+_______________________________
+PRESSURE
+Benzyna E95: 205
+Benzyna E98: 159
+Olej Napedowy: 126
+LPG: 156
+
+
+
+Id: 152
+Date: 2019/05/31
+Time: 10:58:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 138
+Benzyna E98: 160
+Olej Napedowy: 194
+LPG: 173
+_______________________________
+PRESSURE
+Benzyna E95: 205
+Benzyna E98: 159
+Olej Napedowy: 126
+LPG: 156
+
+
+
+Id: 151
+Date: 2019/05/31
+Time: 10:58:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 138
+Benzyna E98: 160
+Olej Napedowy: 194
+LPG: 173
+_______________________________
+PRESSURE
+Benzyna E95: 205
+Benzyna E98: 159
+Olej Napedowy: 126
+LPG: 156
+
+
+
+Id: 150
+Date: 2019/05/31
+Time: 10:58:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 138
+Benzyna E98: 160
+Olej Napedowy: 194
+LPG: 173
+_______________________________
+PRESSURE
+Benzyna E95: 205
+Benzyna E98: 159
+Olej Napedowy: 126
+LPG: 156
+
+
+
+Id: 149
+Date: 2019/05/31
+Time: 10:58:17
+_______________________________
+TEMPERATURE
+Benzyna E95: 138
+Benzyna E98: 160
+Olej Napedowy: 194
+LPG: 173
+_______________________________
+PRESSURE
+Benzyna E95: 205
+Benzyna E98: 159
+Olej Napedowy: 126
+LPG: 156
+
+
+
+Id: 148
+Date: 2019/05/31
+Time: 10:58:16
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 193
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 147
+Date: 2019/05/31
+Time: 10:58:15
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 193
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 146
+Date: 2019/05/31
+Time: 10:58:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 193
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 145
+Date: 2019/05/31
+Time: 10:58:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 193
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 144
+Date: 2019/05/31
+Time: 10:58:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 203
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 143
+Date: 2019/05/31
+Time: 10:58:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 103
+Benzyna E98: 121
+Olej Napedowy: 203
+LPG: 198
+_______________________________
+PRESSURE
+Benzyna E95: 186
+Benzyna E98: 153
+Olej Napedowy: 137
+LPG: 160
+
+
+
+Id: 142
+Date: 2019/05/31
+Time: 10:58:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 195
+Olej Napedowy: 191
+LPG: 195
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 141
+Date: 2019/05/31
+Time: 10:58:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 102
+Benzyna E98: 195
+Olej Napedowy: 191
+LPG: 195
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 140
+Date: 2019/05/31
+Time: 10:58:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 102
+Benzyna E98: 195
+Olej Napedowy: 191
+LPG: 195
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 139
+Date: 2019/05/31
+Time: 10:58:10
+_______________________________
+TEMPERATURE
+Benzyna E95: 92
+Benzyna E98: 205
+Olej Napedowy: 191
+LPG: 205
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 138
+Date: 2019/05/31
+Time: 10:58:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 92
+Benzyna E98: 205
+Olej Napedowy: 191
+LPG: 205
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 137
+Date: 2019/05/31
+Time: 10:58:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 92
+Benzyna E98: 205
+Olej Napedowy: 191
+LPG: 205
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 136
+Date: 2019/05/31
+Time: 10:58:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 92
+Benzyna E98: 205
+Olej Napedowy: 191
+LPG: 205
+_______________________________
+PRESSURE
+Benzyna E95: 203
+Benzyna E98: 180
+Olej Napedowy: 144
+LPG: 118
+
+
+
+Id: 135
+Date: 2019/05/31
+Time: 10:58:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 106
+Olej Napedowy: 159
+LPG: 193
+_______________________________
+PRESSURE
+Benzyna E95: 199
+Benzyna E98: 193
+Olej Napedowy: 170
+LPG: 163
+
+
+
+Id: 134
+Date: 2019/05/31
+Time: 10:58:05
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 106
+Olej Napedowy: 159
+LPG: 193
+_______________________________
+PRESSURE
+Benzyna E95: 199
+Benzyna E98: 193
+Olej Napedowy: 170
+LPG: 163
+
+
+
+Id: 133
+Date: 2019/05/31
+Time: 10:58:04
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 106
+Olej Napedowy: 159
+LPG: 193
+_______________________________
+PRESSURE
+Benzyna E95: 199
+Benzyna E98: 193
+Olej Napedowy: 170
+LPG: 163
+
+
+
+Id: 132
+Date: 2019/05/31
+Time: 10:58:03
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 106
+Olej Napedowy: 159
+LPG: 193
+_______________________________
+PRESSURE
+Benzyna E95: 199
+Benzyna E98: 193
+Olej Napedowy: 170
+LPG: 163
+
+
+
+Id: 131
+Date: 2019/05/31
+Time: 10:58:02
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 106
+Olej Napedowy: 159
+LPG: 193
+_______________________________
+PRESSURE
+Benzyna E95: 199
+Benzyna E98: 193
+Olej Napedowy: 170
+LPG: 163
+
+
+
+Id: 130
+Date: 2019/05/31
+Time: 10:58:01
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 129
+Date: 2019/05/31
+Time: 10:58:00
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 128
+Date: 2019/05/31
+Time: 10:57:59
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 127
+Date: 2019/05/31
+Time: 10:55:55
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 158
+Olej Napedowy: 141
+LPG: 147
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 199
+Olej Napedowy: 122
+LPG: 188
+
+
+
+Id: 126
+Date: 2019/05/31
+Time: 10:55:54
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 158
+Olej Napedowy: 141
+LPG: 147
+_______________________________
+PRESSURE
+Benzyna E95: 121
+Benzyna E98: 199
+Olej Napedowy: 122
+LPG: 188
+
+
+
+Id: 125
+Date: 2019/05/31
+Time: 10:55:53
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 124
+Date: 2019/05/31
+Time: 10:55:52
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 123
+Date: 2019/05/31
+Time: 10:55:51
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 122
+Date: 2019/05/31
+Time: 10:55:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 191
+Benzyna E98: 129
+Olej Napedowy: 111
+LPG: 171
+_______________________________
+PRESSURE
+Benzyna E95: 139
+Benzyna E98: 133
+Olej Napedowy: 168
+LPG: 203
+
+
+
+Id: 121
+Date: 2019/05/31
+Time: 10:55:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 120
+Date: 2019/05/31
+Time: 10:55:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 119
+Date: 2019/05/31
+Time: 10:55:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 118
+Date: 2019/05/31
+Time: 10:07:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 117
+Date: 2019/05/31
+Time: 10:07:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 116
+Date: 2019/05/31
+Time: 10:07:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 115
+Date: 2019/05/31
+Time: 10:07:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 114
+Date: 2019/05/31
+Time: 10:07:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 113
+Date: 2019/05/31
+Time: 10:07:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 112
+Date: 2019/05/31
+Time: 10:07:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 111
+Date: 2019/05/31
+Time: 10:07:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 110
+Date: 2019/05/31
+Time: 10:07:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 108
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 109
+Date: 2019/05/31
+Time: 10:07:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 136
+Benzyna E98: 180
+Olej Napedowy: 110
+LPG: 118
+_______________________________
+PRESSURE
+Benzyna E95: 183
+Benzyna E98: 105
+Olej Napedowy: 98
+LPG: 177
+
+
+
+Id: 108
+Date: 2019/05/31
+Time: 10:07:39
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 104
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 107
+Date: 2019/05/31
+Time: 10:07:38
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 104
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 106
+Date: 2019/05/31
+Time: 10:07:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 104
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 105
+Date: 2019/05/31
+Time: 10:07:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 104
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 104
+Date: 2019/05/31
+Time: 10:07:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 104
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 103
+Date: 2019/05/31
+Time: 10:07:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 129
+Benzyna E98: 105
+Olej Napedowy: 123
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 136
+Benzyna E98: 94
+Olej Napedowy: 184
+LPG: 173
+
+
+
+Id: 102
+Date: 2019/05/31
+Time: 10:07:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 172
+Olej Napedowy: 138
+LPG: 152
+_______________________________
+PRESSURE
+Benzyna E95: 153
+Benzyna E98: 116
+Olej Napedowy: 102
+LPG: 143
+
+
+
+Id: 101
+Date: 2019/05/31
+Time: 10:07:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 172
+Olej Napedowy: 138
+LPG: 152
+_______________________________
+PRESSURE
+Benzyna E95: 153
+Benzyna E98: 116
+Olej Napedowy: 102
+LPG: 143
+
+
+
+Id: 100
+Date: 2019/05/31
+Time: 10:07:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 172
+Olej Napedowy: 138
+LPG: 152
+_______________________________
+PRESSURE
+Benzyna E95: 153
+Benzyna E98: 116
+Olej Napedowy: 102
+LPG: 143
+
+
+
+Id: 99
+Date: 2019/05/31
+Time: 10:07:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 172
+Olej Napedowy: 138
+LPG: 152
+_______________________________
+PRESSURE
+Benzyna E95: 153
+Benzyna E98: 116
+Olej Napedowy: 102
+LPG: 143
+
+
+
+Id: 98
+Date: 2019/05/31
+Time: 10:07:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 193
+Benzyna E98: 172
+Olej Napedowy: 138
+LPG: 152
+_______________________________
+PRESSURE
+Benzyna E95: 153
+Benzyna E98: 116
+Olej Napedowy: 102
+LPG: 143
+
+
+
+Id: 97
+Date: 2019/05/31
+Time: 10:07:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 198
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 96
+Date: 2019/05/31
+Time: 10:07:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 198
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 95
+Date: 2019/05/31
+Time: 10:07:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 198
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 94
+Date: 2019/05/31
+Time: 10:07:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 198
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 93
+Date: 2019/05/31
+Time: 10:07:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 198
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 92
+Date: 2019/05/31
+Time: 10:07:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 146
+Olej Napedowy: 130
+LPG: 104
+_______________________________
+PRESSURE
+Benzyna E95: 141
+Benzyna E98: 208
+Olej Napedowy: 124
+LPG: 194
+
+
+
+Id: 91
+Date: 2019/05/31
+Time: 10:07:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 108
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 90
+Date: 2019/05/31
+Time: 10:07:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 108
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 89
+Date: 2019/05/31
+Time: 10:07:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 108
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 88
+Date: 2019/05/31
+Time: 10:07:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 108
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 87
+Date: 2019/05/31
+Time: 10:07:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 108
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 86
+Date: 2019/05/31
+Time: 10:07:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 130
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 85
+Date: 2019/05/31
+Time: 10:07:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 106
+Benzyna E98: 197
+Olej Napedowy: 130
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 84
+Date: 2019/05/31
+Time: 10:07:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 96
+Benzyna E98: 207
+Olej Napedowy: 130
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 83
+Date: 2019/05/31
+Time: 10:07:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 96
+Benzyna E98: 207
+Olej Napedowy: 130
+LPG: 115
+_______________________________
+PRESSURE
+Benzyna E95: 164
+Benzyna E98: 179
+Olej Napedowy: 98
+LPG: 143
+
+
+
+Id: 82
+Date: 2019/05/31
+Time: 10:07:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 134
+Benzyna E98: 131
+Olej Napedowy: 119
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 194
+Olej Napedowy: 142
+LPG: 107
+
+
+
+Id: 81
+Date: 2019/05/31
+Time: 10:07:17
+_______________________________
+TEMPERATURE
+Benzyna E95: 134
+Benzyna E98: 131
+Olej Napedowy: 119
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 194
+Olej Napedowy: 142
+LPG: 107
+
+
+
+Id: 80
+Date: 2019/05/31
+Time: 10:07:16
+_______________________________
+TEMPERATURE
+Benzyna E95: 134
+Benzyna E98: 131
+Olej Napedowy: 119
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 194
+Olej Napedowy: 142
+LPG: 107
+
+
+
+Id: 79
+Date: 2019/05/31
+Time: 10:07:15
+_______________________________
+TEMPERATURE
+Benzyna E95: 134
+Benzyna E98: 131
+Olej Napedowy: 119
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 194
+Olej Napedowy: 142
+LPG: 107
+
+
+
+Id: 78
+Date: 2019/05/31
+Time: 10:07:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 134
+Benzyna E98: 131
+Olej Napedowy: 119
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 194
+Olej Napedowy: 142
+LPG: 107
+
+
+
+Id: 77
+Date: 2019/05/31
+Time: 10:07:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 199
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 76
+Date: 2019/05/31
+Time: 10:07:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 199
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 75
+Date: 2019/05/31
+Time: 10:07:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 199
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 74
+Date: 2019/05/31
+Time: 10:07:10
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 199
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 73
+Date: 2019/05/31
+Time: 10:07:10
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 209
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 72
+Date: 2019/05/31
+Time: 10:07:09
+_______________________________
+TEMPERATURE
+Benzyna E95: 146
+Benzyna E98: 178
+Olej Napedowy: 209
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 187
+Benzyna E98: 162
+Olej Napedowy: 120
+LPG: 114
+
+
+
+Id: 71
+Date: 2019/05/31
+Time: 10:07:08
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 70
+Date: 2019/05/31
+Time: 10:07:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 69
+Date: 2019/05/31
+Time: 10:07:07
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 68
+Date: 2019/05/31
+Time: 10:07:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 67
+Date: 2019/05/31
+Time: 10:05:06
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 92
+Olej Napedowy: 109
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 109
+Benzyna E98: 187
+Olej Napedowy: 133
+LPG: 161
+
+
+
+Id: 66
+Date: 2019/05/31
+Time: 10:05:05
+_______________________________
+TEMPERATURE
+Benzyna E95: 99
+Benzyna E98: 92
+Olej Napedowy: 109
+LPG: 111
+_______________________________
+PRESSURE
+Benzyna E95: 109
+Benzyna E98: 187
+Olej Napedowy: 133
+LPG: 161
+
+
+
+Id: 65
+Date: 2019/05/31
+Time: 10:05:04
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 167
+Olej Napedowy: 195
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 108
+Benzyna E98: 173
+Olej Napedowy: 96
+LPG: 133
+
+
+
+Id: 64
+Date: 2019/05/31
+Time: 10:05:03
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 167
+Olej Napedowy: 195
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 108
+Benzyna E98: 173
+Olej Napedowy: 96
+LPG: 133
+
+
+
+Id: 63
+Date: 2019/05/31
+Time: 10:05:02
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 167
+Olej Napedowy: 195
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 108
+Benzyna E98: 173
+Olej Napedowy: 96
+LPG: 133
+
+
+
+Id: 62
+Date: 2019/05/31
+Time: 10:05:01
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 167
+Olej Napedowy: 195
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 108
+Benzyna E98: 173
+Olej Napedowy: 96
+LPG: 133
+
+
+
+Id: 61
+Date: 2019/05/31
+Time: 10:05:00
+_______________________________
+TEMPERATURE
+Benzyna E95: 139
+Benzyna E98: 167
+Olej Napedowy: 195
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 108
+Benzyna E98: 173
+Olej Napedowy: 96
+LPG: 133
+
+
+
+Id: 60
+Date: 2019/05/31
+Time: 10:04:59
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 59
+Date: 2019/05/31
+Time: 10:04:58
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 58
+Date: 2019/05/31
+Time: 10:04:57
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 57
+Date: 2019/05/31
+Time: 10:03:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 185
+Olej Napedowy: 138
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 150
+Olej Napedowy: 166
+LPG: 160
+
+
+
+Id: 56
+Date: 2019/05/31
+Time: 10:03:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 185
+Olej Napedowy: 138
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 150
+Olej Napedowy: 166
+LPG: 160
+
+
+
+Id: 55
+Date: 2019/05/31
+Time: 10:03:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 185
+Olej Napedowy: 138
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 150
+Olej Napedowy: 166
+LPG: 160
+
+
+
+Id: 54
+Date: 2019/05/31
+Time: 10:03:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 111
+Benzyna E98: 185
+Olej Napedowy: 138
+LPG: 91
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 150
+Olej Napedowy: 166
+LPG: 160
+
+
+
+Id: 53
+Date: 2019/05/31
+Time: 10:03:39
+_______________________________
+TEMPERATURE
+Benzyna E95: 133
+Benzyna E98: 100
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 97
+Benzyna E98: 130
+Olej Napedowy: 140
+LPG: 196
+
+
+
+Id: 52
+Date: 2019/05/31
+Time: 10:03:38
+_______________________________
+TEMPERATURE
+Benzyna E95: 133
+Benzyna E98: 100
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 97
+Benzyna E98: 130
+Olej Napedowy: 140
+LPG: 196
+
+
+
+Id: 51
+Date: 2019/05/31
+Time: 10:03:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 133
+Benzyna E98: 100
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 97
+Benzyna E98: 130
+Olej Napedowy: 140
+LPG: 196
+
+
+
+Id: 50
+Date: 2019/05/31
+Time: 10:03:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 133
+Benzyna E98: 100
+Olej Napedowy: 108
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 97
+Benzyna E98: 130
+Olej Napedowy: 140
+LPG: 196
+
+
+
+Id: 49
+Date: 2019/05/31
+Time: 10:03:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 133
+Benzyna E98: 100
+Olej Napedowy: 98
+LPG: 153
+_______________________________
+PRESSURE
+Benzyna E95: 97
+Benzyna E98: 130
+Olej Napedowy: 140
+LPG: 196
+
+
+
+Id: 48
+Date: 2019/05/31
+Time: 10:03:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 156
+Olej Napedowy: 200
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 115
+Benzyna E98: 133
+Olej Napedowy: 208
+LPG: 174
+
+
+
+Id: 47
+Date: 2019/05/31
+Time: 10:03:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 156
+Olej Napedowy: 200
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 115
+Benzyna E98: 133
+Olej Napedowy: 208
+LPG: 174
+
+
+
+Id: 46
+Date: 2019/05/31
+Time: 10:03:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 156
+Olej Napedowy: 200
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 115
+Benzyna E98: 133
+Olej Napedowy: 208
+LPG: 174
+
+
+
+Id: 45
+Date: 2019/05/31
+Time: 10:03:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 105
+Benzyna E98: 156
+Olej Napedowy: 200
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 115
+Benzyna E98: 133
+Olej Napedowy: 208
+LPG: 174
+
+
+
+Id: 44
+Date: 2019/05/31
+Time: 10:03:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 95
+Benzyna E98: 156
+Olej Napedowy: 200
+LPG: 187
+_______________________________
+PRESSURE
+Benzyna E95: 115
+Benzyna E98: 133
+Olej Napedowy: 208
+LPG: 174
+
+
+
+Id: 43
+Date: 2019/05/31
+Time: 10:03:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 156
+Olej Napedowy: 109
+LPG: 106
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 155
+Olej Napedowy: 116
+LPG: 179
+
+
+
+Id: 42
+Date: 2019/05/31
+Time: 10:03:27
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 156
+Olej Napedowy: 109
+LPG: 106
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 155
+Olej Napedowy: 116
+LPG: 179
+
+
+
+Id: 41
+Date: 2019/05/31
+Time: 10:03:26
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 156
+Olej Napedowy: 109
+LPG: 106
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 155
+Olej Napedowy: 116
+LPG: 179
+
+
+
+Id: 40
+Date: 2019/05/31
+Time: 10:03:25
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 156
+Olej Napedowy: 109
+LPG: 106
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 155
+Olej Napedowy: 116
+LPG: 179
+
+
+
+Id: 39
+Date: 2019/05/31
+Time: 10:03:24
+_______________________________
+TEMPERATURE
+Benzyna E95: 181
+Benzyna E98: 156
+Olej Napedowy: 99
+LPG: 96
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 155
+Olej Napedowy: 116
+LPG: 179
+
+
+
+Id: 38
+Date: 2019/05/31
+Time: 10:03:23
+_______________________________
+TEMPERATURE
+Benzyna E95: 153
+Benzyna E98: 144
+Olej Napedowy: 109
+LPG: 135
+_______________________________
+PRESSURE
+Benzyna E95: 193
+Benzyna E98: 102
+Olej Napedowy: 180
+LPG: 154
+
+
+
+Id: 37
+Date: 2019/05/31
+Time: 10:03:22
+_______________________________
+TEMPERATURE
+Benzyna E95: 153
+Benzyna E98: 144
+Olej Napedowy: 109
+LPG: 135
+_______________________________
+PRESSURE
+Benzyna E95: 193
+Benzyna E98: 102
+Olej Napedowy: 180
+LPG: 154
+
+
+
+Id: 36
+Date: 2019/05/31
+Time: 10:03:21
+_______________________________
+TEMPERATURE
+Benzyna E95: 153
+Benzyna E98: 144
+Olej Napedowy: 109
+LPG: 135
+_______________________________
+PRESSURE
+Benzyna E95: 193
+Benzyna E98: 102
+Olej Napedowy: 180
+LPG: 154
+
+
+
+Id: 35
+Date: 2019/05/31
+Time: 10:03:20
+_______________________________
+TEMPERATURE
+Benzyna E95: 153
+Benzyna E98: 144
+Olej Napedowy: 109
+LPG: 135
+_______________________________
+PRESSURE
+Benzyna E95: 193
+Benzyna E98: 102
+Olej Napedowy: 180
+LPG: 154
+
+
+
+Id: 34
+Date: 2019/05/31
+Time: 10:03:19
+_______________________________
+TEMPERATURE
+Benzyna E95: 153
+Benzyna E98: 144
+Olej Napedowy: 99
+LPG: 135
+_______________________________
+PRESSURE
+Benzyna E95: 193
+Benzyna E98: 102
+Olej Napedowy: 180
+LPG: 154
+
+
+
+Id: 33
+Date: 2019/05/31
+Time: 10:03:18
+_______________________________
+TEMPERATURE
+Benzyna E95: 196
+Benzyna E98: 103
+Olej Napedowy: 195
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 159
+Benzyna E98: 197
+Olej Napedowy: 99
+LPG: 121
+
+
+
+Id: 32
+Date: 2019/05/31
+Time: 10:03:17
+_______________________________
+TEMPERATURE
+Benzyna E95: 196
+Benzyna E98: 103
+Olej Napedowy: 195
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 159
+Benzyna E98: 197
+Olej Napedowy: 99
+LPG: 121
+
+
+
+Id: 31
+Date: 2019/05/31
+Time: 10:03:16
+_______________________________
+TEMPERATURE
+Benzyna E95: 196
+Benzyna E98: 103
+Olej Napedowy: 195
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 159
+Benzyna E98: 197
+Olej Napedowy: 99
+LPG: 121
+
+
+
+Id: 30
+Date: 2019/05/31
+Time: 10:03:15
+_______________________________
+TEMPERATURE
+Benzyna E95: 196
+Benzyna E98: 103
+Olej Napedowy: 195
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 159
+Benzyna E98: 197
+Olej Napedowy: 99
+LPG: 121
+
+
+
+Id: 29
+Date: 2019/05/31
+Time: 10:03:14
+_______________________________
+TEMPERATURE
+Benzyna E95: 206
+Benzyna E98: 93
+Olej Napedowy: 195
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 159
+Benzyna E98: 197
+Olej Napedowy: 99
+LPG: 121
+
+
+
+Id: 28
+Date: 2019/05/31
+Time: 10:03:13
+_______________________________
+TEMPERATURE
+Benzyna E95: 104
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 27
+Date: 2019/05/31
+Time: 10:03:12
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 26
+Date: 2019/05/31
+Time: 10:03:11
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+
+Id: 25
+Date: 2019/05/31
+Time: 10:02:52
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 131
+Olej Napedowy: 196
+LPG: 108
+_______________________________
+PRESSURE
+Benzyna E95: 129
+Benzyna E98: 113
+Olej Napedowy: 152
+LPG: 209
+
+
+
+Id: 24
+Date: 2019/05/31
+Time: 10:02:51
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 131
+Olej Napedowy: 206
+LPG: 108
+_______________________________
+PRESSURE
+Benzyna E95: 129
+Benzyna E98: 113
+Olej Napedowy: 152
+LPG: 209
+
+
+
+Id: 23
+Date: 2019/05/31
+Time: 10:02:50
+_______________________________
+TEMPERATURE
+Benzyna E95: 117
+Benzyna E98: 131
+Olej Napedowy: 206
+LPG: 108
+_______________________________
+PRESSURE
+Benzyna E95: 129
+Benzyna E98: 113
+Olej Napedowy: 152
+LPG: 209
+
+
+
+Id: 22
+Date: 2019/05/31
+Time: 10:02:49
+_______________________________
+TEMPERATURE
+Benzyna E95: 127
+Benzyna E98: 127
+Olej Napedowy: 172
+LPG: 107
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 182
+Olej Napedowy: 144
+LPG: 109
+
+
+
+Id: 21
+Date: 2019/05/31
+Time: 10:02:48
+_______________________________
+TEMPERATURE
+Benzyna E95: 127
+Benzyna E98: 127
+Olej Napedowy: 172
+LPG: 107
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 182
+Olej Napedowy: 144
+LPG: 109
+
+
+
+Id: 20
+Date: 2019/05/31
+Time: 10:02:47
+_______________________________
+TEMPERATURE
+Benzyna E95: 127
+Benzyna E98: 127
+Olej Napedowy: 172
+LPG: 97
+_______________________________
+PRESSURE
+Benzyna E95: 168
+Benzyna E98: 182
+Olej Napedowy: 144
+LPG: 109
+
+
+
+Id: 19
+Date: 2019/05/31
+Time: 10:02:46
+_______________________________
+TEMPERATURE
+Benzyna E95: 102
+Benzyna E98: 123
+Olej Napedowy: 110
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 104
+Benzyna E98: 127
+Olej Napedowy: 117
+LPG: 184
+
+
+
+Id: 18
+Date: 2019/05/31
+Time: 10:02:45
+_______________________________
+TEMPERATURE
+Benzyna E95: 102
+Benzyna E98: 123
+Olej Napedowy: 110
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 104
+Benzyna E98: 127
+Olej Napedowy: 117
+LPG: 184
+
+
+
+Id: 17
+Date: 2019/05/31
+Time: 10:02:44
+_______________________________
+TEMPERATURE
+Benzyna E95: 102
+Benzyna E98: 123
+Olej Napedowy: 110
+LPG: 155
+_______________________________
+PRESSURE
+Benzyna E95: 104
+Benzyna E98: 127
+Olej Napedowy: 117
+LPG: 184
+
+
+
+Id: 16
+Date: 2019/05/31
+Time: 10:02:43
+_______________________________
+TEMPERATURE
+Benzyna E95: 101
+Benzyna E98: 160
+Olej Napedowy: 197
+LPG: 169
+_______________________________
+PRESSURE
+Benzyna E95: 116
+Benzyna E98: 166
+Olej Napedowy: 116
+LPG: 120
+
+
+
+Id: 15
+Date: 2019/05/31
+Time: 10:02:42
+_______________________________
+TEMPERATURE
+Benzyna E95: 101
+Benzyna E98: 160
+Olej Napedowy: 197
+LPG: 169
+_______________________________
+PRESSURE
+Benzyna E95: 116
+Benzyna E98: 166
+Olej Napedowy: 116
+LPG: 120
+
+
+
+Id: 14
+Date: 2019/05/31
+Time: 10:02:41
+_______________________________
+TEMPERATURE
+Benzyna E95: 101
+Benzyna E98: 160
+Olej Napedowy: 207
+LPG: 169
+_______________________________
+PRESSURE
+Benzyna E95: 116
+Benzyna E98: 166
+Olej Napedowy: 116
+LPG: 120
+
+
+
+Id: 13
+Date: 2019/05/31
+Time: 10:02:40
+_______________________________
+TEMPERATURE
+Benzyna E95: 186
+Benzyna E98: 123
+Olej Napedowy: 198
+LPG: 146
+_______________________________
+PRESSURE
+Benzyna E95: 109
+Benzyna E98: 159
+Olej Napedowy: 201
+LPG: 200
+
+
+
+Id: 12
+Date: 2019/05/31
+Time: 10:02:39
+_______________________________
+TEMPERATURE
+Benzyna E95: 186
+Benzyna E98: 123
+Olej Napedowy: 198
+LPG: 146
+_______________________________
+PRESSURE
+Benzyna E95: 109
+Benzyna E98: 159
+Olej Napedowy: 201
+LPG: 200
+
+
+
+Id: 11
+Date: 2019/05/31
+Time: 10:02:38
+_______________________________
+TEMPERATURE
+Benzyna E95: 186
+Benzyna E98: 123
+Olej Napedowy: 198
+LPG: 146
+_______________________________
+PRESSURE
+Benzyna E95: 109
+Benzyna E98: 159
+Olej Napedowy: 201
+LPG: 200
+
+
+
+Id: 10
+Date: 2019/05/31
+Time: 10:02:37
+_______________________________
+TEMPERATURE
+Benzyna E95: 150
+Benzyna E98: 159
+Olej Napedowy: 160
+LPG: 191
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 178
+Olej Napedowy: 150
+LPG: 155
+
+
+
+Id: 9
+Date: 2019/05/31
+Time: 10:02:36
+_______________________________
+TEMPERATURE
+Benzyna E95: 150
+Benzyna E98: 159
+Olej Napedowy: 160
+LPG: 191
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 178
+Olej Napedowy: 150
+LPG: 155
+
+
+
+Id: 8
+Date: 2019/05/31
+Time: 10:02:35
+_______________________________
+TEMPERATURE
+Benzyna E95: 150
+Benzyna E98: 159
+Olej Napedowy: 160
+LPG: 191
+_______________________________
+PRESSURE
+Benzyna E95: 131
+Benzyna E98: 178
+Olej Napedowy: 150
+LPG: 155
+
+
+
+Id: 7
+Date: 2019/05/31
+Time: 10:02:34
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 153
+Olej Napedowy: 104
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 113
+Benzyna E98: 121
+Olej Napedowy: 204
+LPG: 137
+
+
+
+Id: 6
+Date: 2019/05/31
+Time: 10:02:33
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 153
+Olej Napedowy: 104
+LPG: 101
+_______________________________
+PRESSURE
+Benzyna E95: 113
+Benzyna E98: 121
+Olej Napedowy: 204
+LPG: 137
+
+
+
+Id: 5
+Date: 2019/05/31
+Time: 10:02:32
+_______________________________
+TEMPERATURE
+Benzyna E95: 158
+Benzyna E98: 153
+Olej Napedowy: 94
+LPG: 91
+_______________________________
+PRESSURE
+Benzyna E95: 113
+Benzyna E98: 121
+Olej Napedowy: 204
+LPG: 137
+
+
+
+Id: 4
+Date: 2019/05/31
+Time: 10:02:31
+_______________________________
+TEMPERATURE
+Benzyna E95: 197
+Benzyna E98: 178
+Olej Napedowy: 197
+LPG: 182
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 118
+Olej Napedowy: 170
+LPG: 171
+
+
+
+Id: 3
+Date: 2019/05/31
+Time: 10:02:30
+_______________________________
+TEMPERATURE
+Benzyna E95: 197
+Benzyna E98: 178
+Olej Napedowy: 197
+LPG: 182
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 118
+Olej Napedowy: 170
+LPG: 171
+
+
+
+Id: 2
+Date: 2019/05/31
+Time: 10:02:29
+_______________________________
+TEMPERATURE
+Benzyna E95: 197
+Benzyna E98: 178
+Olej Napedowy: 197
+LPG: 182
+_______________________________
+PRESSURE
+Benzyna E95: 142
+Benzyna E98: 118
+Olej Napedowy: 170
+LPG: 171
+
+
+
+Id: 1
+Date: 2019/05/31
+Time: 10:02:28
+_______________________________
+TEMPERATURE
+Benzyna E95: 94
+Benzyna E98: 140
+Olej Napedowy: 179
+LPG: 110
+_______________________________
+PRESSURE
+Benzyna E95: 150
+Benzyna E98: 140
+Olej Napedowy: 145
+LPG: 170
+
+
+

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,7 @@ namespace StacjaBenzynowa
         List<Informacje> informacjeList;
         List<Cennik> cennikList;
         List<ProgramLojalnościowy> programlojalnościowyList;
+        List<Invoices> invoiceList = new List<Invoices>();
 
         public MainWindow()
         {
@@ -76,6 +78,16 @@ namespace StacjaBenzynowa
             //pokazywanie okien użytkowników
             void EnableAdmin()
             {
+
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    invoiceList = connection.Table<Invoices>().OrderBy(i => i.Id).ToList();
+                }
+                if (invoiceList != null)
+                {
+                    invoiceListView.ItemsSource = invoiceList;
+                }
+
                 this.D_button.Visibility = Visibility.Visible;
                 this.MD_button.Visibility = Visibility.Visible;
                 this.L_button.Visibility = Visibility.Hidden;
@@ -96,6 +108,8 @@ namespace StacjaBenzynowa
                 this.Redeem3.Visibility = Visibility.Visible;
                 this.Redeem4.Visibility = Visibility.Visible;
 
+                this.MontorLogBtn.Visibility = Visibility.Visible;
+
                 this.tankuj_button.Visibility = Visibility.Visible;
                 this.myj_button.Visibility = Visibility.Visible;
 
@@ -110,8 +124,18 @@ namespace StacjaBenzynowa
 
 
             }
+
             void EnableCustomer()
             {
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    invoiceList = connection.Table<Invoices>().Where(i => i.email == _loggedInAccount.Email).OrderBy(i => i.Id).ToList();
+                }
+                if (invoiceList != null)
+                {
+                    invoiceListView.ItemsSource = invoiceList;
+                }
+
                 this.L_button.Visibility = Visibility.Hidden;
                 this.LO_button.Visibility = Visibility.Visible;
 
@@ -128,6 +152,16 @@ namespace StacjaBenzynowa
             }
             void EnableStaff()
             {
+
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    invoiceList = connection.Table<Invoices>().OrderBy(i => i.Id).ToList();
+                }
+                if (invoiceList != null)
+                {
+                    invoiceListView.ItemsSource = invoiceList;
+                }
+
                 this.MD_button.Visibility = Visibility.Visible;
                 this.L_button.Visibility = Visibility.Hidden;
                 this.LO_button.Visibility = Visibility.Visible;
@@ -754,6 +788,48 @@ namespace StacjaBenzynowa
                     }
                 }
             }
+        }
+
+        private void OpenMonitorLog(object sender, RoutedEventArgs e)
+        {
+            MonitorLog_Window mlw = new MonitorLog_Window(_loggedInAccount);
+            this.Close();
+            mlw.ShowDialog();
+        }
+
+        private void InvoiceListView_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Invoices selectedInvoice = (Invoices)invoiceListView.SelectedItem;
+
+            string dt = DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss") + ".txt";
+
+            StreamWriter File = new StreamWriter(@"..\..\Invoices\Faktura " + selectedInvoice.email.ToString() + " " + dt, true);
+
+            File.WriteLine("Klinet: " + selectedInvoice.email.ToString());
+            if (selectedInvoice.CouponUsed != null)
+            {
+                File.WriteLine("Kupon: " + selectedInvoice.CouponUsed);
+            }
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Firma: " + selectedInvoice.Nazwa_firmy);
+            File.WriteLine("Imie: " + selectedInvoice.Imie);
+            File.WriteLine("Nazwisko: " + selectedInvoice.Nazwisko);
+            File.WriteLine("Ulica: " + selectedInvoice.Ulica);
+            File.WriteLine("Numer: " + selectedInvoice.Numer);
+            File.WriteLine("Miasto: " + selectedInvoice.Miasto);
+            File.WriteLine("Kod Pocztowy: " + selectedInvoice.Kod_pocztowy);
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Benzyna E95: " + selectedInvoice.BenzynaE95);
+            File.WriteLine("Benzyna E98: " + selectedInvoice.BenzynaE98);
+            File.WriteLine("Olej Napedowy: " + selectedInvoice.OlejNapowy);
+            File.WriteLine("LPG: " + selectedInvoice.LPG);
+            File.WriteLine("");
+            File.WriteLine("Kwota calkowita: " + selectedInvoice.TotalPrice);
+
+            File.Close();
+            MessageBox.Show("Invoice file created.");
         }
     }
     //okno rejestracji i logowania

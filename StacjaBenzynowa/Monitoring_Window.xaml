@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Title="Monitoring" Height="250" Width="700" ResizeMode="CanMinimize">
-    <Grid Background="Black" Margin="0,0,-6,-3" >
+        Title="Monitoring" Height="314.622" Width="700" ResizeMode="CanMinimize">
+    <Grid Background="Black" Margin="0,0,-6,-1" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
@@ -36,9 +36,9 @@
         <Label x:Name="Wlasciciel_Copy5" Content="l" HorizontalAlignment="Left" 
             Margin="385,47,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <Button x:Name="raport_button" Content="Wydrukuj raport" HorizontalAlignment="Left" Margin="515,192,0,0" VerticalAlignment="Top" Width="169" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" RenderTransformOrigin="-0.089,0.421"/>
+        <Button x:Name="raport_button" Click="CreateReport" Content="Wydrukuj raport" HorizontalAlignment="Left" Margin="521,239,0,0" VerticalAlignment="Top" Width="169" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" RenderTransformOrigin="-0.089,0.421"/>
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
-            Margin="40,192,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
+            Margin="10,236,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click" RenderTransformOrigin="6.982,0.597"/>
         <Label x:Name="Wlasciciel_Copy6" Content="l" HorizontalAlignment="Left" 
             Margin="385,141,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
@@ -85,7 +85,16 @@
         <Label x:Name="Wlasciciel_Copy16" Content="Pa" HorizontalAlignment="Left" 
             Margin="650,77,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <Label Foreground="White" FontFamily="Copperplate Gothic Light"  Content="51" x:Name="TimerLabel" HorizontalAlignment="Left" Margin="320,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.483,0.132"/>
+        <Button Content="Fix Temp" HorizontalAlignment="Left" Margin="435,23,0,0" VerticalAlignment="Top" Width="70" Click="FixTemperature"/>
+        <Button Content="Fix Pressure" HorizontalAlignment="Left" Margin="575,23,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.088,0.487" Click="FixPressure"/>
+        <ComboBox x:Name="YearList" SelectionChanged="YearList_SelectionChanged"  ItemsSource="{Binding years}" HorizontalAlignment="Left" Margin="396,236,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="MonthList" SelectionChanged="MonthList_SelectionChanged" ItemsSource="{Binding Months}"  HorizontalAlignment="Left" Margin="396,204,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.551,0.238"/>
+        <Label x:Name="Wlasciciel_Copy18" Content="Month:" HorizontalAlignment="Left" 
+            Margin="325,201,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Foreground="White" Width="66" Background="{x:Null}" FontStyle="Italic"/>
+        <Label x:Name="Wlasciciel_Copy17" Content="Year:" HorizontalAlignment="Left" 
+            Margin="342,233,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Foreground="White" Width="49" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.454,1.782"/>
         <!--
         <WebBrowser Source="https://imageserver.webcamera.pl/rec/krakow-wentzl/latest.mp4" HorizontalAlignment="Left" Height="174" Margin="10,261,0,0" VerticalAlignment="Top" Width="209" RenderTransformOrigin="0.518,1.39"/>
       

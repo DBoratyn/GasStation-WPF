@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Monitor3_Window" Height="450" Width="800">
     <Grid Loaded="Grid_Loaded">
-        <WebBrowser Source="https://imageserver.webcamera.pl/rec/krakow3/latest.mp4" HorizontalAlignment="Left" Height="100" Margin="283,175,0,0" VerticalAlignment="Top" Width="100"/>
+        <WebBrowser Source="https://imageserver.webcamera.pl/rec/krakow1/latest.mp4" HorizontalAlignment="Left" Height="100" Margin="283,175,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

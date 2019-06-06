@@ -11,44 +11,40 @@
         <Label x:Name="Wlasciciel" Content="Wybierz paliwo i podaj ilość" HorizontalAlignment="Left" 
             Margin="30,10,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" 
             Foreground="White" Width="275" Background="{x:Null}" FontStyle="Italic"/>
-        <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="50,43,0,0" VerticalAlignment="Top" FontSize="16" Height="21" Width="25"/>
         <Label x:Name="Wlasciciel_Copy" Content="Benzyna E95" HorizontalAlignment="Left" 
-            Margin="80,38,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="55,38,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
-        <RadioButton x:Name="radioButton_Copy" Content="RadioButton" HorizontalAlignment="Left" Margin="50,124,0,0" VerticalAlignment="Top" FontSize="16" Height="21" Width="25"/>
-        <RadioButton x:Name="radioButton_Copy1" Content="RadioButton" HorizontalAlignment="Left" Margin="50,96,0,0" VerticalAlignment="Top" FontSize="16" Height="21" Width="25" RenderTransformOrigin="0.4,2.238"/>
-        <RadioButton x:Name="radioButton_Copy2" Content="RadioButton" HorizontalAlignment="Left" Margin="50,69,0,0" VerticalAlignment="Top" FontSize="16" Height="21" Width="25"/>
         <Label x:Name="Wlasciciel_Copy1" Content="LPG" HorizontalAlignment="Left" 
-            Margin="80,120,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="55,120,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy2" Content="Olej napędowy" HorizontalAlignment="Left" 
-            Margin="80,92,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="55,92,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy3" Content="Benzyna E98" HorizontalAlignment="Left" 
-            Margin="80,65,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="55,65,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="210,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="210,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="210,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="210,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox TextChanged="Be95textBox_TextChanged" x:Name="be95textBox" HorizontalAlignment="Left" Height="23" Margin="185,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox TextChanged="Be98textBox_TextChanged" x:Name="be98textBox" HorizontalAlignment="Left" Height="23" Margin="185,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox TextChanged="OntextBox_TextChanged" x:Name="ontextBox" HorizontalAlignment="Left" Height="23" Margin="185,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+        <TextBox TextChanged="LpgtextBox_TextChanged" x:Name="lpgtextBox" HorizontalAlignment="Left" Height="23" Margin="185,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
         <Label x:Name="Wlasciciel_Copy4" Content="l" HorizontalAlignment="Left" 
-            Margin="265,39,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="240,39,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="20" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy5" Content="l" HorizontalAlignment="Left" 
-            Margin="265,118,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="240,118,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="20" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy6" Content="l" HorizontalAlignment="Left" 
-            Margin="265,90,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="240,90,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="20" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy7" Content="l" HorizontalAlignment="Left" 
-            Margin="265,65,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Margin="240,65,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="White" Width="20" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.5,0.24"/>
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
             Margin="10,170,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
         <Button x:Name="order_button"  Content="Zamów" HorizontalAlignment="Left" 
             Margin="255,170,0,0" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Order_button_Click"/>
 
     </Grid>
 </Window>
