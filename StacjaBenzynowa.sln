@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StacjaBenzynowa", "StacjaBenzynowa\StacjaBenzynowa.csproj", "{D3B6A4E0-B9F8-4DC7-85A4-B629C8B03B67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StacjaBenzyowa_TEST", "StacjaBenzyowa_TEST\StacjaBenzyowa_TEST.csproj", "{C3C8E8D0-1A5A-4192-BA24-B8CF390FB5AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D3B6A4E0-B9F8-4DC7-85A4-B629C8B03B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B6A4E0-B9F8-4DC7-85A4-B629C8B03B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B6A4E0-B9F8-4DC7-85A4-B629C8B03B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C8E8D0-1A5A-4192-BA24-B8CF390FB5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C8E8D0-1A5A-4192-BA24-B8CF390FB5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C8E8D0-1A5A-4192-BA24-B8CF390FB5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C8E8D0-1A5A-4192-BA24-B8CF390FB5AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
