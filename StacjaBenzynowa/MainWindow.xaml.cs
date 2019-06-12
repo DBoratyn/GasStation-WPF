@@ -103,10 +103,10 @@ namespace StacjaBenzynowa
                 this.button.Visibility = Visibility.Visible;
                 this.button_mod_cen.Visibility = Visibility.Visible;
                 
-                this.Redeem1.Visibility = Visibility.Visible;
-                this.Redeem2.Visibility = Visibility.Visible;
-                this.Redeem3.Visibility = Visibility.Visible;
-                this.Redeem4.Visibility = Visibility.Visible;
+                this.Redeem1.Visibility = Visibility.Hidden;
+                this.Redeem2.Visibility = Visibility.Hidden;
+                this.Redeem3.Visibility = Visibility.Hidden;
+                this.Redeem4.Visibility = Visibility.Hidden;
 
                 this.MontorLogBtn.Visibility = Visibility.Visible;
 
@@ -185,10 +185,10 @@ namespace StacjaBenzynowa
                 this.I_button.Visibility = Visibility.Visible;
                 this.TH_button.Visibility = Visibility.Visible;
 
-                this.Redeem1.Visibility = Visibility.Visible;
-                this.Redeem2.Visibility = Visibility.Visible;
-                this.Redeem3.Visibility = Visibility.Visible;
-                this.Redeem4.Visibility = Visibility.Visible;
+                this.Redeem1.Visibility = Visibility.Hidden;
+                this.Redeem2.Visibility = Visibility.Hidden;
+                this.Redeem3.Visibility = Visibility.Hidden;
+                this.Redeem4.Visibility = Visibility.Hidden;
 
                 this.tankuj_button.Visibility = Visibility.Visible;
                 this.myj_button.Visibility = Visibility.Visible;
@@ -817,37 +817,7 @@ namespace StacjaBenzynowa
 
         private void InvoiceListView_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            Invoices selectedInvoice = (Invoices)invoiceListView.SelectedItem;
-
-            string dt = DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss") + ".txt";
-
-            StreamWriter File = new StreamWriter(@"..\..\Invoices\Faktura " + selectedInvoice.email.ToString() + " " + dt, true);
-
-            File.WriteLine("Klinet: " + selectedInvoice.email.ToString());
-            if (selectedInvoice.CouponUsed != null)
-            {
-                File.WriteLine("Kupon: " + selectedInvoice.CouponUsed);
-            }
-
-            File.WriteLine("_______________________________");
-            File.WriteLine("Firma: " + selectedInvoice.Nazwa_firmy);
-            File.WriteLine("Imie: " + selectedInvoice.Imie);
-            File.WriteLine("Nazwisko: " + selectedInvoice.Nazwisko);
-            File.WriteLine("Ulica: " + selectedInvoice.Ulica);
-            File.WriteLine("Numer: " + selectedInvoice.Numer);
-            File.WriteLine("Miasto: " + selectedInvoice.Miasto);
-            File.WriteLine("Kod Pocztowy: " + selectedInvoice.Kod_pocztowy);
-
-            File.WriteLine("_______________________________");
-            File.WriteLine("Benzyna E95: " + selectedInvoice.BenzynaE95);
-            File.WriteLine("Benzyna E98: " + selectedInvoice.BenzynaE98);
-            File.WriteLine("Olej Napedowy: " + selectedInvoice.OlejNapowy);
-            File.WriteLine("LPG: " + selectedInvoice.LPG);
-            File.WriteLine("");
-            File.WriteLine("Kwota calkowita: " + selectedInvoice.TotalPrice);
-
-            File.Close();
-            MessageBox.Show("Invoice file created.");
+         
         }
     }
     //okno rejestracji i logowania

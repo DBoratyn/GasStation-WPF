@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,6 +56,41 @@ namespace StacjaBenzynowa
             MainWindow mainwindow = new MainWindow(_loggedInAccount);
             this.Close();
             mainwindow.Show();
+        }
+
+        private void InvoiceListView_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Invoices selectedInvoice = (Invoices)invoiceListView.SelectedItem;
+
+            string dt = DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss") + ".txt";
+
+            StreamWriter File = new StreamWriter(@"..\..\Invoices\Faktura " + selectedInvoice.email.ToString() + " " + dt, true);
+
+            File.WriteLine("Klinet: " + selectedInvoice.email.ToString());
+            if (selectedInvoice.CouponUsed != null)
+            {
+                File.WriteLine("Kupon: " + selectedInvoice.CouponUsed);
+            }
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Firma: " + selectedInvoice.Nazwa_firmy);
+            File.WriteLine("Imie: " + selectedInvoice.Imie);
+            File.WriteLine("Nazwisko: " + selectedInvoice.Nazwisko);
+            File.WriteLine("Ulica: " + selectedInvoice.Ulica);
+            File.WriteLine("Numer: " + selectedInvoice.Numer);
+            File.WriteLine("Miasto: " + selectedInvoice.Miasto);
+            File.WriteLine("Kod Pocztowy: " + selectedInvoice.Kod_pocztowy);
+
+            File.WriteLine("_______________________________");
+            File.WriteLine("Benzyna E95: " + selectedInvoice.BenzynaE95);
+            File.WriteLine("Benzyna E98: " + selectedInvoice.BenzynaE98);
+            File.WriteLine("Olej Napedowy: " + selectedInvoice.OlejNapowy);
+            File.WriteLine("LPG: " + selectedInvoice.LPG);
+            File.WriteLine("");
+            File.WriteLine("Kwota calkowita: " + selectedInvoice.TotalPrice);
+
+            File.Close();
+            MessageBox.Show("Invoice file created.");
         }
     }
 }

@@ -8,7 +8,7 @@
         Title="Invoices" Height="450" Width="800" ResizeMode="CanMinimize">
     <Grid Background="Black">
 
-        <ListView Visibility="Visible" x:Name="invoiceListView" 
+        <ListView Visibility="Visible" x:Name="invoiceListView"  MouseLeftButtonUp="InvoiceListView_MouseLeftButtonUp"
                   Margin="10,10,10,51"  Background="{x:Null}"
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White">
             <ListView.ItemTemplate>

@@ -200,3 +200,4 @@ C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\Monitor
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\MonitorLog_Window.baml
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\SelfModify.g.cs
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\SelfModify.baml
+C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csprojAssemblyReference.cache
