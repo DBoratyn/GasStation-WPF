@@ -133,7 +133,7 @@ namespace StacjaBenzynowa
         {
             increment++;
             
-            if (increment % 5 == 0)
+            if (increment % 60 == 0)
             {
 
                 e95_temp.Text = rnd.Next(MinValue, MaxValue).ToString();

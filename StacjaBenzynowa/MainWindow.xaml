@@ -230,6 +230,14 @@
             <Label x:Name="label13_Copy19" Content="pkt" HorizontalAlignment="Left" Margin="670,73,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
             <Label x:Name="label13_Copy20" Content="pkt" HorizontalAlignment="Left" Margin="670,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
             <ComboBox x:Name="CouponList" Visibility="Hidden" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="266"  ItemsSource="{Binding coupons}" DisplayMemberPath="Name" Grid.Row="1"/>
+            <TextBox x:Name="BenzynaOnTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="LPGTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="StandardTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="WoskiemTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="BenzynaOnUpdate" Click="BenzynaOnUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,200,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="StandardUpdate" Click="StandardUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,252,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="WoskenUpdate" Click="WoskenUpdate_Click"  Content="Update" HorizontalAlignment="Left" Margin="544,278,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="LPGUpdate" Click="LPGUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,225,0,0" VerticalAlignment="Top" Width="75"/>
             <!-- <ComboBox x:Name="CouponList2" DisplayMemberPath="Name"  HorizontalAlignment="Left" Margin="35,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="266"/>-->
 
         </Grid>
