@@ -100,6 +100,7 @@
     <Compile Include="Employess_Window.xaml.cs">
       <DependentUpon>Employess_Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Bookings.cs" />
     <Compile Include="Models\Cennik.cs" />
     <Compile Include="Models\Coupon.cs" />
     <Compile Include="Models\Data.cs" />
@@ -147,6 +148,9 @@
     </Compile>
     <Compile Include="My_Data_Window.xaml.cs">
       <DependentUpon>My_Data_Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelfModify.xaml.cs">
+      <DependentUpon>SelfModify.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tankowanie_Window.xaml.cs">
       <DependentUpon>Tankowanie_Window.xaml</DependentUpon>
@@ -240,6 +244,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="My_Data_Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelfModify.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

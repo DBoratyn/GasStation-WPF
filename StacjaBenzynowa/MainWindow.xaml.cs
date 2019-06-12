@@ -148,7 +148,7 @@ namespace StacjaBenzynowa
                 this.Redeem3.Visibility = Visibility.Visible;
                 this.Redeem4.Visibility = Visibility.Visible;
 
-
+                this.CouponList.Visibility = Visibility.Visible;
             }
             void EnableStaff()
             {
@@ -160,7 +160,20 @@ namespace StacjaBenzynowa
                 if (invoiceList != null)
                 {
                     invoiceListView.ItemsSource = invoiceList;
+                }/*
+
+                List<Coupon> coupons2 = new List<Coupon>();
+                using (SQLiteConnection conn = new SQLiteConnection(App.databasePath))
+                {
+                    coupons2 = conn.Table<Coupon>().Where(c => c.Owner == _loggedInAccount.Email).ToList();
                 }
+                if (coupons2 != null)
+                {
+                   CouponList2.ItemsSource = coupons2;
+                }*/
+
+                
+
 
                 this.MD_button.Visibility = Visibility.Visible;
                 this.L_button.Visibility = Visibility.Hidden;
@@ -518,10 +531,15 @@ namespace StacjaBenzynowa
                     coupons = connection.Table<Coupon>().Where( n => n.Owner == _loggedInAccount.Email).ToList();
                 }
 
+
+
                 if (coupons != null && _loggedInAccount.Role == "CUSTOMER")
                 {
                     this.CouponList.ItemsSource = coupons;
-                    CouponList.SelectedItem = coupons[0];
+                    if (coupons.Count > 0)
+                    {
+                        CouponList.SelectedItem = coupons[0];
+                    }
                 }
             }
         }

@@ -1,0 +1,61 @@
+﻿<Window x:Class="StacjaBenzynowa.SelfModify"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StacjaBenzynowa"
+        mc:Ignorable="d"
+        Title="SelfModify" Height="386.503" Width="678.528">
+    <Grid Background="Black" Margin="0,0,-8,1">
+        <!-- labele opisujące -->
+        <!-- przycisk modyfikacji danych -->
+        <Button x:Name="mod_button" Content="Modyfikuj dane" HorizontalAlignment="Left" Margin="472,323,0,0" 
+                VerticalAlignment="Top" Width="177" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Visibility="Visible" Click="Mod_button_Click" RenderTransformOrigin="0.538,1.803"/>
+        <!-- przycisk powrotu -->
+        <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="45,323,0,0" 
+            VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+            FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Click="Back_button_Click"/>
+        <Label x:Name="label" Content="Firma:" HorizontalAlignment="Left" Margin="19,6,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="102"/>
+        <Label x:Name="label1" Content="Imię:" HorizontalAlignment="Left" Margin="78,37,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+        <Label x:Name="label2" Content="Nazwisko:" HorizontalAlignment="Left" Margin="19,68,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="101"/>
+        <Label x:Name="label3" Content="PESEL:" HorizontalAlignment="Left" Margin="40,99,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="-0.368,-0.192" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="80"/>
+        <Label x:Name="label4" Content="REGON:" HorizontalAlignment="Left" Margin="40,130,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="81"/>
+        <Label x:Name="label6" Content="Ulica:" HorizontalAlignment="Left" Margin="58,180,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+        <Label x:Name="label7" Content="Kod pocztowy:" HorizontalAlignment="Left" Margin="370,211,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+        <Label x:Name="label8" Content="Numer:" HorizontalAlignment="Left" Margin="415,180,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="79"/>
+        <Label x:Name="label9" Content="Miasto:" HorizontalAlignment="Left" Margin="48,211,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+        <Label x:Name="label10" Content="NIP:" HorizontalAlignment="Left" Margin="486,130,0,0" VerticalAlignment="Top" 
+            Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="59"/>
+        <TextBox x:Name="Company_name" HorizontalAlignment="Left" Height="26" Margin="125,6,0,0" VerticalAlignment="Top" 
+            Width="494" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="26" Margin="125,37,0,0"  VerticalAlignment="Top" Width="494" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White" FontSize="14"/>
+        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="26" Margin="125,68,0,0" VerticalAlignment="Top" Width="494" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+        <TextBox x:Name="PESEL" HorizontalAlignment="Left" Height="26" Margin="125,99,0,0" VerticalAlignment="Top" Width="494" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+        <TextBox x:Name="REGON" HorizontalAlignment="Left" Height="26" Margin="125,130,0,0" VerticalAlignment="Top" Width="209" 
+            Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+        <TextBox x:Name="Street" HorizontalAlignment="Left" Height="26" Margin="114,180,0,0" VerticalAlignment="Top" Width="252" 
+            Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+        <TextBox x:Name="NIP" HorizontalAlignment="Left" Height="26" Margin="550,130,0,0" VerticalAlignment="Top" Width="69" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+        <TextBox x:Name="ZIP_code" HorizontalAlignment="Left" Height="26" Margin="499,211,0,0" VerticalAlignment="Top" Width="69" 
+            Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+        <TextBox x:Name="City" HorizontalAlignment="Left" Height="26" Margin="114,211,0,0" VerticalAlignment="Top" Width="251" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+        <TextBox x:Name="Number" HorizontalAlignment="Left" Height="26" Margin="499,180,0,0" VerticalAlignment="Top" Width="69" 
+            Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+
+    </Grid>
+</Window>

@@ -61,7 +61,7 @@
         <!-- Zapisz zmiany przycisk -->
         <Button x:Name="button" Content="Zapisz zmiany" Margin="236,626,10,0" VerticalAlignment="Top" 
                 Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility='Visible' 
-                FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"/>
+                FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
         <!-- Wróć przycisk -->
         <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,626,0,0" VerticalAlignment="Top" 
             Width="54" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility='Visible' 

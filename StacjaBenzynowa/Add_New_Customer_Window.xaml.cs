@@ -33,15 +33,6 @@ namespace StacjaBenzynowa
             _loggedInAccount = account;
         }
 
-        public void A1_button_Click_TEST(Konto newCustomer)
-        {
-            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
-            {
-                conn.CreateTable<Konto>();
-                conn.Insert(newCustomer);
-            }
-        }
-
         private void A1_button_Click (object sender, RoutedEventArgs e)
         {
             Konto newCustomer = new Konto()

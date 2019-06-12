@@ -87,9 +87,56 @@ namespace StacjaBenzynowa
             };
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
             {
-                conn.CreateTable<Konto>();
+                conn.CreateTable<Deliveries>();
                 conn.Insert(newOrder);
             }
+
+            Data be95, be98, on, lpg;
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                be95 = conn.Table<Data>().Where(f => f.FuelName == "be95").FirstOrDefault();
+                be98 = conn.Table<Data>().Where(f => f.FuelName == "be98").FirstOrDefault();
+                on = conn.Table<Data>().Where(f => f.FuelName == "ON").FirstOrDefault();
+                lpg = conn.Table<Data>().Where(f => f.FuelName == "LPG").FirstOrDefault();
+            }
+
+            be95.Litres = be95.Litres + int.Parse(be95textBox.Text);
+            be98.Litres = be98.Litres + int.Parse(be98textBox.Text);
+            on.Litres = on.Litres + int.Parse(ontextBox.Text);
+            lpg.Litres = lpg.Litres + int.Parse(lpgtextBox.Text);
+
+
+            string command = $"update  Data set litres= {be95.Litres} where fuelname='be95'";
+            string command1 = $"update  Data set litres= {be98.Litres} where fuelname='be98'";
+            string command2 = $"update  Data set litres= {on.Litres} where fuelname='ON'";
+            string command3 = $"update  Data set litres= {lpg.Litres} where fuelname='LPG'";
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command1;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command2;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command3;
+                cm.ExecuteNonQuery();
+            }
+
             MessageBox.Show("Delivery Created");
 
             lpgtextBox.Text = "0";

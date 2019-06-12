@@ -52,11 +52,15 @@ namespace StacjaBenzynowa
 
         private void CustomerListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Konto selectedAccount = (Konto)customerListView.SelectedItem;
+            if(_loggedInAccount.Role == "ADMIN")
+            {
+                Konto selectedAccount = (Konto)customerListView.SelectedItem;
 
-            Modify_Window modify_window = new Modify_Window(_loggedInAccount, selectedAccount, "CUSTOMER");
-            this.Close();
-            modify_window.ShowDialog();
+                Modify_Window modify_window = new Modify_Window(_loggedInAccount, selectedAccount, "CUSTOMER");
+                this.Close();
+                modify_window.ShowDialog();
+
+            }
         }
 
         private void Back_button_Click(object sender, RoutedEventArgs e)

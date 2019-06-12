@@ -58,9 +58,9 @@ namespace StacjaBenzynowa
         //otwiera okno do modyfikacji danych
         private void Mod_button_Click(object sender, RoutedEventArgs e)
         {
-            // Modify_Window modify_window = new Modify_Window(_loggedInAccount); 
+            SelfModify sm = new SelfModify(_loggedInAccount); 
             this.Close();
-           // modify_window.ShowDialog();
+            sm.ShowDialog();
         }
         //przycisk powrotu do strony głównej
         private void Back_button_Click(object sender, RoutedEventArgs e)

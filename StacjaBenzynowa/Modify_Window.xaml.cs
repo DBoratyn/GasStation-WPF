@@ -37,6 +37,7 @@ namespace StacjaBenzynowa
             _loggedInAccount = account;
             InitializeComponent();
         }
+
         public Modify_Window(Konto account, Konto accountToUpdate, string origin)
         {
             AccountToUpdate = accountToUpdate;
@@ -64,6 +65,8 @@ namespace StacjaBenzynowa
         private void UpdateData(object sender, RoutedEventArgs e)
         {
             updatedAccount = new Konto();
+            updatedAccount.Haslo = this.AccountToUpdate.Haslo;
+            updatedAccount.Id = this.AccountToUpdate.Id;
             updatedAccount.Role = Role.Text;
             updatedAccount.Nazwa_firmy = Company_name.Text;
             updatedAccount.Imie = Name.Text;
@@ -75,13 +78,12 @@ namespace StacjaBenzynowa
             updatedAccount.Numer = Number.Text;
             updatedAccount.Miasto = City.Text;
             updatedAccount.Email = E_mail.Text;
-            updatedAccount.Login = _loggedInAccount.Login;
-            updatedAccount.Haslo = _loggedInAccount.Haslo;
+            updatedAccount.Login = this.AccountToUpdate.Login;
 
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
             {
                 conn.CreateTable<Konto>();
-                conn.InsertOrReplace(updatedAccount);
+                conn.Update(updatedAccount);
             }
 
             Employess_Window emplWindow = new Employess_Window(_loggedInAccount);
@@ -124,7 +126,7 @@ namespace StacjaBenzynowa
                     cm.CommandText = command;
                     cm.ExecuteNonQuery();
                 }
-            }            
+            }     
 
             if (_origin == "CUSTOMER")
             {

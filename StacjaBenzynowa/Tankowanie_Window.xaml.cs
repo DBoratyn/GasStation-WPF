@@ -184,6 +184,52 @@ namespace StacjaBenzynowa
                 conn.Insert(newInvoice);
             }
 
+            Data ube95, ube98, uon, ulpg;
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                ube95 = conn.Table<Data>().Where(f => f.FuelName == "be95").FirstOrDefault();
+                ube98 = conn.Table<Data>().Where(f => f.FuelName == "be98").FirstOrDefault();
+                uon = conn.Table<Data>().Where(f => f.FuelName == "ON").FirstOrDefault();
+                ulpg = conn.Table<Data>().Where(f => f.FuelName == "LPG").FirstOrDefault();
+            }
+
+            ube95.Litres = ube95.Litres - int.Parse(Be95txtBox.Text);
+            ube98.Litres = ube98.Litres - int.Parse(Be98txtBox.Text);
+            uon.Litres = uon.Litres - int.Parse(OlejtxtBox.Text);
+            ulpg.Litres = ulpg.Litres - int.Parse(LPGTxtBox.Text);
+
+
+            string command5 = $"update  Data set litres= {ube95.Litres} where fuelname='be95'";
+            string command6 = $"update  Data set litres= {ube98.Litres} where fuelname='be98'";
+            string command7 = $"update  Data set litres= {uon.Litres} where fuelname='ON'";
+            string command8 = $"update  Data set litres= {ulpg.Litres} where fuelname='LPG'";
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command5;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command6;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command7;
+                cm.ExecuteNonQuery();
+            }
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                SQLiteCommand cm = new SQLiteCommand(conn);
+                cm.CommandText = command8;
+                cm.ExecuteNonQuery();
+            }
+
             this.FirmaTxtBox.Text = "";
             this.ImieTxtBox.Text = "";
             this.NazwiskoTxtBox.Text = "";

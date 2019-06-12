@@ -26,7 +26,7 @@
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
         <!--Dodawanie obrazka logo-->
-        
+
         <!--Przycisk rejestracji i logowania-->
         <Button AutomationProperties.AutomationId="loginBtn" AutomationProperties.Name="loginBtn" x:Name="L_button" PreviewMouseDown="login_button" Content="Zaloguj" 
                 Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" 
@@ -230,6 +230,8 @@
             <Label x:Name="label13_Copy19" Content="pkt" HorizontalAlignment="Left" Margin="670,73,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
             <Label x:Name="label13_Copy20" Content="pkt" HorizontalAlignment="Left" Margin="670,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
             <ComboBox x:Name="CouponList" Visibility="Hidden" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="266"  ItemsSource="{Binding coupons}" DisplayMemberPath="Name" Grid.Row="1"/>
+            <!-- <ComboBox x:Name="CouponList2" DisplayMemberPath="Name"  HorizontalAlignment="Left" Margin="35,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="266"/>-->
+
         </Grid>
         <Grid x:Name="Historia_transakcji_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
               Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden">
@@ -260,5 +262,6 @@
         <Button x:Name="tankuj_button" Visibility="Hidden" Click="tankuj_button_click" Content="Tankowanie" Grid.Column="1" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="myj_button" Visibility="Hidden" Click="myj_button_click" Content="Mycie" Grid.Column="3" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="MontorLogBtn" Visibility="Hidden"  Content="Monitor Log" Grid.Column="2" HorizontalAlignment="Left" Margin="37,36,0,0" VerticalAlignment="Top" Width="75" Grid.RowSpan="2" Click="OpenMonitorLog"/>
+        
     </Grid>
 </Window>

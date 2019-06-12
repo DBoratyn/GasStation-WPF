@@ -171,10 +171,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e95_temp.Text))
             {
                 e95_temp.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Temperature is too cold.");
             }
             else if (200 < int.Parse(e95_temp.Text))
             {
                 e95_temp.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Temperature is too hot.");
             }
             else
             {
@@ -184,10 +186,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e98_temp.Text))
             {
                 e95_temp.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Temperature is too cold.");
             }
             else if (200 < int.Parse(e98_temp.Text))
             {
                 e98_temp.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Temperature is too hot.");
             }
             else
             {
@@ -197,10 +201,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(on_temp.Text))
             {
                 on_temp.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Temperature is too cold.");
             }
             else if (200 < int.Parse(on_temp.Text))
             {
                 on_temp.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Temperature is too hot.");
             }
             else
             {
@@ -210,10 +216,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(lpg_temp.Text))
             {
                 lpg_temp.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Temperature is too cold.");
             }
             else if (200 < int.Parse(lpg_temp.Text))
             {
                 lpg_temp.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Temperature is too hot.");
             }
             else
             {
@@ -223,10 +231,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e95_p.Text))
             {
                 e95_p.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Pressure is too low.");
             }
             else if (200 < int.Parse(e95_p.Text))
             {
                 e95_p.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Pressure is too high.");
             }
             else
             {
@@ -236,10 +246,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e98_p.Text))
             {
                 e98_p.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Pressure is too low.");
             }
             else if (200 < int.Parse(e98_p.Text))
             {
                 e98_p.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Pressure is too high.");
             }
             else
             {
@@ -249,10 +261,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(on_p.Text))
             {
                 on_p.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Pressure is too low.");
             }
             else if (200 < int.Parse(e95_temp.Text))
             {
                 on_p.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Pressure is too high.");
             }
             else
             {
@@ -262,10 +276,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(lpg_p.Text))
             {
                 lpg_p.Foreground = new SolidColorBrush(Colors.Blue);
+                MessageBox.Show("Pressure is too low.");
             }
             else if (200 < int.Parse(lpg_p.Text))
             {
                 lpg_p.Foreground = new SolidColorBrush(Colors.Red);
+                MessageBox.Show("Pressure is too high.");
             }
             else
             {
