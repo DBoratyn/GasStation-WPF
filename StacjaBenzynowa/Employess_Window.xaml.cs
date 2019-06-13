@@ -31,6 +31,10 @@ namespace StacjaBenzynowa
         {
             _loggedInAccount = account;
             InitializeComponent();
+            if (_loggedInAccount.Role != "ADMIN")
+            {
+                this.ANE_button.Visibility = Visibility.Hidden;
+            }
         }
         private void displayEmployess(object sender, RoutedEventArgs e)
         {
@@ -52,10 +56,14 @@ namespace StacjaBenzynowa
 
         private void EmployeListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Konto selectedAccount = (Konto)employeListView.SelectedItem;
-            Modify_Window modify_window = new Modify_Window(_loggedInAccount, selectedAccount, "EMPLOYEE");
-            this.Close();
-            modify_window.ShowDialog();
+            if (_loggedInAccount.Role == "ADMIN")
+            {
+                Konto selectedAccount = (Konto)employeListView.SelectedItem;
+                Modify_Window modify_window = new Modify_Window(_loggedInAccount, selectedAccount, "EMPLOYEE");
+                this.Close();
+                modify_window.ShowDialog();
+            }
+            
         }
 
         private void Back_button_Click(object sender, RoutedEventArgs e)

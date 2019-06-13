@@ -53,6 +53,7 @@ namespace StacjaBenzynowa
         public MainWindow(Konto account)
         {
             InitializeComponent();
+            WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             informacjeList = new List<Informacje>();
             readInformacjeDatabase();
             _loggedInAccount = account;
@@ -214,6 +215,15 @@ namespace StacjaBenzynowa
             }
             void EnableSecurity()
             {
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    invoiceList = connection.Table<Invoices>().OrderBy(i => i.Id).ToList();
+                }
+                if (invoiceList != null)
+                {
+                    invoiceListView.ItemsSource = invoiceList;
+                }
+
                 this.MD_button.Visibility = Visibility.Visible;
                 this.L_button.Visibility = Visibility.Hidden;
                 this.LO_button.Visibility = Visibility.Visible;
@@ -848,56 +858,74 @@ namespace StacjaBenzynowa
 
         private void BenzynaOnUpdate_Click(object sender, RoutedEventArgs e)
         {
-            string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.BenzynaOnTxtBox.Text} ";
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            if (string.IsNullOrEmpty(this.BenzynaOnTxtBox.Text) == false)
             {
-                SQLiteCommand cm = new SQLiteCommand(connection);
-                cm.CommandText = command;
-                cm.ExecuteNonQuery();
-                updateLoyaltyPoints();
-                MessageBox.Show("Updated.");
+                string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.BenzynaOnTxtBox.Text} ";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    SQLiteCommand cm = new SQLiteCommand(connection);
+                    cm.CommandText = command;
+                    cm.ExecuteNonQuery();
+                    updateLoyaltyPoints();
+                    MessageBox.Show("Zaktualizowano.");
+                }
             }
+            
         }
 
         private void StandardUpdate_Click(object sender, RoutedEventArgs e)
         {
-            string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.StandardTxtBox.Text} ";
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            if (string.IsNullOrEmpty(this.StandardTxtBox.Text) == false)
             {
-                SQLiteCommand cm = new SQLiteCommand(connection);
-                cm.CommandText = command;
-                cm.ExecuteNonQuery();
-                updateLoyaltyPoints();
-                MessageBox.Show("Updated.");
+                string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.StandardTxtBox.Text} ";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    SQLiteCommand cm = new SQLiteCommand(connection);
+                    cm.CommandText = command;
+                    cm.ExecuteNonQuery();
+                    updateLoyaltyPoints();
+                    MessageBox.Show("Zaktualizowano.");
+                }
             }
+                
 
         }
 
         private void WoskenUpdate_Click(object sender, RoutedEventArgs e)
         {
-            string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.WoskiemTxtBox.Text} ";
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            if (string.IsNullOrEmpty(this.WoskiemTxtBox.Text) == false)
             {
-                SQLiteCommand cm = new SQLiteCommand(connection);
-                cm.CommandText = command;
-                cm.ExecuteNonQuery();
-                updateLoyaltyPoints();
-                MessageBox.Show("Updated.");
+                string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.WoskiemTxtBox.Text} ";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    SQLiteCommand cm = new SQLiteCommand(connection);
+                    cm.CommandText = command;
+                    cm.ExecuteNonQuery();
+                    updateLoyaltyPoints();
+                    MessageBox.Show("Zaktualizowano.");
+                }
+
             }
+
 
         }
 
         private void LPGUpdate_Click(object sender, RoutedEventArgs e)
         {
-            string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.LPGTxtBox.Text} ";
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            if (string.IsNullOrEmpty(this.LPGTxtBox.Text) == false)
             {
-                SQLiteCommand cm = new SQLiteCommand(connection);
-                cm.CommandText = command;
-                cm.ExecuteNonQuery();
-                updateLoyaltyPoints();
-                MessageBox.Show("Updated.");
+                string command = $"update ProgramLojalnościowy set benzyna_on_nagrody = {this.LPGTxtBox.Text} ";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    SQLiteCommand cm = new SQLiteCommand(connection);
+                    cm.CommandText = command;
+                    cm.ExecuteNonQuery();
+                    updateLoyaltyPoints();
+                    MessageBox.Show("Zaktualizowano.");
+                }
             }
+
+                
 
         }
     }

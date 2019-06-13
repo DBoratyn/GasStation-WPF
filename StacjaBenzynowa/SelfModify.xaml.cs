@@ -66,7 +66,7 @@ namespace StacjaBenzynowa
                 conn.CreateTable<Konto>();
                 conn.InsertOrReplace(newInfo);
             }
-            MessageBox.Show("Account updated.");
+            MessageBox.Show("Konto zaktualizowane.");
             MainWindow mw = new MainWindow(_loggedInAccount);
             mw.Show();
             this.Close();

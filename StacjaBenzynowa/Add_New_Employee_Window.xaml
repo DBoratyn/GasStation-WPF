@@ -92,9 +92,9 @@
         <TextBox x:Name="NIP" HorizontalAlignment="Left" Height="26" Margin="510,140,0,0" VerticalAlignment="Top" 
                  Width="110" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
         <TextBox x:Name="ZIP_code" HorizontalAlignment="Left" Height="26" Margin="532,225,0,0" VerticalAlignment="Top" 
-                 Width="88" Background="{x:Null}" Foreground="White" BorderBrush="Black" FontFamily="Copperplate Gothic Light"/>
+                 Width="88" Background="{x:Null}" Foreground="Black" BorderBrush="Black" FontFamily="Copperplate Gothic Light"/>
         <TextBox x:Name="City" HorizontalAlignment="Left" Height="26" Margin="166,225,0,0" VerticalAlignment="Top" 
-                 Width="230" Background="{x:Null}" BorderBrush="Black" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+                 Width="230" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
         <TextBox x:Name="Number" HorizontalAlignment="Left" Height="26" Margin="532,194,0,0" VerticalAlignment="Top" 
                  Width="88" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
         <TextBox x:Name="E_mail" HorizontalAlignment="Left" Height="26" Margin="126,256,0,0" VerticalAlignment="Top" 

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Moje dane" Height="360" Width="650" ResizeMode="CanMinimize">
-    <Grid Background="White">
+        Title="Moje dane" Height="386" Width="650" ResizeMode="CanMinimize">
+    <Grid Background="White" Height="361" VerticalAlignment="Top" Margin="0,0,0,-4">
         <!-- labele opisujące -->
         <Label x:Name="Nazwa_firmy" Content="Firma:" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" 
                Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="100"/>
@@ -56,7 +56,7 @@
                Width="467" Background="{x:Null}" BorderBrush="White" Foreground="Black" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14"/>
         <!-- przycisk modyfikacji danych -->
         <Button x:Name="mod_button" Content="Modyfikuj dane" HorizontalAlignment="Left" Margin="457,295,0,0" 
-                VerticalAlignment="Top" Width="177" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                VerticalAlignment="Top" Width="177" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Visibility="Hidden" Click="Mod_button_Click"/>
         <!-- przycisk powrotu -->
         <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,295,0,0" 

@@ -1,0 +1,16 @@
+Klinet: łukaszbabiarz@gmail.com
+_______________________________
+Firma: 
+Imie: Łukasz
+Nazwisko: Babiarz
+Ulica: Skarżyńskiego
+Numer: 10
+Miasto: Kraków
+Kod Pocztowy:  32-062
+_______________________________
+Benzyna E95: 100
+Benzyna E98: 10
+Olej Napedowy: 10
+LPG: 10
+
+Kwota calkowita: 635,9

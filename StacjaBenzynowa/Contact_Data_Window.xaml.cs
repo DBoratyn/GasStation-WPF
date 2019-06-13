@@ -76,7 +76,7 @@ namespace StacjaBenzynowa
                 conn.InsertOrReplace(newInfo);
             }
 
-            MessageBox.Show("Updated.");
+            MessageBox.Show("Zaktualizowano.");
             MainWindow mainWindow = new MainWindow(_loggedInAccount);
             this.Close();
             mainWindow.Show();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -172,12 +173,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e95_temp.Text))
             {
                 e95_temp.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Temperatura jest za niska.");
+               TooColdNotification();
             }
             else if (200 < int.Parse(e95_temp.Text))
             {
-                e95_temp.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Temperatura jest za wysoka.");
+                e95_temp.Foreground = new SolidColorBrush(Colors.Red);                    
+                TooHotNotification();
             }
             else
             {
@@ -187,12 +188,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e98_temp.Text))
             {
                 e95_temp.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Temperatura jest za niska.");
+                TooColdNotification();
             }
             else if (200 < int.Parse(e98_temp.Text))
             {
                 e98_temp.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Temperatura jest za wysoka.");
+                TooHotNotification();
             }
             else
             {
@@ -202,12 +203,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(on_temp.Text))
             {
                 on_temp.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Temperatura jest za niska.");
+                TooColdNotification();
             }
             else if (200 < int.Parse(on_temp.Text))
             {
                 on_temp.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Temperatura jest za wysoka.");
+                TooHotNotification();
             }
             else
             {
@@ -217,12 +218,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(lpg_temp.Text))
             {
                 lpg_temp.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Temperatura jest za niska.");
+                TooColdNotification();
             }
             else if (200 < int.Parse(lpg_temp.Text))
             {
                 lpg_temp.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Temperatura jest za wysoka.");
+                TooHotNotification();
             }
             else
             {
@@ -232,12 +233,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e95_p.Text))
             {
                 e95_p.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Ciśnienie jest za niskie.");
+                PressureLowNotification();
             }
             else if (200 < int.Parse(e95_p.Text))
             {
                 e95_p.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Ciśnienie jest za wysokie.");
+                PressureHighNotification();               
             }
             else
             {
@@ -247,12 +248,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(e98_p.Text))
             {
                 e98_p.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Ciśnienie jest za niskie.");
+                PressureLowNotification();
             }
             else if (200 < int.Parse(e98_p.Text))
             {
                 e98_p.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Ciśnienie jest za wysokie.");
+                PressureHighNotification();
             }
             else
             {
@@ -262,12 +263,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(on_p.Text))
             {
                 on_p.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Ciśnienie jest za niskie.");
+                PressureLowNotification();
             }
             else if (200 < int.Parse(e95_temp.Text))
             {
                 on_p.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Ciśnienie jest za wysokie.");
+                PressureHighNotification();
             }
             else
             {
@@ -277,12 +278,12 @@ namespace StacjaBenzynowa
             if (100 > int.Parse(lpg_p.Text))
             {
                 lpg_p.Foreground = new SolidColorBrush(Colors.Blue);
-                MessageBox.Show("Ciśnienie jest za niskie.");
+                PressureLowNotification();
             }
             else if (200 < int.Parse(lpg_p.Text))
             {
                 lpg_p.Foreground = new SolidColorBrush(Colors.Red);
-                MessageBox.Show("Ciśnienie jest za wysokie.");
+                PressureHighNotification();
             }
             else
             {
@@ -467,6 +468,46 @@ namespace StacjaBenzynowa
 
             File.Close();
             MessageBox.Show("Dane zbiorników zapisane.");
+        }
+
+        private void TooHotNotification()
+        {
+            var thread = new Thread(
+                () =>
+                {
+                    MessageBox.Show("Temperature is too hot.");
+                });
+            thread.Start();
+        }
+
+        private void TooColdNotification()
+        {
+            var thread = new Thread(
+                () =>
+                {
+                    MessageBox.Show("Temperature is too Col.");
+                });
+            thread.Start();
+        }
+        
+        private void PressureHighNotification()
+        {
+            var thread = new Thread(
+                () =>
+                {
+                    MessageBox.Show("Pressure is too high.");
+                });
+            thread.Start();
+        }
+
+        private void PressureLowNotification()
+        {
+            var thread = new Thread(
+                () =>
+                {
+                    MessageBox.Show("Pressure is too low.");
+                });
+            thread.Start();
         }
 
         private void MonthList_SelectionChanged(object sender, SelectionChangedEventArgs e)

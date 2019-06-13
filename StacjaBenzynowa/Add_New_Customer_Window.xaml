@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Dodaj klienta" Height="450" Width="650" Topmost="True">
-    <Grid Background="White" Margin="0,0,-2,0">
+        Title="Dodaj klienta" Height="467" Width="650" Topmost="True">
+    <Grid Background="White" Margin="0,0,-2,-1">
         <!-- przysik dodawania -->
         <Button x:Name="A1_button" PreviewMouseDown="A1_button_Click"  Content="Dodaj" HorizontalAlignment="Left" 
                 Margin="557,383,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" 

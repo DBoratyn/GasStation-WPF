@@ -1,0 +1,16 @@
+Klinet: marcelinafilo@gmail.com
+_______________________________
+Firma: 
+Imie: Marcelina
+Nazwisko: Filo
+Ulica: Skarżyńskiego
+Numer: 06
+Miasto: Kraków
+Kod Pocztowy:  32-062
+_______________________________
+Benzyna E95: 50
+Benzyna E98: 0
+Olej Napedowy: 0
+LPG: 0
+
+Kwota calkowita: 254,5

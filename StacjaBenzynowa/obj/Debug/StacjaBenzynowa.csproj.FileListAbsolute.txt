@@ -344,3 +344,4 @@ E:\Github\GasStation\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csproj.CopyComple
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.exe
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.pdb
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csprojAssemblyReference.cache
+E:\Github\GasStation\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csprojAssemblyReference.cache
