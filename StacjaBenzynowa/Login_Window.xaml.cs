@@ -54,5 +54,13 @@ namespace StacjaBenzynowa
             this.Close();
             mainWindow.Show();
         }
+
+        private void Loginbox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                zaloguj_button(sender, e);
+            }
+        }
     }
 }
