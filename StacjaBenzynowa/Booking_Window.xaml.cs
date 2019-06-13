@@ -97,13 +97,13 @@ namespace StacjaBenzynowa
                     conn.CreateTable<Bookings>();
                     conn.Insert(newBooking);
                 }
-                MessageBox.Show("Reservation complete.");
+                MessageBox.Show("Rezerwacja utworzona.");
                 displayBooking();
             }
 
             else
             {
-                MessageBox.Show("Reservation Date and Time Taken.");
+                MessageBox.Show("Ta data jest już zajęta.");
             }
                 
         }

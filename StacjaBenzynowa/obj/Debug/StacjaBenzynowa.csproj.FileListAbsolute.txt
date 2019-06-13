@@ -288,7 +288,6 @@ E:\Github\GasStation\StacjaBenzynowa\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.d
 E:\Github\GasStation\StacjaBenzynowa\bin\Debug\EntityFramework.xml
 E:\Github\GasStation\StacjaBenzynowa\bin\Debug\EntityFramework.SqlServer.xml
 E:\Github\GasStation\StacjaBenzynowa\bin\Debug\SQLite-net.xml
-E:\Github\GasStation\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csprojAssemblyReference.cache
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Add_New_Customer_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Add_New_Employee_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Booking_Window.g.cs

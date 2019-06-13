@@ -49,9 +49,9 @@
             Margin="10,148,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="Black" Width="105" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="TotalPriceLbl" HorizontalAlignment="Left" Height="23" Margin="120,150,0,0" VerticalAlignment="Top" Width="95" Background="{x:Null}" BorderBrush="White" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
-        <Label x:Name="Wlasciciel_Copy9" Content="zł" HorizontalAlignment="Left" 
+        <Label x:Name="Wlasciciel_Copy9" Content="zl" HorizontalAlignment="Left" 
             Margin="220,148,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="Black" Width="20" Background="{x:Null}" FontStyle="Italic"/>
+            Foreground="Black" Width="25" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy10" Content="Klinet:" HorizontalAlignment="Left" 
             Margin="300,10,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="Black" Width="60" Background="{x:Null}" FontStyle="Italic"/>

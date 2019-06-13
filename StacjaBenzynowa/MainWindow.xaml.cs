@@ -88,6 +88,14 @@ namespace StacjaBenzynowa
                 {
                     invoiceListView.ItemsSource = invoiceList;
                 }
+                this.BenzynaOnTxtBox.Visibility = Visibility.Visible;
+                this.LPGTxtBox.Visibility = Visibility.Visible;
+                this.StandardTxtBox.Visibility = Visibility.Visible;
+                this.WoskiemTxtBox.Visibility = Visibility.Visible;
+                this.BenzynaOnUpdate.Visibility = Visibility.Visible;
+                this.StandardUpdate.Visibility = Visibility.Visible;
+                this.WoskenUpdate.Visibility = Visibility.Visible;
+                this.LPGUpdate.Visibility = Visibility.Visible;
 
                 this.D_button.Visibility = Visibility.Visible;
                 this.MD_button.Visibility = Visibility.Visible;
@@ -209,6 +217,10 @@ namespace StacjaBenzynowa
                 this.MD_button.Visibility = Visibility.Visible;
                 this.L_button.Visibility = Visibility.Hidden;
                 this.LO_button.Visibility = Visibility.Visible;
+
+
+                this.MontorLogBtn.Visibility = Visibility.Visible;
+
 
                 this.B_button.Visibility = Visibility.Visible;
                 this.E_button.Visibility = Visibility.Visible;

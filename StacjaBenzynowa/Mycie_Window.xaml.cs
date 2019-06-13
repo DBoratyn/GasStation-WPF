@@ -205,7 +205,7 @@ namespace StacjaBenzynowa
                 conn.InsertOrReplace(AccountToUpdate);
             }
 
-            MessageBox.Show("Invoice added.");
+            MessageBox.Show("Faktura dodana.");
             MainWindow mainwindow = new MainWindow(_loggedInAccount);
             mainwindow.Show();
             this.Close();
@@ -216,7 +216,7 @@ namespace StacjaBenzynowa
         {
             if (string.IsNullOrEmpty(selectedEmail))
             {
-                selectedEmail = ("No Email Selected");
+                selectedEmail = ("Nie wybrano email");
             }
 
             string dt = DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss") + ".txt";
@@ -245,7 +245,7 @@ namespace StacjaBenzynowa
             File.WriteLine("Kwota calkowita: " + this.TotalPriceLbl.Content);
 
             File.Close();
-            MessageBox.Show("Invoice file created.");
+            MessageBox.Show("Faktura utworzona.");
         }
 
         private void UpdateInfo_SelectionChanged(object sender, SelectionChangedEventArgs e)

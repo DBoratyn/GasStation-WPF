@@ -233,14 +233,14 @@
                     </LinearGradientBrush>
                 </ComboBox.Background>
             </ComboBox>
-            <TextBox x:Name="BenzynaOnTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
-            <TextBox x:Name="LPGTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
-            <TextBox x:Name="StandardTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
-            <TextBox x:Name="WoskiemTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
-            <Button x:Name="BenzynaOnUpdate" Click="BenzynaOnUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,200,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
-            <Button x:Name="StandardUpdate" Click="StandardUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,252,0,0" VerticalAlignment="Top" Width="86" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
-            <Button x:Name="WoskenUpdate" Click="WoskenUpdate_Click"  Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,278,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
-            <Button x:Name="LPGUpdate" Click="LPGUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,225,0,0" VerticalAlignment="Top" Width="86" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <TextBox Visibility="Hidden" x:Name="BenzynaOnTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox Visibility="Hidden" x:Name="LPGTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox Visibility="Hidden" x:Name="StandardTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox Visibility="Hidden" x:Name="WoskiemTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <Button Visibility="Hidden" x:Name="BenzynaOnUpdate" Click="BenzynaOnUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,200,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button Visibility="Hidden" x:Name="StandardUpdate" Click="StandardUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,252,0,0" VerticalAlignment="Top" Width="86" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button Visibility="Hidden" x:Name="WoskenUpdate" Click="WoskenUpdate_Click"  Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,278,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button Visibility="Hidden" x:Name="LPGUpdate" Click="LPGUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,225,0,0" VerticalAlignment="Top" Width="86" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Background="{x:Null}"/>
             <!-- <ComboBox x:Name="CouponList2" DisplayMemberPath="Name"  HorizontalAlignment="Left" Margin="35,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="266"/>-->
 
         </Grid>

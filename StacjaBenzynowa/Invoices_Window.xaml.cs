@@ -90,7 +90,7 @@ namespace StacjaBenzynowa
             File.WriteLine("Kwota calkowita: " + selectedInvoice.TotalPrice);
 
             File.Close();
-            MessageBox.Show("Invoice file created.");
+            MessageBox.Show("Faktura utworzona.");
         }
     }
 }

@@ -137,7 +137,7 @@ namespace StacjaBenzynowa
                 cm.ExecuteNonQuery();
             }
 
-            MessageBox.Show("Delivery Created");
+            MessageBox.Show("Zamówiono");
 
             lpgtextBox.Text = "0";
             ontextBox.Text = "0";

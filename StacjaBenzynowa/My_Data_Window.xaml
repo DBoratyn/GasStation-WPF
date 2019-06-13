@@ -10,8 +10,8 @@
         <!-- labele opisujące -->
         <Label x:Name="Nazwa_firmy" Content="Firma:" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" 
                Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="100"/>
-        <Label x:Name="Imie" Content="Imię:" HorizontalAlignment="Left" Margin="69,37,0,269" 
-               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Background="{x:Null}"/>
+        <Label x:Name="Imie" Content="Imię:" HorizontalAlignment="Left" Margin="60,37,0,268" 
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Background="{x:Null}" Width="51"/>
         <Label x:Name="Nazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" 
                Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="101"/>
         <Label x:Name="Pesel" Content="PESEL:" HorizontalAlignment="Left" Margin="30,99,0,0" VerticalAlignment="Top" 

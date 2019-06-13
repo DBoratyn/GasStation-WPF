@@ -37,9 +37,9 @@
         <Label x:Name="Wlasciciel_Copy8" Content="Do zaplaty:" HorizontalAlignment="Left" 
             Margin="10,3.976,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
             Foreground="Black" Width="105" Background="{x:Null}" FontStyle="Italic" Grid.Row="1"/>
-        <Label x:Name="Wlasciciel_Copy9" Content="zł" HorizontalAlignment="Left" 
-            Margin="220,3.976,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="Black" Width="20" Background="{x:Null}" FontStyle="Italic" Grid.Row="1"/>
+        <Label x:Name="Wlasciciel_Copy9" Content="zl" HorizontalAlignment="Left" 
+            Margin="220,4,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Foreground="Black" Width="25" Background="{x:Null}" FontStyle="Italic" Grid.Row="1"/>
         <Button x:Name="katura_button_Copy"  Content="Zapłacono" HorizontalAlignment="Left" 
             Margin="245,6.976,0,0" VerticalAlignment="Top" Width="115" Background="{x:Null}" BorderBrush="{x:Null}" 
             Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click" RenderTransformOrigin="-2.094,1.227" Grid.Row="1"/>
