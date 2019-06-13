@@ -133,7 +133,7 @@ namespace StacjaBenzynowa
         {
             increment++;
             
-            if (increment % 60 == 0)
+            if (increment == 60)
             {
 
                 e95_temp.Text = rnd.Next(MinValue, MaxValue).ToString();
@@ -145,7 +145,8 @@ namespace StacjaBenzynowa
                 e98_p.Text = rnd.Next(MinValue, MaxValue).ToString();
                 on_p.Text = rnd.Next(MinValue, MaxValue).ToString();
                 lpg_p.Text = rnd.Next(MinValue, MaxValue).ToString();
-            }
+                increment = 0;
+            
 
             MonitorLog ml = new MonitorLog()
             {
@@ -286,6 +287,7 @@ namespace StacjaBenzynowa
             else
             {
                 lpg_p.Foreground = new SolidColorBrush(Colors.White);
+            }
             }
         }
 

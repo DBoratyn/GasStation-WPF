@@ -57,6 +57,33 @@ namespace StacjaBenzynowa
             {
                 logList = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
             }
+            if (logList.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}/1{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    logList = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+            if (logList.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}.0{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    logList = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+            if (logList.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}.1{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    logList = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+
+
+
             if (logList != null)
             {
                 LogListView.ItemsSource = logList;
