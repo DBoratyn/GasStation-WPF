@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Add new employee" Height="472" Width="650">
+        Title="Dodaj pracownika" Height="472" Width="650">
     <Grid Background="Black">
         <!-- przycisk dodawania -->
         <Button x:Name="A2_button" PreviewMouseDown="A2_button_Click"  Content="Dodaj" 

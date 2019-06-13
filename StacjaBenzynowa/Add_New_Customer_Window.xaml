@@ -5,72 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Add new customer" Height="450" Width="650" Topmost="True">
-    <Grid Background="Black" Margin="0,0,-2,0">
+        Title="Dodaj klienta" Height="450" Width="650" Topmost="True">
+    <Grid Background="White" Margin="0,0,-2,0">
         <!-- przysik dodawania -->
         <Button x:Name="A1_button" PreviewMouseDown="A1_button_Click"  Content="Dodaj" HorizontalAlignment="Left" 
                 Margin="557,383,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" 
-                Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"/>
+                Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"/>
         <!-- labele opisujące -->
         <Label x:Name="label" Content="Firma:" Margin="25,16,521,378" 
-               Foreground="White" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" Background="{x:Null}" FontWeight="Bold" FontSize="14"/>
+               Foreground="Black" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" Background="{x:Null}" FontWeight="Bold" FontSize="14"/>
         <Label x:Name="label1" Content="Imię:" HorizontalAlignment="Left" Margin="79,47,0,0" VerticalAlignment="Top" 
-               Foreground="White" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14"/>
+               Foreground="Black" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14"/>
         <Label x:Name="label2" Content="Nazwisko:" HorizontalAlignment="Left" Margin="30,78,0,0" VerticalAlignment="Top" 
-               Foreground="White" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" Width="91"/>
+               Foreground="Black" HorizontalContentAlignment="Right" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" Width="91"/>
         <Label x:Name="label3" Content="PESEL:" HorizontalAlignment="Left" Margin="57,109,0,0" VerticalAlignment="Top" 
-               RenderTransformOrigin="-0.368,-0.192" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
+               RenderTransformOrigin="-0.368,-0.192" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
                FontSize="14" Width="66" HorizontalContentAlignment="Right"/>
         <Label x:Name="label4" Content="REGON:" HorizontalAlignment="Left" Margin="45,140,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="78"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="78"/>
         <Label x:Name="label5" Content="Adres:" HorizontalAlignment="Left" Margin="49,171,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
         <Label x:Name="label6" Content="Ulica:" HorizontalAlignment="Left" Margin="110,202,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
         <Label x:Name="label7" Content="Kod pocztowy:" HorizontalAlignment="Left" Margin="416,233,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="124"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="124"/>
         <Label x:Name="label8" Content="Numer:" HorizontalAlignment="Left" Margin="467,202,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="73"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="73"/>
         <Label x:Name="label9" Content="Miasto:" HorizontalAlignment="Left" Margin="100,233,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right"/>
         <Label x:Name="label10" Content="NIP:" HorizontalAlignment="Left" Margin="487,140,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="53"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="53"/>
         <Label x:Name="label11" Content="E-mail:" HorizontalAlignment="Left" Margin="60,264,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="61"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="61"/>
         <Label x:Name="label12" Content="Login:" HorizontalAlignment="Left" Margin="60,295,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="63"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="63"/>
         <Label x:Name="label13" Content="Haslo:" HorizontalAlignment="Left" Margin="60,326,0,0" VerticalAlignment="Top" 
-               Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="62"/>
+               Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="14" HorizontalContentAlignment="Right" Width="62"/>
         <!-- text boxy -->
         <TextBox x:Name="Company_name" HorizontalAlignment="Left" Height="26" Margin="126,16,0,0" VerticalAlignment="Top" 
-                 Width="494" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+                 Width="494" BorderBrush="Black" Background="{x:Null}" Foreground="Black"/>
         <TextBox x:Name="Name" HorizontalAlignment="Left" Height="26" Margin="126,47,0,0"  VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White" FontSize="14"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontSize="14"/>
         <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="26" Margin="126,78,0,0" VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="PESEL" HorizontalAlignment="Left" Height="26" Margin="126,109,0,0" VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="REGON" HorizontalAlignment="Left" Height="26" Margin="126,140,0,0" VerticalAlignment="Top" Width="209" 
-                 Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+                 Background="{x:Null}" Foreground="Black" BorderBrush="Black"/>
         <TextBox x:Name="Street" HorizontalAlignment="Left" Height="26" Margin="166,202,0,0" VerticalAlignment="Top" Width="230" 
-                 Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+                 Background="{x:Null}" Foreground="Black" BorderBrush="Black"/>
         <TextBox x:Name="NIP" HorizontalAlignment="Left" Height="26" Margin="545,140,0,0" VerticalAlignment="Top" Width="75"
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="ZIP_code" HorizontalAlignment="Left" Height="26" Margin="545,233,0,0" VerticalAlignment="Top" Width="75" 
-                 Background="{x:Null}" Foreground="White" BorderBrush="White"/>
+                 Background="{x:Null}" Foreground="Black" BorderBrush="Black"/>
         <TextBox x:Name="City" HorizontalAlignment="Left" Height="26" Margin="166,233,0,0" VerticalAlignment="Top" Width="230" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="Number" HorizontalAlignment="Left" Height="26" Margin="545,202,0,0" VerticalAlignment="Top" Width="75" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="E_mail" HorizontalAlignment="Left" Height="26" Margin="126,264,0,0" VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="Login" HorizontalAlignment="Left" Height="26" Margin="126,326,0,0" VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <TextBox x:Name="Haslo" HorizontalAlignment="Left" Height="26" Margin="126,295,0,0" VerticalAlignment="Top" Width="494" 
-                 Background="{x:Null}" BorderBrush="White" Foreground="White"/>
+                 Background="{x:Null}" BorderBrush="Black" Foreground="Black"/>
         <!-- przycisk powrotu -->
         <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" 
-                Width="75" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" 
+                Width="75" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
                 FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
         <!-- gwiazki -->
         <Label x:Name="star_label" Content="*" HorizontalAlignment="Left" Margin="57,47,0,0" VerticalAlignment="Top" 
