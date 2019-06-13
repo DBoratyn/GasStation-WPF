@@ -270,6 +270,12 @@
         <Button x:Name="tankuj_button" Visibility="Hidden" Click="tankuj_button_click" Content="Tankowanie" Grid.Column="1" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="myj_button" Visibility="Hidden" Click="myj_button_click" Content="Mycie" Grid.Column="3" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="MontorLogBtn" Visibility="Hidden"  Content="Monitor Log" Grid.Column="2" HorizontalAlignment="Left" Margin="37,36,0,0" VerticalAlignment="Top" Width="75" Grid.RowSpan="2" Click="OpenMonitorLog"/>
-        
+        <Image Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="24" Margin="10,7,0,0" VerticalAlignment="Top" Width="380" >
+            <Image.Source>
+                <BitmapImage UriSource="/Resources/logo.png" />
+            </Image.Source>
+        </Image>
+        <!--="pack://application:,,,/logo.png"-->
+
     </Grid>
 </Window>

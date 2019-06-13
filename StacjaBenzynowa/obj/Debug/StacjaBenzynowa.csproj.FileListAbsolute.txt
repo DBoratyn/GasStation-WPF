@@ -200,7 +200,6 @@ C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\Monitor
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\MonitorLog_Window.baml
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\SelfModify.g.cs
 C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\SelfModify.baml
-C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\StacjaBenzynowa.csprojAssemblyReference.cache
 C:\Users\dagma\Desktop\GasStation-WPF-master\StacjaBenzynowa\bin\Debug\x86\e_sqlite3.dll
 C:\Users\dagma\Desktop\GasStation-WPF-master\StacjaBenzynowa\bin\Debug\x64\e_sqlite3.dll
 C:\Users\dagma\Desktop\GasStation-WPF-master\StacjaBenzynowa\bin\Debug\StacjaBenzynowa.exe.config
