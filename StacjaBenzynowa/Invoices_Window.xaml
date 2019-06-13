@@ -5,27 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Invoices" Height="450" Width="800" ResizeMode="CanMinimize">
-    <Grid Background="Black">
+        Title="Faktury" Height="450" Width="800" ResizeMode="CanMinimize">
+    <Grid Background="White">
 
         <ListView Visibility="Visible" x:Name="invoiceListView"  MouseLeftButtonUp="InvoiceListView_MouseLeftButtonUp"
                   Margin="10,10,10,51"  Background="{x:Null}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="Black" Foreground="Black">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                         <TextBlock Text="{Binding email}" FontSize="20" Foreground="Red" TextWrapping="WrapWithOverflow" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=CouponUsed, StringFormat='Coupon: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=CouponUsed, StringFormat='Kupon: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="" />
                         <TextBlock Text="{Binding Path=BenzynaE95, StringFormat='Benzyna E95: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=BenzynaE98, StringFormat='Benzyna E98: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=OlejNapowy, StringFormat='OlejNapowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=OlejNapowy, StringFormat='Olej Napędowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=LPG, StringFormat='LPG: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
 
                         <TextBlock Text="{Binding Path=Standardowe, StringFormat='Standardowe: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=Zwoskiem, StringFormat='Z woskiem: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="" />
-                        <TextBlock Text="{Binding Path=TotalPrice, StringFormat='Total Price: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=TotalPrice, StringFormat='Cena: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
@@ -33,7 +33,7 @@
 
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
             Margin="10,389,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
+            Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
 
     </Grid>
 </Window>

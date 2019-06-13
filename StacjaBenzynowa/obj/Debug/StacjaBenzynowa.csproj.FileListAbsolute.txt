@@ -299,7 +299,6 @@ E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Employess_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Invoices_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Login_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\MainWindow.g.cs
-E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_loyalty_window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_prices.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_Window.g.cs
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Monitor1_WIndow.g.cs
@@ -326,7 +325,6 @@ E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Employess_Window.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Invoices_Window.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Login_Window.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\MainWindow.baml
-E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_loyalty_window.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_prices.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Modify_Window.baml
 E:\Github\GasStation\StacjaBenzynowa\obj\Debug\Monitor1_WIndow.baml

@@ -395,13 +395,6 @@ namespace StacjaBenzynowa
             this.Close();
             modify_prices.ShowDialog();
         }
-        //otwiera okno do modyfikacji programu loajlnościowego
-        private void Mod_loyalty(object sender, RoutedEventArgs e)
-        {
-            Modify_loyalty_window modify_loyalty_window = new Modify_loyalty_window(_loggedInAccount);
-            this.Close();
-            modify_loyalty_window.ShowDialog();
-        }
         //okno wyświetlania danych kontaktowych
         private void information_small_box(object sender, RoutedEventArgs e)
         {
@@ -945,9 +938,6 @@ namespace StacjaBenzynowa
     {    }
     //okno modyfikacji cen
     public partial class Modify_prices : Window
-    {    }
-    //okno modyfikacji programu lojalnościowego
-    public partial class Modify_loyalty_window : Window
     {    }
     //okno tankowania
     public partial class Tankowanie_Window : Window

@@ -119,9 +119,6 @@
     <Compile Include="Models\Konto.cs" />
     <Compile Include="Models\MonitorLog.cs" />
     <Compile Include="Models\ProgramLojalnościowy.cs" />
-    <Compile Include="Modify_loyalty_window.xaml.cs">
-      <DependentUpon>Modify_loyalty_window.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Modify_prices.xaml.cs">
       <DependentUpon>Modify_prices.xaml</DependentUpon>
     </Compile>
@@ -206,10 +203,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Modify_loyalty_window.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Modify_prices.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

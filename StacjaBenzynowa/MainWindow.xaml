@@ -8,7 +8,7 @@
         Title="System obsługi i monitoringu stacji paliw z myjnią &quot;PB&quot;" Width="1208" Height="731" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
     <Grid Width="1197" ClipToBounds="True" Loaded="showPrices">
         <Grid.Background>
-            <SolidColorBrush Color="Black"/>
+            <SolidColorBrush Color="White"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -25,243 +25,246 @@
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
-        <!--Dodawanie obrazka logo-->
 
         <!--Przycisk rejestracji i logowania-->
         <Button AutomationProperties.AutomationId="loginBtn" AutomationProperties.Name="loginBtn" x:Name="L_button" PreviewMouseDown="login_button" Content="Zaloguj" 
                 Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" 
                 Width="180" Height="31" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" 
-                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility="Visible"/>
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Visibility="Visible"/>
         <!--Przycisk wylogowania-->
         <Button x:Name="LO_button" PreviewMouseDown="logout_button" Content="Wyloguj" Grid.Column="6" HorizontalAlignment="Left" 
                 Margin="10,10,0,0" VerticalAlignment="Top" Width="177" Height="31" Background="{x:Null}" 
-                BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
+                BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
                 FontSize="16" Visibility="Hidden"/>
         <!--Przycisk Moje dane-->
         <Button x:Name="MD_button" PreviewMouseDown="my_data_button" Content="Moje dane" Grid.Column="5" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" 
-                Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFFFBFB" 
+                Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Visibility="Hidden"/>
         <!--Przycisk Dostawy-->
-        <Button x:Name="D_button" Click="deliveries_button_click" Content="Dostawy" Grid.Column="4" 
+        <Button x:Name="D_button" Click="deliveries_button_click" Content="Dostawy" Grid.Column="3" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" 
-                Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Visibility="Hidden"/>
         <!--Przycisk Cennika-->
         <Button x:Name="PL_button" Click="price_list_button" Content="Cennik" Grid.Column="1" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" 
                 Width="180" RenderTransformOrigin="0.333,0.45" Height="31" Background="{x:Null}" 
-                BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" 
+                BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" 
                 FontWeight="Bold"/>
         <!--Przycisk Programu lojalnościowego-->
         <Button x:Name="LP_button" PreviewMouseDown="loyalty_program_button" Content="Program lojalnościowy" 
                 Grid.Column="1" HorizontalAlignment="Left" Margin="190,10,0,0" Grid.Row="1" 
                 VerticalAlignment="Top" Width="220" RenderTransformOrigin="0,0.15" Height="31" 
-                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Grid.ColumnSpan="3"/>
         <!--Przycisk Rezerwacji-->
         <Button x:Name="B_button" Click="booking_button_click" Content="Rezerwacje" Grid.Column="3" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" 
-                Width="180" Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Width="180" Height="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Visibility="Hidden"/>
         <!--Przycisk Historii transakcji-->
         <Button x:Name="TH_button" PreviewMouseDown="transaction_history_button" 
                 Content="Historia transakcji" Grid.Column="3" HorizontalAlignment="Left" Margin="195,10,0,0" 
-                Grid.Row="1" VerticalAlignment="Top" Width="195" Height="31" Foreground="White" 
+                Grid.Row="1" VerticalAlignment="Top" Width="195" Height="31" Foreground="Black" 
                 BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold" 
                 FontWeight="Bold" FontSize="16" IsCancel="True" Visibility="Hidden" Grid.ColumnSpan="2"/>
         <!--Przycisk Pracowników-->
         <Button x:Name="E_button" PreviewMouseDown="employess_button" Content="Pracownicy" Grid.Column="1" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" 
-                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Visibility="Hidden"/>
         <!--Przycisk Klientów-->
         <Button x:Name="C_button" PreviewMouseDown="customers_button" Content="Klienci" Grid.Column="2" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" 
-                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Visibility="Hidden"/>
         <!--Przycisk Faktur-->
         <Button x:Name="I_button" Click="invoices_button_click" Content="Faktury" Grid.Column="3" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" 
-                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" IsCancel="True" 
                 Visibility="Hidden"/>
         <!--Przycisk Monitoringu-->
         <Button AutomationProperties.AutomationId="MonitoringBtn" x:Name="M_button" Click="monitoring_button_click" Content="Monitoring" Grid.Column="4" 
                 HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" 
-                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" 
+                Width="180" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" 
                 FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Visibility="Hidden"/>
         <!-- label opisowe -->
         <Grid Grid.Column="5" HorizontalAlignment="Left" Height="641" Margin="10,0,0,0" Grid.Row="1" Grid.RowSpan="3" 
-              VerticalAlignment="Top" Width="377" Grid.ColumnSpan="2" Background="#FF39393C">
+              VerticalAlignment="Top" Width="377" Grid.ColumnSpan="2" Background="#FFE8E8EC">
             <Label x:Name="Wlasciciel" Content="Wlaściciel:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
                    Margin="10,35,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" 
-                   Foreground="White" Width="357" Background="{x:Null}" FontStyle="Italic"/>
+                   Foreground="Black" Width="357" Background="{x:Null}" FontStyle="Italic"/>
             <Label x:Name="Adres_firmy" Content="Adres firmy:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-                   Margin="10,107,0,0" VerticalAlignment="Top" Width="357" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+                   Margin="10,107,0,0" VerticalAlignment="Top" Width="357" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
                    FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic"/>
             <Label x:Name="Telefon" Content="Telefon:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
                    Margin="10,179,0,0" VerticalAlignment="Top" Width="357" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
-                   FontSize="16" Foreground="White" Background="{x:Null}" FontStyle="Italic"/>
+                   FontSize="16" Foreground="Black" Background="{x:Null}" FontStyle="Italic"/>
             <Label x:Name="FAX" Content="FAX:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,251,0,0" 
                    VerticalAlignment="Top" Width="357" Background="{x:Null}" Height="32" FontFamily="Copperplate Gothic Bold" 
-                   FontSize="16" FontWeight="Bold" Foreground="White" FontStyle="Italic"/>
+                   FontSize="16" FontWeight="Bold" Foreground="Black" FontStyle="Italic"/>
             <Label x:Name="Kasjerzy" Content="Kasjerzy:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-                   Margin="10,323,0,0" VerticalAlignment="Top" Width="357" Background="{x:Null}" Height="32" Foreground="White" 
+                   Margin="10,323,0,0" VerticalAlignment="Top" Width="357" Background="{x:Null}" Height="32" Foreground="Black" 
                    FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
             <Label x:Name="Pracownicy_myjni" Content="Pracownicy myjni:" HorizontalContentAlignment="Center" 
                    HorizontalAlignment="Left" Margin="10,395,0,0" VerticalAlignment="Top" Width="357" Background="{x:Null}" 
-                   Height="32" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"/>
+                   Height="32" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"/>
             <Label x:Name="Pracownicy_monitoringu" Content="Pracownicy monitoringu:" HorizontalContentAlignment="Center" 
                    HorizontalAlignment="Left" Margin="10,467,0,0" VerticalAlignment="Top" Width="357" Background="{x:Null}" 
-                   Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="White"/>
+                   Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="Black"/>
             <Label x:Name="Obsługa_LPG" Content="Obsluga dystrybutora LPG:" HorizontalContentAlignment="Center" 
                    HorizontalAlignment="Left" Margin="10,539,0,0" VerticalAlignment="Top" Width="357" Background="{x:Null}" 
-                   Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="White"/>
+                   Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="Black"/>
             <Label x:Name="Owner" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="10,72,0,0" 
-                   VerticalAlignment="Top" Width="357" Loaded="showOwner" Foreground="White" FontFamily="Copperplate Gothic Light" 
+                   VerticalAlignment="Top" Width="357" Loaded="showOwner" Foreground="Black" FontFamily="Copperplate Gothic Light" 
                    Background="{x:Null}" FontSize="14"/>
             <Label x:Name="Address" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="10,149,0,0" 
-                   VerticalAlignment="Top" Width="357" Foreground="White" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
+                   VerticalAlignment="Top" Width="357" Foreground="Black" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
                    FontSize="14"/>
             <Label x:Name="PhoneNumber" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="30" 
-                   Margin="10,216,0,0" VerticalAlignment="Top" Width="357" Foreground="White" Background="{x:Null}" 
+                   Margin="10,216,0,0" VerticalAlignment="Top" Width="357" Foreground="Black" Background="{x:Null}" 
                    FontFamily="Copperplate Gothic Light" FontSize="16"/>
             <Label x:Name="Fax" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="10,288,0,0" 
-                   VerticalAlignment="Top" Width="357" Foreground="White" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
+                   VerticalAlignment="Top" Width="357" Foreground="Black" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
                    FontSize="16"/>
             <Label x:Name="Cashiers" HorizontalContentAlignment="Center" Margin="10,360,10,0" VerticalAlignment="Top" Height="30" 
-                   Background="{x:Null}" FontFamily="Copperplate Gothic Light" FontSize="14" Foreground="White"/>
+                   Background="{x:Null}" FontFamily="Copperplate Gothic Light" FontSize="14" Foreground="Black"/>
             <Label x:Name="Wash_Stuff" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,432,0,0" 
-                   VerticalAlignment="Top" Width="357" Height="30" Background="{x:Null}" Foreground="White" 
+                   VerticalAlignment="Top" Width="357" Height="30" Background="{x:Null}" Foreground="Black" 
                    FontFamily="Copperplate Gothic Light" FontSize="14"/>
             <Label x:Name="Monitoring_Stuff" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,504,0,0" 
                    VerticalAlignment="Top" Width="357" Height="30" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
-                   FontSize="14" Foreground="White"/>
+                   FontSize="14" Foreground="Black"/>
             <Label x:Name="LPG_Stuff" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,576,0,0" 
-                   VerticalAlignment="Top" Width="357" Height="30" Background="{x:Null}" Foreground="White" 
+                   VerticalAlignment="Top" Width="357" Height="30" Background="{x:Null}" Foreground="Black" 
                    FontFamily="Copperplate Gothic Light" FontSize="14"/>
             <Label x:Name="label" Content="INFORMACJE O FIRMIE" HorizontalContentAlignment="Center" Margin="10,0,10,608" 
                    HorizontalAlignment="Center" FontFamily="Copperplate Gothic" FontSize="22" FontWeight="Bold"
-                   Foreground="#FFFBFBFB" Width="357"/>
+                   Foreground="Black" Width="357"/>
             <!-- Przycisk edycji -->
             <Button x:Name="button" Click="Edit_button_click" Content="Edytuj" HorizontalAlignment="Left" Margin="292,611,0,0" VerticalAlignment="Top" 
-                    Width="75" Background="{x:Null}" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Foreground="White" Visibility='Hidden'/>
+                    Width="75" Background="{x:Null}" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Foreground="Black" Visibility='Hidden'/>
         </Grid>
         <Grid x:Name="Cennik_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
-              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden">
+              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FFE8E8EC" Visibility="Hidden">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="390"/>
                 <ColumnDefinition Width="390"/>
             </Grid.ColumnDefinitions>
-            <Label x:Name="cennik_paliw_label" Content="CENNIK PALIW:" HorizontalAlignment="Center" Margin="105,10,118,0" VerticalAlignment="Top" Width="167" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Height="32"/>
-            <Label x:Name="cennik_myjni_label" Content="CENNIK MYJNI:" Margin="100,10,100,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Height="32" Grid.Column="1" Cursor="" HorizontalAlignment="Center"/>
-            <Label x:Name="label1" Content="Benzyna E95:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label2" Content="Benzyna E98:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label3" Content="Olej napędowy ON:" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label4" Content="LPG:" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label5" Content="Mycie standardowe:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="170" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="label6" Content="Mycie z woskiem:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="mycie_z_woskiem_label" HorizontalAlignment="Left" Margin="180,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="mycie_standardowe_label" HorizontalAlignment="Left" Margin="180,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="LPG_label" HorizontalAlignment="Left" Margin="195,158,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
-            <Label x:Name="Olej_napedowy_ON_label" HorizontalAlignment="Left" Margin="195,121,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
-            <Label x:Name="Benzyna_E98_label" HorizontalAlignment="Left" Margin="195,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
-            <Label x:Name="Benzyna_E95_label" HorizontalAlignment="Left" Margin="195,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
-            <Label x:Name="label12" Content="zł/l" HorizontalAlignment="Left" Margin="245,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="label11" Content="zł/l" HorizontalAlignment="Left" Margin="245,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
-            <Label x:Name="label10" Content="zł/l" HorizontalAlignment="Left" Margin="260,153,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label9" Content="zł/l" HorizontalAlignment="Left" Margin="260,116,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label8" Content="zł/l" HorizontalAlignment="Left" Margin="260,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
-            <Label x:Name="label7" Content="zł/l" HorizontalAlignment="Left" Margin="260,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="cennik_paliw_label" Content="CENNIK PALIW:" HorizontalAlignment="Center" Margin="105,10,118,0" VerticalAlignment="Top" Width="167" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Height="32"/>
+            <Label x:Name="cennik_myjni_label" Content="CENNIK MYJNI:" Margin="100,10,100,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Height="32" Grid.Column="1" Cursor="" HorizontalAlignment="Center"/>
+            <Label x:Name="label1" Content="Benzyna E95:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label2" Content="Benzyna E98:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label3" Content="Olej napędowy ON:" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label4" Content="LPG:" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label5" Content="Mycie standardowe:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="170" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="label6" Content="Mycie z woskiem:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="mycie_z_woskiem_label" HorizontalAlignment="Left" Margin="180,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="mycie_standardowe_label" HorizontalAlignment="Left" Margin="180,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="LPG_label" HorizontalAlignment="Left" Margin="195,153,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
+            <Label x:Name="Olej_napedowy_ON_label" HorizontalAlignment="Left" Margin="195,116,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
+            <Label x:Name="Benzyna_E98_label" HorizontalAlignment="Left" Margin="195,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
+            <Label x:Name="Benzyna_E95_label" HorizontalAlignment="Left" Margin="195,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Height="32"/>
+            <Label x:Name="label12" Content="zł/l" HorizontalAlignment="Left" Margin="245,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="label11" Content="zł/l" HorizontalAlignment="Left" Margin="245,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32" Grid.Column="1"/>
+            <Label x:Name="label10" Content="zł/l" HorizontalAlignment="Left" Margin="260,153,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label9" Content="zł/l" HorizontalAlignment="Left" Margin="260,116,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label8" Content="zł/l" HorizontalAlignment="Left" Margin="260,84,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
+            <Label x:Name="label7" Content="zł/l" HorizontalAlignment="Left" Margin="260,47,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" Height="32"/>
             <!-- przycisk modyfikacji -->
             <Button x:Name="button_mod_cen"  Click="Mod_price_button" Content="Modyfikuj" Grid.Column="1" HorizontalAlignment="Left" Margin="270,437,0,0" 
                     VerticalAlignment="Top" Width="110" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
-                    FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility="Hidden"/>
+                    FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Visibility="Hidden"/>
         </Grid>
         <Grid x:Name="Program_lojalnosciowy_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
-              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden" Loaded="showprog_Prices">
+              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FFE8E8EC" Visibility="Hidden" Loaded="showprog_Prices">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30*"/>
                 <RowDefinition Height="13*"/>
             </Grid.RowDefinitions>
-            <Label x:Name="label13_Copy3" Content="1. Punkty:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="410"/>
-            <Label x:Name="label13_Copy7" Content="Benzyna e95" HorizontalAlignment="Left" Margin="35,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="105" Height="23"/>
-            <Label x:Name="label13_Copy8" Content="Benzyna e98" HorizontalAlignment="Left" Margin="35,73,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="105" Height="23"/>
-            <Label x:Name="label13_Copy9" Content="Olej napędowy" HorizontalAlignment="Left" Margin="35,101,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="125" Height="23"/>
-            <Label x:Name="label13_Copy10" Content="LPG" HorizontalAlignment="Left" Margin="35,129,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="40" Height="23"/>
-            <Label x:Name="label13_Copy11" Content="Mycie standardowe" HorizontalAlignment="Left" Margin="425,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="160" Height="23"/>
-            <Label x:Name="label13_Copy12" Content="Mycie z woskiem" HorizontalAlignment="Left" Margin="425,73,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="130" Height="23"/>
-            <Label x:Name="label13_Copy13" Content="2. Nagrody:" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485"/>
+            <Label x:Name="label13_Copy3" Content="1. Punkty:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="410"/>
+            <Label x:Name="label13_Copy7" Content="Benzyna e95" HorizontalAlignment="Left" Margin="35,45,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="105" Height="23"/>
+            <Label x:Name="label13_Copy8" Content="Benzyna e98" HorizontalAlignment="Left" Margin="35,73,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="105" Height="23"/>
+            <Label x:Name="label13_Copy9" Content="Olej napędowy" HorizontalAlignment="Left" Margin="35,101,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="125" Height="23"/>
+            <Label x:Name="label13_Copy10" Content="LPG" HorizontalAlignment="Left" Margin="35,129,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="40" Height="23"/>
+            <Label x:Name="label13_Copy11" Content="Mycie standardowe" HorizontalAlignment="Left" Margin="425,45,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="160" Height="23"/>
+            <Label x:Name="label13_Copy12" Content="Mycie z woskiem" HorizontalAlignment="Left" Margin="425,73,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="130" Height="23"/>
+            <Label x:Name="label13_Copy13" Content="2. Nagrody:" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485"/>
             <Button x:Name="Redeem1" Visibility="Hidden" Content="Wymień punkty" HorizontalAlignment="Left" Margin="345,198,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.133,-0.6" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" FontFamily="Copperplate Gothic Bold" Click="Redeem1_Click"/>
             <Button x:Name="Redeem2" Visibility="Hidden" Content="Wymień punkty" HorizontalAlignment="Left" Margin="345,225,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.133,-0.6" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" FontFamily="Copperplate Gothic Bold" Click="Redeem2_Click"/>
             <Button x:Name="Redeem3" Visibility="Hidden" Content="Wymień punkty" HorizontalAlignment="Left" Margin="345,253,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.133,-0.6" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" FontFamily="Copperplate Gothic Bold" Click="Redeem3_Click"/>
-            <Label x:Name="TwojeSaldoLbl" Visibility="Visible" Content="3. Twoje saldo:" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485" Grid.RowSpan="2"/>
-            <Label x:Name="AktualnieLbl" Visibility="Visible" Content="Aktualnie posiadasz: " HorizontalAlignment="Left" Margin="35,22,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23" Grid.Row="1"/>
+            <Label x:Name="TwojeSaldoLbl" Visibility="Visible" Content="3. Twoje saldo:" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485" Grid.RowSpan="2"/>
+            <Label x:Name="AktualnieLbl" Visibility="Visible" Content="Aktualnie posiadasz: " HorizontalAlignment="Left" Margin="35,22,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23" Grid.Row="1"/>
             <Label x:Name="saldo"  Visibility="Visible" Content="" HorizontalAlignment="Left" Margin="220,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,0.192" Height="31" Width="90" Foreground="#FFFD0404" FontFamily="Copperplate Gothic Bold" FontSize="24" Background="{x:Null}" Grid.Row="1"/>
-            <Label x:Name="PunktowLbl"  Visibility="Visible" Content="punktów " HorizontalAlignment="Left" Margin="330,22,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23" Grid.Row="1"/>
-            <Label x:Name="TwojeAktualneNagrodyLbl" Visibility="Visible" Content="4. Twoje aktualne nagrody: " HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485" Grid.Row="1"/>
-            <Button x:Name="button_mod_loyaltyprogram"  Click="Mod_loyalty" Content="Modyfikuj" HorizontalAlignment="Left" Margin="660,111,0,0" 
-                    VerticalAlignment="Top" Width="110" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
-                    FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility="Hidden" Grid.Row="1"/>
-            <Label x:Name="benzyna_e95label" HorizontalAlignment="Left" Margin="180,45,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
-            <Label x:Name="mycie_z_woskiemlabel" HorizontalAlignment="Left" Margin="630,75,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
-            <Label x:Name="mycie_standardowelabel" HorizontalAlignment="Left" Margin="630,45,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
-            <Label x:Name="lpglabel" HorizontalAlignment="Left" Margin="180,131,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
-            <Label x:Name="olej_napedowylabel" HorizontalAlignment="Left" Margin="180,103,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="24" FontSize="14" FontFamily="Copperplate Gothic Light" RenderTransformOrigin="0.857,0.476"/>
-            <Label x:Name="benzyna_e98label" HorizontalAlignment="Left" Margin="180,75,0,0" VerticalAlignment="Top" Foreground="White" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
-            <Label x:Name="label13_Copy14" Content="Benzyna/ON" HorizontalAlignment="Left" Margin="35,193,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
-            <Label x:Name="label13_Copy15" Content="LPG" HorizontalAlignment="Left" Margin="35,220,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
-            <Label x:Name="label13_Copy16" Content="Mycie standardowe" HorizontalAlignment="Left" Margin="35,248,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
-            <Label x:Name="label13_Copy21" Content="Mycie z woskiem" HorizontalAlignment="Left" Margin="35,276,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
-            <Label x:Name="benzyna_on_nagrody_label" HorizontalAlignment="Left" Margin="205,193,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
-            <Label x:Name="mycie_z_woskiem_nagrody_label" HorizontalAlignment="Left" Margin="205,277,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
-            <Label x:Name="mycie_standardowe_nagrody_label" HorizontalAlignment="Left" Margin="205,249,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
-            <Label x:Name="lpg_nagrody_label" HorizontalAlignment="Left" Margin="205,221,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
-            <Label x:Name="label13_Copy26" Content="pkt/l" HorizontalAlignment="Left" Margin="290,193,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy27" Content="pkt" HorizontalAlignment="Left" Margin="290,276,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy28" Content="pkt" HorizontalAlignment="Left" Margin="290,248,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy29" Content="pkt/l" HorizontalAlignment="Left" Margin="290,221,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="PunktowLbl"  Visibility="Visible" Content="punktów " HorizontalAlignment="Left" Margin="330,22,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23" Grid.Row="1"/>
+            <Label x:Name="TwojeAktualneNagrodyLbl" Visibility="Visible" Content="4. Twoje aktualne nagrody: " HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="18" Width="485" Grid.Row="1"/>
+            <Label x:Name="benzyna_e95label" HorizontalAlignment="Left" Margin="180,42,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+            <Label x:Name="mycie_z_woskiemlabel" HorizontalAlignment="Left" Margin="630,75,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+            <Label x:Name="mycie_standardowelabel" HorizontalAlignment="Left" Margin="630,45,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+            <Label x:Name="lpglabel" HorizontalAlignment="Left" Margin="180,127,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+            <Label x:Name="olej_napedowylabel" HorizontalAlignment="Left" Margin="180,98,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="24" FontSize="14" FontFamily="Copperplate Gothic Light" RenderTransformOrigin="0.857,0.476"/>
+            <Label x:Name="benzyna_e98label" HorizontalAlignment="Left" Margin="180,70,0,0" VerticalAlignment="Top" Foreground="Black" Width="35" Height="23" FontSize="14" FontFamily="Copperplate Gothic Light"/>
+            <Label x:Name="label13_Copy14" Content="Benzyna/ON" HorizontalAlignment="Left" Margin="35,193,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
+            <Label x:Name="label13_Copy15" Content="LPG" HorizontalAlignment="Left" Margin="35,220,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
+            <Label x:Name="label13_Copy16" Content="Mycie standardowe" HorizontalAlignment="Left" Margin="35,248,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
+            <Label x:Name="label13_Copy21" Content="Mycie z woskiem" HorizontalAlignment="Left" Margin="35,276,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="165" Height="23"/>
+            <Label x:Name="benzyna_on_nagrody_label" HorizontalAlignment="Left" Margin="205,193,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
+            <Label x:Name="mycie_z_woskiem_nagrody_label" HorizontalAlignment="Left" Margin="205,277,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
+            <Label x:Name="mycie_standardowe_nagrody_label" HorizontalAlignment="Left" Margin="205,249,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
+            <Label x:Name="lpg_nagrody_label" HorizontalAlignment="Left" Margin="205,221,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="80" Height="23"/>
+            <Label x:Name="label13_Copy26" Content="pkt/l" HorizontalAlignment="Left" Margin="290,193,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy27" Content="pkt" HorizontalAlignment="Left" Margin="290,276,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy28" Content="pkt" HorizontalAlignment="Left" Margin="290,248,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy29" Content="pkt/l" HorizontalAlignment="Left" Margin="290,221,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
             <Button x:Name="Redeem4" Visibility="Hidden" Content="Wymień punkty" HorizontalAlignment="Left" Margin="345,281,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.133,-0.6" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" FontFamily="Copperplate Gothic Bold" Click="Redeem4_Click"/>
-            <Label x:Name="label13_Copy5" Content="pkt/l" HorizontalAlignment="Left" Margin="220,43,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy6" Content="pkt/l" HorizontalAlignment="Left" Margin="220,127,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy17" Content="pkt/l" HorizontalAlignment="Left" Margin="220,99,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy18" Content="pkt/l" HorizontalAlignment="Left" Margin="220,71,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy19" Content="pkt" HorizontalAlignment="Left" Margin="670,73,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <Label x:Name="label13_Copy20" Content="pkt" HorizontalAlignment="Left" Margin="670,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
-            <ComboBox x:Name="CouponList" Visibility="Hidden" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="266"  ItemsSource="{Binding coupons}" DisplayMemberPath="Name" Grid.Row="1"/>
-            <TextBox x:Name="BenzynaOnTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="LPGTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="StandardTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="WoskiemTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-            <Button x:Name="BenzynaOnUpdate" Click="BenzynaOnUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,200,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="StandardUpdate" Click="StandardUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,252,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="WoskenUpdate" Click="WoskenUpdate_Click"  Content="Update" HorizontalAlignment="Left" Margin="544,278,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="LPGUpdate" Click="LPGUpdate_Click" Content="Update" HorizontalAlignment="Left" Margin="544,225,0,0" VerticalAlignment="Top" Width="75"/>
+            <Label x:Name="label13_Copy5" Content="pkt/l" HorizontalAlignment="Left" Margin="220,43,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy6" Content="pkt/l" HorizontalAlignment="Left" Margin="220,127,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy17" Content="pkt/l" HorizontalAlignment="Left" Margin="220,99,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy18" Content="pkt/l" HorizontalAlignment="Left" Margin="220,71,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy19" Content="pkt" HorizontalAlignment="Left" Margin="670,73,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <Label x:Name="label13_Copy20" Content="pkt" HorizontalAlignment="Left" Margin="670,45,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Width="50" Height="23"/>
+            <ComboBox x:Name="CouponList" Visibility="Hidden" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="266"  ItemsSource="{Binding coupons}" DisplayMemberPath="Name" Grid.Row="1" BorderBrush="White">
+                <ComboBox.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </ComboBox.Background>
+            </ComboBox>
+            <TextBox x:Name="BenzynaOnTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox x:Name="LPGTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox x:Name="StandardTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <TextBox x:Name="WoskiemTxtBox" HorizontalAlignment="Left" Height="23" Margin="407,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="Black"/>
+            <Button x:Name="BenzynaOnUpdate" Click="BenzynaOnUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,200,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button x:Name="StandardUpdate" Click="StandardUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,252,0,0" VerticalAlignment="Top" Width="86" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button x:Name="WoskenUpdate" Click="WoskenUpdate_Click"  Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,278,0,0" VerticalAlignment="Top" Width="86" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+            <Button x:Name="LPGUpdate" Click="LPGUpdate_Click" Content="Aktualizuj" HorizontalAlignment="Left" Margin="544,225,0,0" VerticalAlignment="Top" Width="86" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Background="{x:Null}"/>
             <!-- <ComboBox x:Name="CouponList2" DisplayMemberPath="Name"  HorizontalAlignment="Left" Margin="35,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="266"/>-->
 
         </Grid>
         <Grid x:Name="Historia_transakcji_grid" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="473" Margin="10,10,0,0" 
-              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FF39393C" Visibility="Hidden">
+              Grid.Row="3" VerticalAlignment="Top" Width="780" Background="#FFE8E8EC" Visibility="Hidden">
 
             <ListView Visibility="Visible" x:Name="invoiceListView" 
                   Margin="10"  Background="{x:Null}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White" MouseLeftButtonUp="InvoiceListView_MouseLeftButtonUp">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="Black" MouseLeftButtonUp="InvoiceListView_MouseLeftButtonUp">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                             <TextBlock Text="{Binding email}" FontSize="20" Foreground="Red" TextWrapping="WrapWithOverflow" FontFamily="Copperplate Gothic Bold"/>
-                            <TextBlock Text="{Binding Path=CouponUsed, StringFormat='Coupon: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=CouponUsed, StringFormat='Kupon: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                             <TextBlock Text="" />
                             <TextBlock Text="{Binding Path=BenzynaE95, StringFormat='Benzyna E95: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                             <TextBlock Text="{Binding Path=BenzynaE98, StringFormat='Benzyna E98: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                            <TextBlock Text="{Binding Path=OlejNapowy, StringFormat='OlejNapowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=OlejNapowy, StringFormat='Olej Napędowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                             <TextBlock Text="{Binding Path=LPG, StringFormat='LPG: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
 
                             <TextBlock Text="{Binding Path=Standardowe, StringFormat='Standardowe: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                             <TextBlock Text="{Binding Path=Zwoskiem, StringFormat='Z woskiem: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                             <TextBlock Text="" />
-                            <TextBlock Text="{Binding Path=TotalPrice, StringFormat='Total Price: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                            <TextBlock Text="{Binding Path=TotalPrice, StringFormat='Cena: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -269,8 +272,8 @@
         </Grid>
         <Button x:Name="tankuj_button" Visibility="Hidden" Click="tankuj_button_click" Content="Tankowanie" Grid.Column="1" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="myj_button" Visibility="Hidden" Click="myj_button_click" Content="Mycie" Grid.Column="3" HorizontalAlignment="Left" Margin="10,488,0,0" Grid.Row="3" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Height="52" Background="Red" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="36" FontWeight="Bold"/>
-        <Button x:Name="MontorLogBtn" Visibility="Hidden"  Content="Monitor Log" Grid.Column="2" HorizontalAlignment="Left" Margin="37,36,0,0" VerticalAlignment="Top" Width="75" Grid.RowSpan="2" Click="OpenMonitorLog"/>
-        <Image Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="24" Margin="10,7,0,0" VerticalAlignment="Top" Width="380" >
+        <Button x:Name="MontorLogBtn" Visibility="Hidden"  Content="Dane zbiornikow" Grid.Column="4" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Width="180" Click="OpenMonitorLog" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="16"/>
+        <Image Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" >
             <Image.Source>
                 <BitmapImage UriSource="/Resources/logo.png" />
             </Image.Source>

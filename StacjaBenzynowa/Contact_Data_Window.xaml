@@ -5,66 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Contact_Data_Window" Height="691" Width="389" ResizeMode="CanMinimize">
-    <Grid Background="Black">
+        Title="Dane kontaktowe" Height="691" Width="389" ResizeMode="CanMinimize">
+    <Grid Background="White">
         <Label x:Name="label" Content="INFORMACJE O FIRMIE" HorizontalContentAlignment="Center" 
                Margin="10,5,10,613" FontFamily="Copperplate Gothic Bold" FontSize="22" FontWeight="Bold"
-               Foreground="#FFFBFBFB"/>
+               Foreground="Black"/>
         <Label x:Name="Wlasciciel" Content="Wlaściciel:" HorizontalContentAlignment="Center" 
             Margin="10,49,10,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" 
                FontWeight="Bold" FontSize="16" 
-               Foreground="White" Background="{x:Null}" FontStyle="Italic"/>
+               Foreground="Black" Background="{x:Null}" FontStyle="Italic"/>
         <TextBox x:Name="Owner" HorizontalContentAlignment="Center" Height="30" Margin="10,87,10,0" 
-            VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Light" 
-            Background="{x:Null}" FontSize="14" BorderBrush="White"/>
+            VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Light" 
+            Background="{x:Null}" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="Adres_firmy" Content="Adres firmy:" HorizontalContentAlignment="Center" 
-            Margin="10,122,10,0" VerticalAlignment="Top" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+            Margin="10,122,10,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic"/>
         <TextBox x:Name="Address" HorizontalContentAlignment="Center" Height="30" Margin="10,159,10,0" 
-            VerticalAlignment="Top" Foreground="White" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
-            FontSize="14" BorderBrush="White"/>
+            VerticalAlignment="Top" Foreground="Black" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
+            FontSize="14" BorderBrush="Black"/>
         <Label x:Name="Telefon" Content="Telefon:" HorizontalContentAlignment="Center" 
             Margin="10,194,10,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" 
-            FontSize="16" Foreground="White" Background="{x:Null}" FontStyle="Italic"/>
+            FontSize="16" Foreground="Black" Background="{x:Null}" FontStyle="Italic"/>
         <TextBox x:Name="PhoneNumber" HorizontalContentAlignment="Center" Height="30" 
-            Margin="10,231,10,0" VerticalAlignment="Top" Foreground="White" Background="{x:Null}" 
-            FontFamily="Copperplate Gothic Light" FontSize="16" BorderBrush="White"/>
+            Margin="10,231,10,0" VerticalAlignment="Top" Foreground="Black" Background="{x:Null}" 
+            FontFamily="Copperplate Gothic Light" FontSize="16" BorderBrush="Black"/>
         <Label x:Name="FAX" Content="FAX:" HorizontalContentAlignment="Center" Margin="10,266,10,0" 
             VerticalAlignment="Top" Background="{x:Null}" Height="32" FontFamily="Copperplate Gothic Bold" 
-            FontSize="16" FontWeight="Bold" Foreground="White" FontStyle="Italic"/>
+            FontSize="16" FontWeight="Bold" Foreground="Black" FontStyle="Italic"/>
         <TextBox x:Name="Fax" HorizontalContentAlignment="Center" Height="30" Margin="10,303,10,0" 
-            VerticalAlignment="Top" Foreground="White" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
-            FontSize="16" BorderBrush="White"/>
+            VerticalAlignment="Top" Foreground="Black" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
+            FontSize="16" BorderBrush="Black"/>
         <Label x:Name="Kasjerzy" Content="Kasjerzy:" HorizontalContentAlignment="Center" 
-            Margin="10,338,10,0" VerticalAlignment="Top" Background="{x:Null}" Height="32" Foreground="White" 
+            Margin="10,338,10,0" VerticalAlignment="Top" Background="{x:Null}" Height="32" Foreground="Black" 
             FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
         <TextBox x:Name="Cashiers" HorizontalContentAlignment="Center" Margin="10,375,10,0" VerticalAlignment="Top" Height="30" 
-            Background="{x:Null}" FontFamily="Copperplate Gothic Light" FontSize="14" Foreground="White" BorderBrush="White"/>
+            Background="{x:Null}" FontFamily="Copperplate Gothic Light" FontSize="14" Foreground="Black" BorderBrush="Black"/>
         <Label x:Name="Pracownicy_myjni" Content="Pracownicy myjni:" HorizontalContentAlignment="Center" Margin="10,410,10,0" VerticalAlignment="Top" Background="{x:Null}" 
-            Height="32" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"
+            Height="32" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold"
                FontStyle="Italic"/>
         <TextBox x:Name="Wash_Stuff" HorizontalContentAlignment="Center" Margin="10,447,10,0" 
-            VerticalAlignment="Top" Height="30" Background="{x:Null}" Foreground="White" 
-            FontFamily="Copperplate Gothic Light" FontSize="14" BorderBrush="White"/>
+            VerticalAlignment="Top" Height="30" Background="{x:Null}" Foreground="Black" 
+            FontFamily="Copperplate Gothic Light" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="Pracownicy_monitoringu" Content="Pracownicy monitoringu:" HorizontalContentAlignment="Center" Margin="10,482,10,0" VerticalAlignment="Top" Background="{x:Null}" 
-            Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="White"
+            Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="Black"
                FontStyle="Italic"/>
         <TextBox x:Name="Monitoring_Stuff" HorizontalContentAlignment="Center" Margin="10,519,10,0" 
             VerticalAlignment="Top" Height="30" Background="{x:Null}" FontFamily="Copperplate Gothic Light" 
-            FontSize="14" Foreground="White" BorderBrush="White"/>
+            FontSize="14" Foreground="Black" BorderBrush="Black"/>
         <Label x:Name="Obsługa_LPG" Content="Obsluga dystrybutora LPG:" HorizontalContentAlignment="Center" Margin="10,554,10,0" VerticalAlignment="Top" Background="{x:Null}" 
-            Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="White"
+            Height="32" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Foreground="Black"
                FontStyle="Italic"/>
         <TextBox x:Name="LPG_Stuff" HorizontalContentAlignment="Center" Margin="10,591,10,0" 
-            VerticalAlignment="Top" Height="30" Background="{x:Null}" Foreground="White" 
-            FontFamily="Copperplate Gothic Light" FontSize="14" BorderBrush="White"/>
+            VerticalAlignment="Top" Height="30" Background="{x:Null}" Foreground="Black" 
+            FontFamily="Copperplate Gothic Light" FontSize="14" BorderBrush="Black"/>
         <!-- Zapisz zmiany przycisk -->
         <Button x:Name="button" Content="Zapisz zmiany" Margin="236,626,10,0" VerticalAlignment="Top" 
-                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility='Visible' 
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Visibility='Visible' 
                 FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
         <!-- Wróć przycisk -->
         <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,626,0,0" VerticalAlignment="Top" 
-            Width="54" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Visibility='Visible' 
+            Width="54" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Visibility='Visible' 
                 FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" Click="Back_button_Click"/>
     </Grid>
 </Window>

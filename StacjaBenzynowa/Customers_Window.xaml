@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Customers" Height="611" Width="363" ResizeMode="CanMinimize">
-    <Grid Background="Black" Loaded="displayCustomers" Margin="0,0,-6,-5" >
+        Title="Klienci" Height="600" Width="363" ResizeMode="CanMinimize">
+    <Grid Background="White" Loaded="displayCustomers" Margin="0,0,4,-4" >
 
         <ListView Visibility="Visible" x:Name="customerListView" 
                   Margin="10,10,10,51"  Background="{x:Null}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" SelectionChanged="CustomerListView_SelectionChanged" Foreground="White" BorderBrush="White">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" SelectionChanged="CustomerListView_SelectionChanged" Foreground="Black" BorderBrush="Black">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
@@ -24,10 +24,10 @@
 
 
         <Button x:Name="ANC_button" Content="Dodaj" HorizontalAlignment="Left" Margin="249,541,0,0" VerticalAlignment="Top" Width="104" 
-                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
+                Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
                 Click="ANC_button_Click"/>
         <Button x:Name="back_button" Content="Wróć" HorizontalAlignment="Left" Margin="10,541,0,0" VerticalAlignment="Top" Width="60" 
-            Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
+            Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16"
             RenderTransformOrigin="-0.231,0.346" Click="Back_button_Click"/>
 
     </Grid>

@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="MonitorLog_Window" Height="450" Width="800">
-    <Grid Background="Black">
+        Title="Dane zbiornikow" Height="450" Width="800">
+    <Grid Background="White">
 
         <ListView Visibility="Visible" x:Name="LogListView" 
                   Margin="10,10,10,51"  Background="{x:Null}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="Black" Foreground="Black">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
@@ -22,13 +22,13 @@
                         <TextBlock Text="TEMPERATURE" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=BenzynaE95_T, StringFormat='BenzynaE95: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=BenzynaE98_T, StringFormat='BenzynaE98: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=OlejNapeowy_T, StringFormat='OlejNapeowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=OlejNapeowy_T, StringFormat='Olej Napedowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=LPG_T, StringFormat='LPG: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
 
                         <TextBlock Text="Pressure" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=BenzynaE95_P, StringFormat='BenzynaE95: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=BenzynaE98_P, StringFormat='BenzynaE98: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=OlejNapeowy_P, StringFormat='OlejNapeowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=OlejNapeowy_P, StringFormat='Olej Napedowy: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                         <TextBlock Text="{Binding Path=LPG_P, StringFormat='LPG: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                     </StackPanel>
                 </DataTemplate>
@@ -38,15 +38,29 @@
 
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
             Margin="10,389,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
+            Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
 
-        <ComboBox x:Name="YearList" SelectionChanged="YearList_SelectionChanged"  ItemsSource="{Binding years}" HorizontalAlignment="Left" Margin="659,387,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="MonthList" SelectionChanged="MonthList_SelectionChanged" ItemsSource="{Binding Months}"  HorizontalAlignment="Left" Margin="472,387,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.551,0.238"/>
-        <Label x:Name="Wlasciciel_Copy18" Content="Month:" HorizontalAlignment="Left" 
+        <ComboBox x:Name="YearList" SelectionChanged="YearList_SelectionChanged"  ItemsSource="{Binding years}" HorizontalAlignment="Left" Margin="659,387,0,0" VerticalAlignment="Top" Width="120" BorderBrush="White">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="MonthList" SelectionChanged="MonthList_SelectionChanged" ItemsSource="{Binding Months}"  HorizontalAlignment="Left" Margin="472,387,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.551,0.238" BorderBrush="White">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label x:Name="Wlasciciel_Copy18" Content="Miesiac:" HorizontalAlignment="Left" 
             Margin="401,384,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="66" Background="{x:Null}" FontStyle="Italic"/>
-        <Label x:Name="Wlasciciel_Copy17" Content="Year:" HorizontalAlignment="Left" 
+            Foreground="Black" Width="66" Background="{x:Null}" FontStyle="Italic"/>
+        <Label x:Name="Wlasciciel_Copy17" Content="Rok:" HorizontalAlignment="Left" 
             Margin="605,384,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="49" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.454,1.782"/>
+            Foreground="Black" Width="49" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.454,1.782"/>
     </Grid>
 </Window>

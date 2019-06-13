@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\obj\Debug\
+E:\Github\GasStation\StacjaBenzynowa\obj\Debug\
 StacjaBenzynowa
 none
 false
 DEBUG;TRACE
-C:\Users\Jehan\Documents\GitHub\GasStation-WPF\StacjaBenzynowa\App.xaml
-23460864006
-21321426470
-41-574101777
-741546272502
-Add_New_Customer_Window.xaml;Add_New_Employee_Window.xaml;Booking_Window.xaml;Contact_Data_Window.xaml;Customers_Window.xaml;Deliveries_Window.xaml;Employess_Window.xaml;Invoices_Window.xaml;Login_Window.xaml;MainWindow.xaml;Modify_loyalty_window.xaml;Modify_prices.xaml;Modify_Window.xaml;Monitor1_WIndow.xaml;Monitor2_Window.xaml;Monitor3_Window.xaml;Monitor4_Window.xaml;Monitoring_Window.xaml;MonitorLog_Window.xaml;Mycie_Window.xaml;My_Data_Window.xaml;SelfModify.xaml;Tankowanie_Window.xaml;
+E:\Github\GasStation\StacjaBenzynowa\App.xaml
+221232590122
+2-2087952394
+40-557392144
+74411013442
+Add_New_Customer_Window.xaml;Add_New_Employee_Window.xaml;Booking_Window.xaml;Contact_Data_Window.xaml;Customers_Window.xaml;Deliveries_Window.xaml;Employess_Window.xaml;Invoices_Window.xaml;Login_Window.xaml;MainWindow.xaml;Modify_prices.xaml;Modify_Window.xaml;Monitor1_WIndow.xaml;Monitor2_Window.xaml;Monitor3_Window.xaml;Monitor4_Window.xaml;Monitoring_Window.xaml;MonitorLog_Window.xaml;Mycie_Window.xaml;My_Data_Window.xaml;SelfModify.xaml;Tankowanie_Window.xaml;
 
-False
+True
 

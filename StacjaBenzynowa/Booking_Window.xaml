@@ -5,42 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
-        Title="Booking" Height="306" Width="800" ResizeMode="CanMinimize">
-    <Grid Background="Black" Height="278" VerticalAlignment="Top">
+        Title="Rezerwacja" Height="306" Width="800" ResizeMode="CanMinimize">
+    <Grid Background="White" Height="278" VerticalAlignment="Top">
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
             Margin="53,216,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
+            Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click"/>
         <DatePicker x:Name="DateReservation" HorizontalAlignment="Left" Margin="136,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.167,0.479" Width="184"/>
         <Label x:Name="Adres_firmy" Content="Date:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
             Margin="13,87,0,0" VerticalAlignment="Top" Width="123" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic"/>
-        <Label x:Name="Time" Content="Hour:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-            Margin="-101,121,0,0" VerticalAlignment="Top" Width="357" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+        <Label x:Name="Time" Content="Godzina:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
+            Margin="-101,121,0,0" VerticalAlignment="Top" Width="357" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic"/>
-        <ComboBox x:Name="Hour" ItemsSource="{Binding hours}" HorizontalAlignment="Left" Margin="136,127,0,0" VerticalAlignment="Top" Width="72"/>
+        <ComboBox x:Name="Hour" ItemsSource="{Binding hours}" HorizontalAlignment="Left" Margin="136,127,0,0" VerticalAlignment="Top" Width="72" BorderBrush="#FFFFFDFD">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFFFFDFD" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
         <ComboBox x:Name="Minute" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="232,127,0,0" VerticalAlignment="Top" Width="88"/>
         <Label Content=":" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-            Margin="213,127,0,0" VerticalAlignment="Top" Width="15" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+            Margin="213,127,0,0" VerticalAlignment="Top" Width="15" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.711,-0.557"/>
-        <Button x:Name="Reserve" Content="Reserve" HorizontalAlignment="Left" Margin="227,218,0,0" VerticalAlignment="Top" Width="117" Click="Reserve_Click"/>
+        <Button x:Name="Reserve" Content="Rezerwuj" HorizontalAlignment="Left" Margin="232,216,0,0" VerticalAlignment="Top" Width="117" Click="Reserve_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold" FontSize="16"/>
         <ListView Visibility="Visible" x:Name="BookingListView" 
                   Margin="371,49,10,22"  Background="{x:Null}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="White" Foreground="White">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" MinWidth="1" BorderBrush="#FF020202" Foreground="Black">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
-                        <TextBlock Text="{Binding Path=Date, StringFormat='Date: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=Hour, StringFormat='Hour: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
-                        <TextBlock Text="{Binding Path=Minute, StringFormat='Minute: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=Date, StringFormat='Data: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=Hour, StringFormat='Godzina: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
+                        <TextBlock Text="{Binding Path=Minute, StringFormat='Minuta: {0}'}" FontSize="15" FontStyle="Italic" TextWrapping="Wrap" FontFamily="Copperplate Gothic Bold"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Label x:Name="Adres_firmy_Copy" Content="Date:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-            Margin="13,87,0,0" VerticalAlignment="Top" Width="123" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+        <Label x:Name="Adres_firmy_Copy" Content="Data:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
+            Margin="13,87,0,0" VerticalAlignment="Top" Width="123" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="2.163,-0.964"/>
-        <Label x:Name="Adres_firmy_Copy1" Content="RESERVATIONS" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
-            Margin="491,21,0,0" VerticalAlignment="Top" Width="192" Foreground="#FFFFFDFD" FontFamily="Copperplate Gothic Bold" 
+        <Label x:Name="Adres_firmy_Copy1" Content="REZERWACJE" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
+            Margin="491,21,0,0" VerticalAlignment="Top" Width="192" Foreground="Black" FontFamily="Copperplate Gothic Bold" 
             FontSize="16" FontWeight="Bold" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="2.163,-0.964"/>
     </Grid>
 </Window>

@@ -6,95 +6,102 @@
         xmlns:local="clr-namespace:StacjaBenzynowa"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Title="Monitoring" Height="314.622" Width="700" ResizeMode="CanMinimize">
-    <Grid Background="Black" Margin="0,0,-6,-1" >
+        Title="Monitoring" Height="300" Width="700" ResizeMode="CanMinimize">
+    <Grid Background="White" Margin="0,0,4,-1" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label x:Name="Wlasciciel" Content="Kamery:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
             Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" 
-            Foreground="White" Width="90" Background="{x:Null}" FontStyle="Italic" Height="28"/>
+            Foreground="Black" Width="90" Background="{x:Null}" FontStyle="Italic" Height="28"/>
         <Label x:Name="Wlasciciel_Copy" Content="Zborniki:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" 
             Margin="180,10,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" FontSize="16" 
-            Foreground="White" Width="94" Background="{x:Null}" FontStyle="Italic" Height="28"/>
+            Foreground="Black" Width="94" Background="{x:Null}" FontStyle="Italic" Height="28"/>
         <Label x:Name="Wlasciciel_Copy1" Content="Benzyna E95" HorizontalAlignment="Left" 
             Margin="180,49,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
-        <Label x:Name="Wlasciciel_Copy2" Content="Olej napędowy" HorizontalAlignment="Left" 
+            Foreground="Black" Width="125" Background="{x:Null}" FontStyle="Italic"/>
+        <Label x:Name="Wlasciciel_Copy2" Content="Olej napedowy" HorizontalAlignment="Left" 
             Margin="180,109,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
+            Foreground="Black" Width="125" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy3" Content="Benzyna E98" HorizontalAlignment="Left" 
             Margin="180,79,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
+            Foreground="Black" Width="125" Background="{x:Null}" FontStyle="Italic"/>
         <Label x:Name="Wlasciciel_Copy4" Content="LPG" HorizontalAlignment="Left" 
             Margin="180,139,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="125" Background="{x:Null}" FontStyle="Italic"/>
-        <TextBox x:Name="e95_l" HorizontalAlignment="Left" Height="23" Margin="310,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="lpg_l" HorizontalAlignment="Left" Height="23" Margin="310,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="on_l" HorizontalAlignment="Left" Height="23" Margin="310,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="e98_l" HorizontalAlignment="Left" Height="23" Margin="310,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+            Foreground="Black" Width="125" Background="{x:Null}" FontStyle="Italic"/>
+        <TextBox x:Name="e95_l" HorizontalAlignment="Left" Height="23" Margin="310,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="lpg_l" HorizontalAlignment="Left" Height="23" Margin="310,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="on_l" HorizontalAlignment="Left" Height="23" Margin="310,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="e98_l" HorizontalAlignment="Left" Height="23" Margin="310,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
         <Label x:Name="Wlasciciel_Copy5" Content="l" HorizontalAlignment="Left" 
             Margin="385,47,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <Button x:Name="raport_button" Click="CreateReport" Content="Wydrukuj raport" HorizontalAlignment="Left" Margin="521,239,0,0" VerticalAlignment="Top" Width="169" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="14" RenderTransformOrigin="-0.089,0.421"/>
+            Foreground="Black" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+        <Button x:Name="raport_button" Click="CreateReport" Content="Wydrukuj raport" HorizontalAlignment="Left" Margin="521,239,0,0" VerticalAlignment="Top" Width="169" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="14" RenderTransformOrigin="-0.089,0.421"/>
         <Button x:Name="back_button"  Content="Wróć" HorizontalAlignment="Left" 
             Margin="10,236,0,0" VerticalAlignment="Top" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" 
-            Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click" RenderTransformOrigin="6.982,0.597"/>
+            Foreground="Black" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Click="Back_button_Click" RenderTransformOrigin="6.982,0.597"/>
         <Label x:Name="Wlasciciel_Copy6" Content="l" HorizontalAlignment="Left" 
             Margin="385,141,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy7" Content="l" HorizontalAlignment="Left" 
             Margin="385,109,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy8" Content="l" HorizontalAlignment="Left" 
             Margin="385,79,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <Button x:Name="camera1" Content="Kamera 1" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera1_Click"/>
-        <Button x:Name="camera2" Content="Kamera 2" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera2_Click"/>
-        <Button x:Name="camera3" Content="Kamera 3" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera3_Click"/>
-        <Button x:Name="camera4" Content="Kamera 4" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera4_Click"/>
-        <TextBox x:Name="e95_temp" HorizontalAlignment="Left" Height="23" Margin="435,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="e98_temp" HorizontalAlignment="Left" Height="23" Margin="435,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="on_temp" HorizontalAlignment="Left" Height="23" Margin="435,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light" />
-        <TextBox x:Name="lpg_temp" HorizontalAlignment="Left" Height="23" Margin="435,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+            Foreground="Black" Width="21" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+        <Button x:Name="camera1" Content="Kamera 1" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera1_Click"/>
+        <Button x:Name="camera2" Content="Kamera 2" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera2_Click"/>
+        <Button x:Name="camera3" Content="Kamera 3" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera3_Click"/>
+        <Button x:Name="camera4" Content="Kamera 4" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontFamily="Copperplate Gothic Light" FontSize="14" Click="Camera4_Click"/>
+        <TextBox x:Name="e95_temp" HorizontalAlignment="Left" Height="23" Margin="435,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="Black" Foreground="Black" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="e98_temp" HorizontalAlignment="Left" Height="23" Margin="435,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="on_temp" HorizontalAlignment="Left" Height="23" Margin="435,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="Black" FontFamily="Copperplate Gothic Light" />
+        <TextBox x:Name="lpg_temp" HorizontalAlignment="Left" Height="23" Margin="435,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light"/>
         <Label x:Name="Wlasciciel_Copy9" Content="°C" HorizontalAlignment="Left" 
             Margin="510,47,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy10" Content="°C" HorizontalAlignment="Left" 
             Margin="510,139,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy11" Content="°C" HorizontalAlignment="Left" 
             Margin="510,109,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy12" Content="°C" HorizontalAlignment="Left" 
             Margin="510,79,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <TextBox x:Name="e95_p" HorizontalAlignment="Left" Height="23" Margin="575,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="e98_p" HorizontalAlignment="Left" Height="23" Margin="575,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
-        <TextBox x:Name="on_p" HorizontalAlignment="Left" Height="23" Margin="575,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light" />
-        <TextBox x:Name="lpg_p" HorizontalAlignment="Left" Height="23" Margin="575,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Copperplate Gothic Light"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+        <TextBox x:Name="e95_p" HorizontalAlignment="Left" Height="23" Margin="575,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="e98_p" HorizontalAlignment="Left" Height="23" Margin="575,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="on_p" HorizontalAlignment="Left" Height="23" Margin="575,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light" />
+        <TextBox x:Name="lpg_p" HorizontalAlignment="Left" Height="23" Margin="575,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="{x:Null}" BorderBrush="#FF060000" Foreground="#FF060000" FontFamily="Copperplate Gothic Light"/>
         <Label x:Name="Wlasciciel_Copy13" Content="Pa" HorizontalAlignment="Left" 
             Margin="650,47,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy14" Content="Pa" HorizontalAlignment="Left" 
             Margin="650,141,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy15" Content="Pa" HorizontalAlignment="Left" 
             Margin="650,109,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
         <Label x:Name="Wlasciciel_Copy16" Content="Pa" HorizontalAlignment="Left" 
             Margin="650,77,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
-        <Button Content="Fix Temp" HorizontalAlignment="Left" Margin="435,23,0,0" VerticalAlignment="Top" Width="70" Click="FixTemperature"/>
-        <Button Content="Fix Pressure" HorizontalAlignment="Left" Margin="575,23,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.088,0.487" Click="FixPressure"/>
-        <ComboBox x:Name="YearList" SelectionChanged="YearList_SelectionChanged"  ItemsSource="{Binding years}" HorizontalAlignment="Left" Margin="396,236,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="MonthList" SelectionChanged="MonthList_SelectionChanged" ItemsSource="{Binding Months}"  HorizontalAlignment="Left" Margin="396,204,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.551,0.238"/>
-        <Label x:Name="Wlasciciel_Copy18" Content="Month:" HorizontalAlignment="Left" 
-            Margin="325,201,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="66" Background="{x:Null}" FontStyle="Italic"/>
-        <Label x:Name="Wlasciciel_Copy17" Content="Year:" HorizontalAlignment="Left" 
+            Foreground="Black" Width="30" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.048,0.52"/>
+        <Button Content="Napraw" HorizontalAlignment="Left" Margin="435,23,0,0" VerticalAlignment="Top" Width="70" Click="FixTemperature" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Copperplate Gothic Bold"/>
+        <Button Content="Napraw" HorizontalAlignment="Left" Margin="575,23,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.088,0.487" Click="FixPressure" FontFamily="Copperplate Gothic Bold" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <ComboBox x:Name="YearList" SelectionChanged="YearList_SelectionChanged"  ItemsSource="{Binding years}" HorizontalAlignment="Left" Margin="396,236,0,0" VerticalAlignment="Top" Width="120" BorderBrush="White">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="MonthList" SelectionChanged="MonthList_SelectionChanged" ItemsSource="{Binding Months}"  HorizontalAlignment="Left" Margin="396,204,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.551,0.238" BorderBrush="White" Background="White"/>
+        <Label x:Name="Wlasciciel_Copy18" Content="Miesiac:" HorizontalAlignment="Left" 
+            Margin="310,201,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
+            Foreground="Black" Width="81" Background="{x:Null}" FontStyle="Italic"/>
+        <Label x:Name="Wlasciciel_Copy17" Content="Rok:" HorizontalAlignment="Left" 
             Margin="342,233,0,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Light" FontWeight="Bold" FontSize="14" 
-            Foreground="White" Width="49" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.454,1.782"/>
+            Foreground="Black" Width="49" Background="{x:Null}" FontStyle="Italic" RenderTransformOrigin="0.454,1.782"/>
         <!--
         <WebBrowser Source="https://imageserver.webcamera.pl/rec/krakow-wentzl/latest.mp4" HorizontalAlignment="Left" Height="174" Margin="10,261,0,0" VerticalAlignment="Top" Width="209" RenderTransformOrigin="0.518,1.39"/>
       
