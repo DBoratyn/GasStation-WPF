@@ -143,9 +143,21 @@ namespace StacjaBenzynowa {
             return;
             case 4:
             this.loginbox = ((System.Windows.Controls.TextBox)(target));
+            
+            #line 20 "..\..\Login_Window.xaml"
+            this.loginbox.KeyDown += new System.Windows.Input.KeyEventHandler(this.Loginbox_KeyDown);
+            
+            #line default
+            #line hidden
             return;
             case 5:
             this.passwordbox = ((System.Windows.Controls.TextBox)(target));
+            
+            #line 23 "..\..\Login_Window.xaml"
+            this.passwordbox.KeyDown += new System.Windows.Input.KeyEventHandler(this.Loginbox_KeyDown);
+            
+            #line default
+            #line hidden
             return;
             case 6:
             this.ErrorLbl = ((System.Windows.Controls.Label)(target));

@@ -17,10 +17,10 @@
         <Button AutomationProperties.AutomationId="ZalogujBtn" x:Name="L_button" PreviewMouseDown="zaloguj_button" Content="Zaloguj" HorizontalAlignment="Left" Margin="250,85,0,0" 
                 VerticalAlignment="Top" Width="84" Background="{x:Null}" BorderBrush="{x:Null}" 
                 Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="16" FontWeight="Bold" Height="26"/>
-        <TextBox AutomationProperties.AutomationId="loginBox" x:Name="loginbox" HorizontalAlignment="Left" Height="23" Margin="91,6,0,0" 
+        <TextBox AutomationProperties.AutomationId="loginBox" KeyDown="Loginbox_KeyDown" x:Name="loginbox" HorizontalAlignment="Left" Height="23" Margin="91,6,0,0" 
                  TextWrapping="Wrap" VerticalAlignment="Top" Width="229" BorderBrush="White" 
                  Background="{x:Null}" Foreground="White"/>
-        <TextBox  AutomationProperties.AutomationId="passwordBox" x:Name="passwordbox" HorizontalAlignment="Left" Height="23" Margin="91,35,0,0" 
+        <TextBox  AutomationProperties.AutomationId="passwordBox" KeyDown="Loginbox_KeyDown" x:Name="passwordbox" HorizontalAlignment="Left" Height="23" Margin="91,35,0,0" 
                  TextWrapping="Wrap" VerticalAlignment="Top" Width="229" BorderBrush="White" 
                  Background="{x:Null}" Foreground="White"/>
         <Label x:Name="ErrorLbl" Content="Nieprawidłowe dane uwierzytelninające" Foreground="Red" HorizontalAlignment="Left" FontSize="12" Margin="91,63,0,0" VerticalAlignment="Top" Visibility="Hidden" Width="227" Height="27" RenderTransformOrigin="0.5,0.5"/>
