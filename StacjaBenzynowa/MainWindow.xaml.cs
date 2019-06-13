@@ -23,6 +23,7 @@ namespace StacjaBenzynowa
     /// </summary>
     public partial class MainWindow : Window
     {
+        //properties
         public int openClose = 0;
         public bool dualclick = false;
 
