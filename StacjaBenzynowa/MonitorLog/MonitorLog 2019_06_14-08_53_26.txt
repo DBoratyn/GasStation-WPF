@@ -1,0 +1,54 @@
+Id: 1616
+Data: 2019.05.13
+Czas: 10:13:35
+_______________________________
+TEMPERATURA
+Benzyna E95: 189
+Benzyna E98: 127
+Olej Napedowy: 177
+LPG: 134
+_______________________________
+Ciśnienie
+Benzyna E95: 93
+Benzyna E98: 93
+Olej Napedowy: 152
+LPG: 119
+
+
+
+Id: 1615
+Data: 2019.05.13
+Czas: 10:13:29
+_______________________________
+TEMPERATURA
+Benzyna E95: 140
+Benzyna E98: 143
+Olej Napedowy: 199
+LPG: 204
+_______________________________
+Ciśnienie
+Benzyna E95: 184
+Benzyna E98: 114
+Olej Napedowy: 139
+LPG: 101
+
+
+
+Id: 1614
+Data: 2019.05.13
+Czas: 10:13:24
+_______________________________
+TEMPERATURA
+Benzyna E95: 115
+Benzyna E98: 148
+Olej Napedowy: 160
+LPG: 192
+_______________________________
+Ciśnienie
+Benzyna E95: 167
+Benzyna E98: 96
+Olej Napedowy: 183
+LPG: 106
+
+
+

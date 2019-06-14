@@ -443,6 +443,33 @@ namespace StacjaBenzynowa
                 Log = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
             }
 
+            if (Log.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}.0{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    Log = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+
+            if (Log.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}/1{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    Log = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+
+            if (Log.Count == 0)
+            {
+                filter = $"{selectedYear.ToString()}.1{selectedMonth.ToString()}";
+                using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+                {
+                    Log = connection.Table<MonitorLog>().Where(d => d.Date.Contains(filter)).OrderByDescending(i => i.Id).ToList();
+                }
+            }
+
             foreach (MonitorLog ml in Log)
             {
                 File.WriteLine("Id: " + ml.Id);
@@ -475,7 +502,7 @@ namespace StacjaBenzynowa
             var thread = new Thread(
                 () =>
                 {
-                    MessageBox.Show("Temperature is too hot.");
+                    MessageBox.Show("Temperatura jest za wysoka.");
                 });
             thread.Start();
         }
@@ -485,7 +512,7 @@ namespace StacjaBenzynowa
             var thread = new Thread(
                 () =>
                 {
-                    MessageBox.Show("Temperature is too Col.");
+                    MessageBox.Show("Temperatura jest za niska.");
                 });
             thread.Start();
         }
@@ -495,7 +522,7 @@ namespace StacjaBenzynowa
             var thread = new Thread(
                 () =>
                 {
-                    MessageBox.Show("Pressure is too high.");
+                    MessageBox.Show("Ciśnienie jest za wysokie.");
                 });
             thread.Start();
         }
@@ -505,7 +532,7 @@ namespace StacjaBenzynowa
             var thread = new Thread(
                 () =>
                 {
-                    MessageBox.Show("Pressure is too low.");
+                    MessageBox.Show("Ciśnienie jest za niskie.");
                 });
             thread.Start();
         }
